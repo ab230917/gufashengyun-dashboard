@@ -1,60 +1,70 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-07 18:12
+// 最后更新: 2026-07-07 18:52
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-07T18:12:00+08:00",
+  "lastUpdated": "2026-07-07T18:52:00+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
-    "regular": 294000,
-    "live": 306000,
+    "regular": 371396,
+    "live": 228000,
     "leads": 1010,
-    "liveOrders": 85
+    "liveOrders": 100
   },
   "summary": {
     "totalCompleted": 88424,
     "totalRate": 14.74,
-    "regularCompleted": 111000,
-    "liveCompleted": 118560,
-    "liveOrdersCompleted": 85,
+    "regularCompleted": 48496,
+    "liveCompleted": 39928,
+    "liveOrdersCompleted": 29,
     "leadsCompleted": 1010,
-    "totalOrders": 85,
-    "avgOrderValue": 2101
+    "totalOrders": 47,
+    "avgOrderValue": 1881
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "叶",
+      "share": 60,
       "target": 360000,
       "completed": 60368,
       "rate": 16.77,
       "leads": 606,
+      "orders": 31,
       "regular": {
-        "target": 176400,
-        "completed": 111000
+        "target": 245491,
+        "completed": 15848,
+        "orders_target": 127,
+        "orders_completed": 8
       },
       "live": {
-        "target": 183600,
-        "completed": 116000,
-        "orders": 51
+        "target": 114000,
+        "completed": 52440,
+        "orders_target": 50,
+        "orders_completed": 23
       }
     },
     {
       "name": "武艳阳",
       "avatar": "武",
+      "share": 40,
       "target": 240000,
       "completed": 28056,
       "rate": 11.69,
       "leads": 404,
+      "orders": 16,
       "regular": {
-        "target": 117600,
-        "completed": 74000
+        "target": 125905,
+        "completed": 23496,
+        "orders_target": 65,
+        "orders_completed": 10
       },
       "live": {
-        "target": 122400,
-        "completed": 78000,
-        "orders": 34
+        "target": 114000,
+        "completed": 13680,
+        "orders_target": 50,
+        "orders_completed": 6
       }
     }
   ],
