@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>古法身韵 · 7月销售目标看板</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-icon">🔥</div>
+        <div>
+          <h1 class="brand-title">古法身韵 · 7月销售目标看板</h1>
+          <p class="brand-sub">冲刺31天 · 数据实时更新 · 目标 ¥38万</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <span class="update-badge" id="updateBadge">
+          <span class="pulse-dot"></span>
+          <span id="lastUpdate">数据加载中...</span>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- 总目标概览 -->
+    <section class="hero-section">
+      <div class="hero-card">
+        <div class="hero-top">
+          <div class="hero-label">
+            <span class="label-icon">🎯</span>
+            <span>团队总业绩目标</span>
+          </div>
+          <div class="hero-rate" id="heroRate">--%</div>
+        </div>
+        <div class="hero-amount">
+          <span class="hero-current" id="heroCurrent">¥0</span>
+          <span class="hero-divider">/</span>
+          <span class="hero-target" id="heroTarget">¥380,000</span>
+        </div>
+        <div class="hero-progress-wrap">
+          <div class="hero-progress">
+            <div class="hero-progress-bar" id="heroProgressBar" style="width: 0%"></div>
+          </div>
+          <div class="hero-progress-labels">
+            <span>0%</span>
+            <span>25%</span>
+            <span>50%</span>
+            <span>75%</span>
+            <span>100%</span>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-value" id="heroLeads">--</div>
+            <div class="hero-stat-label">留资总数</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value" id="heroOrders">--</div>
+            <div class="hero-stat-label">成交单数</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value" id="heroAvg">¥--</div>
+            <div class="hero-stat-label">客单价</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value" id="heroConversion">--%</div>
+            <div class="hero-stat-label">综合转化率</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 双轨目标 -->
+    <section class="dual-track">
+      <div class="track-card">
+        <div class="track-header">
+          <span class="track-icon">💬</span>
+          <span class="track-title">常规业绩</span>
+        </div>
+        <div class="track-amount">
+          <span id="regularCurrent">¥0</span>
+          <span class="track-target" id="regularTarget">¥185,000</span>
+        </div>
+        <div class="track-progress">
+          <div class="track-bar regular-bar" id="regularBar" style="width: 0%"></div>
+        </div>
+        <div class="track-rate" id="regularRate">0%</div>
+      </div>
+      <div class="track-card">
+        <div class="track-header">
+          <span class="track-icon">📺</span>
+          <span class="track-title">直播业绩</span>
+        </div>
+        <div class="track-amount">
+          <span id="liveCurrent">¥0</span>
+          <span class="track-target" id="liveTarget">¥194,000</span>
+        </div>
+        <div class="track-progress">
+          <div class="track-bar live-bar" id="liveBar" style="width: 0%"></div>
+        </div>
+        <div class="track-rate" id="liveRate">0%</div>
+        <div class="track-orders" id="liveOrders">0 / 85单</div>
+      </div>
+    </section>
+
+    <!-- 团队成员 -->
+    <section class="team-section">
+      <h2 class="section-title">
+        <span class="title-icon">👥</span>
+        个人目标与进度
+      </h2>
+      <div class="team-grid" id="teamGrid">
+        <!-- 动态渲染 -->
+      </div>
+    </section>
+
+    <!-- 渠道明细 -->
+    <section class="channels-section">
+      <h2 class="section-title">
+        <span class="title-icon">📊</span>
+        渠道业绩明细
+      </h2>
+      <div class="channels-grid">
+        <div class="channel-group">
+          <h3 class="channel-group-title">💬 常规渠道</h3>
+          <div class="channel-list" id="regularChannels">
+            <!-- 动态渲染 -->
+          </div>
+        </div>
+        <div class="channel-group">
+          <h3 class="channel-group-title">📺 直播渠道</h3>
+          <div class="channel-list" id="liveChannels">
+            <!-- 动态渲染 -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 每日趋势 -->
+    <section class="trend-section">
+      <h2 class="section-title">
+        <span class="title-icon">📈</span>
+        每日成交趋势
+      </h2>
+      <div class="trend-chart-wrap">
+        <div class="trend-chart" id="trendChart">
+          <!-- 动态渲染 -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>古法身韵 · 吾来舞往子公司</p>
+      <p>数据源：飞书多维表格 ｜ 每30分钟自动同步</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
