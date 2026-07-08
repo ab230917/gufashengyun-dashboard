@@ -3,7 +3,7 @@
 // 最后更新: 2026-07-08 10:50
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T10:50:25.703992+08:00",
+  "lastUpdated": "2026-07-08T10:50:51.666834+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,31 +13,31 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 140024,
-    "totalRate": 23.34,
+    "totalCompleted": 142304,
+    "totalRate": 23.72,
     "regularCompleted": 71624,
-    "liveCompleted": 68400,
-    "liveOrdersCompleted": 30,
-    "leadsCompleted": 291,
-    "totalOrders": 76,
-    "avgOrderValue": 1842
+    "liveCompleted": 70680,
+    "liveOrdersCompleted": 31,
+    "leadsCompleted": 292,
+    "totalOrders": 77,
+    "avgOrderValue": 1848
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "叶",
       "target": 360000,
-      "completed": 102848,
-      "rate": 28.57,
-      "leads": 202,
+      "completed": 105128,
+      "rate": 29.2,
+      "leads": 203,
       "regular": {
         "target": 245491,
         "completed": 48128
       },
       "live": {
         "target": 114000,
-        "completed": 54720,
-        "orders": 24
+        "completed": 57000,
+        "orders": 25
       }
     },
     {
@@ -105,8 +105,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵视频号口播",
-        "orders": 21,
-        "amount": 47880
+        "orders": 22,
+        "amount": 50160
       }
     ]
   },
@@ -149,8 +149,8 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-07",
-      "total": 44760,
-      "live": 2280,
+      "total": 47040,
+      "live": 4560,
       "regular": 42480
     }
   ]
