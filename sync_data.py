@@ -291,6 +291,11 @@ def process_data(leads, orders):
         pay_status = extract_field_value(fields.get('收款状态'))
         if pay_status and str(pay_status) == '退款':
             continue
+
+        # 过滤师资班订单（不计入业绩）
+        course = extract_field_value(fields.get('成交课程'))
+        if course and '师资' in str(course):
+            continue
         
         july_orders.append(record)
         
