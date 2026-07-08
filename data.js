@@ -3,7 +3,7 @@
 // 最后更新: 2026-07-08 12:06
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T12:06:10.884270+08:00",
+  "lastUpdated": "2026-07-08T12:06:37.350517+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -100,13 +100,13 @@ const DASHBOARD_DATA = {
     "live": [
       {
         "name": "古法身韵抖音口播",
-        "orders": 15,
-        "amount": 34200
+        "orders": 16,
+        "amount": 36480
       },
       {
         "name": "古法身韵视频号口播",
-        "orders": 25,
-        "amount": 57000
+        "orders": 24,
+        "amount": 54720
       }
     ]
   },
