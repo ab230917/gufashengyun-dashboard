@@ -3,7 +3,7 @@
 // 最后更新: 2026-07-08 10:47
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T10:47:38.581006+08:00",
+  "lastUpdated": "2026-07-08T10:47:59.936567+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -18,7 +18,7 @@ const DASHBOARD_DATA = {
     "regularCompleted": 71624,
     "liveCompleted": 68400,
     "liveOrdersCompleted": 30,
-    "leadsCompleted": 290,
+    "leadsCompleted": 291,
     "totalOrders": 76,
     "avgOrderValue": 1842
   },
@@ -29,7 +29,7 @@ const DASHBOARD_DATA = {
       "target": 360000,
       "completed": 102848,
       "rate": 28.57,
-      "leads": 201,
+      "leads": 202,
       "regular": {
         "target": 245491,
         "completed": 48128
