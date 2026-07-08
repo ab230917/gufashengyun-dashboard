@@ -3,7 +3,7 @@
 // 最后更新: 2026-07-08 13:57
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T13:57:18.819248+08:00",
+  "lastUpdated": "2026-07-08T13:57:39.244018+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,14 +13,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 255803,
-    "totalRate": 42.63,
-    "regularCompleted": 164603,
+    "totalCompleted": 258083,
+    "totalRate": 43.01,
+    "regularCompleted": 166883,
     "liveCompleted": 91200,
     "liveOrdersCompleted": 40,
     "leadsCompleted": 298,
-    "totalOrders": 83,
-    "avgOrderValue": 3081
+    "totalOrders": 84,
+    "avgOrderValue": 3072
   },
   "team": [
     {
@@ -44,12 +44,12 @@ const DASHBOARD_DATA = {
       "name": "武艳阳",
       "avatar": "武",
       "target": 240000,
-      "completed": 51936,
-      "rate": 21.64,
+      "completed": 54216,
+      "rate": 22.59,
       "leads": 51,
       "regular": {
         "target": 125905,
-        "completed": 26856
+        "completed": 29136
       },
       "live": {
         "target": 114000,
@@ -66,7 +66,7 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "舞号门公众号",
-        "amount": 31459
+        "amount": 33739
       },
       {
         "name": "舞号门视频号",
@@ -151,9 +151,9 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-08",
-      "total": -600,
+      "total": 1680,
       "live": 0,
-      "regular": -600
+      "regular": 1680
     }
   ]
 };
