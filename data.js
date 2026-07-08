@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-08 10:51
+// 最后更新: 2026-07-08 10:52
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T10:51:39.898128+08:00",
+  "lastUpdated": "2026-07-08T10:52:02.818328+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,14 +13,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 142304,
-    "totalRate": 23.72,
-    "regularCompleted": 71624,
+    "totalCompleted": 143984,
+    "totalRate": 24.0,
+    "regularCompleted": 73304,
     "liveCompleted": 70680,
     "liveOrdersCompleted": 31,
-    "leadsCompleted": 292,
-    "totalOrders": 77,
-    "avgOrderValue": 1848
+    "leadsCompleted": 293,
+    "totalOrders": 78,
+    "avgOrderValue": 1845
   },
   "team": [
     {
@@ -44,12 +44,12 @@ const DASHBOARD_DATA = {
       "name": "武艳阳",
       "avatar": "武",
       "target": 240000,
-      "completed": 37176,
-      "rate": 15.49,
-      "leads": 47,
+      "completed": 38856,
+      "rate": 16.19,
+      "leads": 48,
       "regular": {
         "target": 125905,
-        "completed": 23496
+        "completed": 25176
       },
       "live": {
         "target": 114000,
@@ -78,7 +78,7 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "抖音",
-        "amount": 19844
+        "amount": 21524
       },
       {
         "name": "转介绍",
@@ -149,9 +149,9 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-07",
-      "total": 47040,
+      "total": 48720,
       "live": 4560,
-      "regular": 42480
+      "regular": 44160
     }
   ]
 };
