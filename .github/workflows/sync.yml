@@ -2,9 +2,8 @@ name: Sync Data from Feishu
 
 on:
   schedule:
-    # 每30分钟运行一次
     - cron: '*/30 * * * *'
-  workflow_dispatch: # 支持手动触发
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -17,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,5 +33,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git
           git add data.js
           git diff --quiet && git diff --staged --quiet || (git commit -m "🔄 自动同步数据 $(date '+%Y-%m-%d %H:%M')" && git push)
