@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-08 14:31
+// 最后更新: 2026-07-08 14:32
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T14:31:48.447910+08:00",
+  "lastUpdated": "2026-07-08T14:32:13.416572+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -15,9 +15,9 @@ const DASHBOARD_DATA = {
   "summary": {
     "totalCompleted": 264923,
     "totalRate": 44.15,
-    "regularCompleted": 169163,
-    "liveCompleted": 95760,
-    "liveOrdersCompleted": 42,
+    "regularCompleted": 171443,
+    "liveCompleted": 93480,
+    "liveOrdersCompleted": 41,
     "leadsCompleted": 301,
     "totalOrders": 87,
     "avgOrderValue": 3045
@@ -32,12 +32,12 @@ const DASHBOARD_DATA = {
       "leads": 205,
       "regular": {
         "target": 245491,
-        "completed": 48128
+        "completed": 50408
       },
       "live": {
         "target": 114000,
-        "completed": 57000,
-        "orders": 25
+        "completed": 54720,
+        "orders": 24
       }
     },
     {
@@ -89,6 +89,10 @@ const DASHBOARD_DATA = {
         "amount": 2280
       },
       {
+        "name": "张涵之各渠道",
+        "amount": 2280
+      },
+      {
         "name": "面转",
         "amount": 1880
       }
@@ -101,8 +105,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵视频号口播",
-        "orders": 26,
-        "amount": 59280
+        "orders": 25,
+        "amount": 57000
       }
     ]
   },
@@ -146,8 +150,8 @@ const DASHBOARD_DATA = {
     {
       "date": "2026-07-07",
       "total": 55560,
-      "live": 9120,
-      "regular": 46440
+      "live": 6840,
+      "regular": 48720
     },
     {
       "date": "2026-07-08",
