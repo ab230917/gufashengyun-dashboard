@@ -331,22 +331,22 @@ def process_data(leads, orders):
             member_stats[owner_str]['total'] += amount
             member_stats[owner_str]['total_orders'] += 1
         
-        # 统计渠道金额
-        if channel_name not in channel_amounts:
-            channel_amounts[channel_name] = 0
-            channel_orders[channel_name] = 0
-        channel_amounts[channel_name] += amount
-        channel_orders[channel_name] += 1
+            # 统计渠道金额（只算团队成员）
+            if channel_name not in channel_amounts:
+                channel_amounts[channel_name] = 0
+                channel_orders[channel_name] = 0
+            channel_amounts[channel_name] += amount
+            channel_orders[channel_name] += 1
         
-        # 统计每日趋势
-        day_key = pay_time.strftime('%Y-%m-%d')
-        if day_key not in daily_totals:
-            daily_totals[day_key] = {'total': 0, 'live': 0, 'regular': 0}
-        daily_totals[day_key]['total'] += amount
-        if is_live:
-            daily_totals[day_key]['live'] += amount
-        else:
-            daily_totals[day_key]['regular'] += amount
+            # 统计每日趋势（只算团队成员）
+            day_key = pay_time.strftime('%Y-%m-%d')
+            if day_key not in daily_totals:
+                daily_totals[day_key] = {'total': 0, 'live': 0, 'regular': 0}
+            daily_totals[day_key]['total'] += amount
+            if is_live:
+                daily_totals[day_key]['live'] += amount
+            else:
+                daily_totals[day_key]['regular'] += amount
     
     # ---- 汇总 ----
     total_completed = sum(m['total'] for m in member_stats.values())
