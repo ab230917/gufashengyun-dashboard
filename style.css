@@ -4,40 +4,40 @@
    ======================================== */
 
 :root {
-  /* 主色调 - 商务蓝灰 */
-  --primary: #3b82f6;
+  /* 主色调 - 清新蓝绿 */
+  --primary: #2563eb;
   --primary-dark: #1d4ed8;
-  --primary-light: #93c5fd;
+  --primary-light: #60a5fa;
   --accent: #f59e0b;
   --accent-light: #fcd34d;
-  --success: #10b981;
-  --danger: #ef4444;
-  --purple: #8b5cf6;
-  --pink: #ec4899;
+  --success: #059669;
+  --danger: #dc2626;
+  --purple: #7c3aed;
+  --pink: #db2777;
   
-  /* 背景色系 */
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-card: #1e293b;
-  --bg-card-hover: #334155;
-  --bg-elevated: rgba(30, 41, 59, 0.8);
+  /* 背景色系 - 明亮 */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f8fafc;
+  --bg-elevated: rgba(255, 255, 255, 0.9);
   
   /* 文字色系 */
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
-  --text-accent: #fbbf24;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-accent: #d97706;
   
   /* 边框 */
-  --border: rgba(148, 163, 184, 0.1);
-  --border-light: rgba(148, 163, 184, 0.05);
+  --border: rgba(0, 0, 0, 0.06);
+  --border-light: rgba(0, 0, 0, 0.04);
   
   /* 阴影 */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
-  --shadow-glow: 0 0 20px rgba(59, 130, 246, 0.15);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.06), 0 2px 4px -2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.06), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.06), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --shadow-glow: 0 0 20px rgba(37, 99, 235, 0.08);
   
   /* 圆角 */
   --radius-sm: 8px;
@@ -68,8 +68,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: 
-    radial-gradient(ellipse at 20% 0%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 100%, rgba(139, 92, 246, 0.06) 0%, transparent 50%);
+    radial-gradient(ellipse at 20% 0%, rgba(37, 99, 235, 0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(124, 58, 237, 0.03) 0%, transparent 50%);
 }
 
 /* ========================================
@@ -79,7 +79,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: rgba(15, 23, 42, 0.85);
+  background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--border);
   padding: 1rem 1.5rem;
@@ -253,7 +253,7 @@ body {
 
 .hero-progress {
   height: 12px;
-  background: rgba(148, 163, 184, 0.1);
+  background: #e2e8f0;
   border-radius: var(--radius-full);
   overflow: hidden;
   position: relative;
@@ -301,14 +301,14 @@ body {
 .hero-stat {
   text-align: center;
   padding: 1rem 0.5rem;
-  background: rgba(148, 163, 184, 0.03);
+  background: rgba(0, 0, 0, 0.02);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-md);
   transition: all 0.3s ease;
 }
 
 .hero-stat:hover {
-  background: rgba(59, 130, 246, 0.05);
+  background: rgba(37, 99, 235, 0.04);
   border-color: rgba(59, 130, 246, 0.2);
   transform: translateY(-2px);
 }
@@ -405,7 +405,7 @@ body {
 
 .track-progress {
   height: 8px;
-  background: rgba(148, 163, 184, 0.1);
+  background: #e2e8f0;
   border-radius: var(--radius-full);
   overflow: hidden;
   margin-bottom: 0.75rem;
@@ -419,12 +419,12 @@ body {
 
 .regular-bar {
   background: linear-gradient(90deg, var(--success), #34d399);
-  box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+  box-shadow: 0 0 8px rgba(5, 150, 105, 0.25);
 }
 
 .live-bar {
   background: linear-gradient(90deg, var(--purple), var(--pink));
-  box-shadow: 0 0 8px rgba(139, 92, 246, 0.4);
+  box-shadow: 0 0 8px rgba(124, 58, 237, 0.25);
 }
 
 .track-rate {
@@ -552,7 +552,7 @@ body {
 /* 进度条 */
 .team-progress-bar {
   height: 8px;
-  background: rgba(148, 163, 184, 0.1);
+  background: #e2e8f0;
   border-radius: var(--radius-full);
   overflow: hidden;
 }
@@ -574,12 +574,12 @@ body {
 
 .team-progress-fill.ye {
   background: linear-gradient(90deg, #3b82f6, #60a5fa);
-  box-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.25);
 }
 
 .team-progress-fill.wu {
   background: linear-gradient(90deg, #ec4899, #f472b6);
-  box-shadow: 0 0 8px rgba(236, 72, 153, 0.4);
+  box-shadow: 0 0 8px rgba(219, 39, 119, 0.25);
 }
 
 /* 渠道详情区域 */
@@ -592,7 +592,7 @@ body {
 .team-channel-item {
   display: flex;
   gap: 0.75rem;
-  background: rgba(148, 163, 184, 0.03);
+  background: rgba(0, 0, 0, 0.02);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-sm);
   padding: 0.875rem;
@@ -938,10 +938,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.2);
+  background: rgba(0, 0, 0, 0.08);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(148, 163, 184, 0.3);
+  background: rgba(0, 0, 0, 0.12);
 }

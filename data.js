@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-08 14:56
+// 最后更新: 2026-07-08 14:58
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T14:56:46.477710+08:00",
+  "lastUpdated": "2026-07-08T14:58:36.266263+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,14 +13,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 264923,
-    "totalRate": 44.15,
-    "regularCompleted": 171443,
-    "liveCompleted": 93480,
-    "liveOrdersCompleted": 41,
+    "totalCompleted": 163904,
+    "totalRate": 27.32,
+    "regularCompleted": 81824,
+    "liveCompleted": 82080,
+    "liveOrdersCompleted": 36,
     "leadsCompleted": 301,
     "totalOrders": 87,
-    "avgOrderValue": 3045
+    "avgOrderValue": 1883
   },
   "team": [
     {
@@ -30,14 +30,18 @@ const DASHBOARD_DATA = {
       "completed": 105128,
       "rate": 29.2,
       "leads": 205,
+      "orders": 35,
       "regular": {
         "target": 245491,
-        "completed": 50408
+        "completed": 50408,
+        "orders_target": null,
+        "orders_completed": 11
       },
       "live": {
         "target": 114000,
         "completed": 54720,
-        "orders": 24
+        "orders_target": 60,
+        "orders_completed": 24
       }
     },
     {
@@ -47,14 +51,18 @@ const DASHBOARD_DATA = {
       "completed": 58776,
       "rate": 24.49,
       "leads": 54,
+      "orders": 26,
       "regular": {
         "target": 125905,
-        "completed": 31416
+        "completed": 31416,
+        "orders_target": null,
+        "orders_completed": 14
       },
       "live": {
         "target": 114000,
         "completed": 27360,
-        "orders": 12
+        "orders_target": 60,
+        "orders_completed": 12
       }
     }
   ],

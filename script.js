@@ -116,7 +116,7 @@
         <div class="team-card-header">
           <div class="team-avatar ${avatarClass}">${member.avatar}</div>
           <div class="team-info">
-            <div class="team-name">${member.name} <span class="team-share">${member.share}%</span></div>
+            <div class="team-name">${member.name}</div>
             <div class="team-meta">留资${formatNumber(member.leads)}条 · 成交${member.orders}单</div>
           </div>
         </div>
@@ -133,8 +133,8 @@
           <div class="team-channel-item">
             <div class="channel-icon">📺</div>
             <div class="channel-content">
-              <div class="channel-title">直播（一人一半）</div>
-              <div class="channel-orders">目标${member.live.orders_target}单 · 已完成${member.live.orders_completed}单</div>
+              <div class="channel-title">直播转化</div>
+              <div class="channel-orders">目标 ${member.live.orders_target} 单 · 已成交 ${member.live.orders_completed} 单 · ${formatPercent(member.live.target > 0 ? (member.live.completed / member.live.target * 100) : 0)}</div>
               <div class="channel-amount-row">
                 <span class="channel-current">${formatCurrency(member.live.completed)}</span>
                 <span class="channel-target">目标${formatCurrency(member.live.target)}</span>
@@ -149,7 +149,7 @@
             <div class="channel-icon">💬</div>
             <div class="channel-content">
               <div class="channel-title">日常咨询转化</div>
-              <div class="channel-orders">目标${member.regular.orders_target}单 · 已完成${member.regular.orders_completed}单</div>
+              <div class="channel-orders">已成交 ${member.regular.orders_completed} 单 · ${formatPercent(member.regular.target > 0 ? (member.regular.completed / member.regular.target * 100) : 0)}</div>
               <div class="channel-amount-row">
                 <span class="channel-current">${formatCurrency(member.regular.completed)}</span>
                 <span class="channel-target">目标${formatCurrency(member.regular.target)}</span>
