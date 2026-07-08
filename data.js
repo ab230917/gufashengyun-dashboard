@@ -3,7 +3,7 @@
 // 最后更新: 2026-07-08 12:09
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T12:09:19.821536+08:00",
+  "lastUpdated": "2026-07-08T12:09:42.111074+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -78,7 +78,7 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "抖音",
-        "amount": 23204
+        "amount": 25484
       },
       {
         "name": "转介绍",
@@ -86,10 +86,6 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "小红书",
-        "amount": 2280
-      },
-      {
-        "name": "张涵之各渠道",
         "amount": 2280
       },
       {
