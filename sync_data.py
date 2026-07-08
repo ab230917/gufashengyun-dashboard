@@ -287,6 +287,11 @@ def process_data(leads, orders):
         if not is_july(pay_time):
             continue
         
+        # 过滤退款订单（不计入业绩）
+        pay_status = extract_field_value(fields.get('收款状态'))
+        if pay_status and str(pay_status) == '退款':
+            continue
+        
         july_orders.append(record)
         
         # 实收金额
