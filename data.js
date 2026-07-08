@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-08 11:00
+// 最后更新: 2026-07-08 11:21
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T11:00:51.780558+08:00",
+  "lastUpdated": "2026-07-08T11:21:04.337926+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,31 +13,31 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 146264,
-    "totalRate": 24.38,
-    "regularCompleted": 73304,
-    "liveCompleted": 72960,
-    "liveOrdersCompleted": 32,
-    "leadsCompleted": 294,
-    "totalOrders": 79,
-    "avgOrderValue": 1851
+    "totalCompleted": 251843,
+    "totalRate": 41.97,
+    "regularCompleted": 162923,
+    "liveCompleted": 88920,
+    "liveOrdersCompleted": 39,
+    "leadsCompleted": 296,
+    "totalOrders": 81,
+    "avgOrderValue": 3109
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "叶",
       "target": 360000,
-      "completed": 105128,
-      "rate": 29.2,
-      "leads": 203,
+      "completed": 109688,
+      "rate": 30.47,
+      "leads": 205,
       "regular": {
         "target": 245491,
         "completed": 48128
       },
       "live": {
         "target": 114000,
-        "completed": 57000,
-        "orders": 25
+        "completed": 61560,
+        "orders": 27
       }
     },
     {
@@ -100,13 +100,13 @@ const DASHBOARD_DATA = {
     "live": [
       {
         "name": "古法身韵抖音口播",
-        "orders": 14,
-        "amount": 31920
+        "orders": 15,
+        "amount": 34200
       },
       {
         "name": "古法身韵视频号口播",
-        "orders": 23,
-        "amount": 52440
+        "orders": 24,
+        "amount": 54720
       }
     ]
   },
@@ -125,8 +125,8 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-03",
-      "total": 26760,
-      "live": 13680,
+      "total": 29040,
+      "live": 15960,
       "regular": 13080
     },
     {
@@ -149,8 +149,8 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-07",
-      "total": 53280,
-      "live": 6840,
+      "total": 55560,
+      "live": 9120,
       "regular": 46440
     },
     {

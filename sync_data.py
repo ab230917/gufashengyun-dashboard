@@ -273,6 +273,9 @@ def process_data(leads, orders):
             'total': 0
         }
     
+    # 全团队统计（包含所有成员的订单）
+    all_stats = {'regular': 0, 'live': 0, 'live_orders': 0, 'total': 0}
+    
     channel_amounts = {}  # 渠道 -> 金额
     channel_orders = {}   # 渠道 -> 单数
     daily_totals = {}     # 日期 -> {total, live, regular}
@@ -317,6 +320,14 @@ def process_data(leads, orders):
                 member_stats[owner_str]['regular'] += amount
             member_stats[owner_str]['total'] += amount
         
+        # 全团队汇总（所有订单，不限成交归属）
+        all_stats['total'] += amount
+        if is_live:
+            all_stats['live'] += amount
+            all_stats['live_orders'] += 1
+        else:
+            all_stats['regular'] += amount
+        
         # 统计渠道金额
         if channel_name not in channel_amounts:
             channel_amounts[channel_name] = 0
@@ -335,10 +346,11 @@ def process_data(leads, orders):
             daily_totals[day_key]['regular'] += amount
     
     # ---- 汇总 ----
-    total_completed = sum(m['total'] for m in member_stats.values())
-    regular_completed = sum(m['regular'] for m in member_stats.values())
-    live_completed = sum(m['live'] for m in member_stats.values())
-    live_orders_total = sum(m['live_orders'] for m in member_stats.values())
+    # 团队总业绩使用全团队统计（包含所有成员）
+    total_completed = all_stats['total']
+    regular_completed = all_stats['regular']
+    live_completed = all_stats['live']
+    live_orders_total = all_stats['live_orders']
     leads_total = len(july_leads)
     orders_total = len(july_orders)
     avg_order = int(total_completed / orders_total) if orders_total > 0 else 0
