@@ -8,9 +8,6 @@
 
   // ============ 工具函数 ============
   function formatCurrency(amount) {
-    if (amount >= 10000) {
-      return '¥' + (amount / 10000).toFixed(1) + '万';
-    }
     return '¥' + amount.toLocaleString('zh-CN');
   }
 
