@@ -349,7 +349,7 @@ def process_data(leads, orders):
     live_completed = sum(m['live'] for m in member_stats.values())
     live_orders_total = sum(m['live_orders'] for m in member_stats.values())
     leads_total = len(july_leads)
-    orders_total = len(july_orders)
+    orders_total = sum(m['total_orders'] for m in member_stats.values())  # 只统计团队成员订单
     avg_order = int(total_completed / orders_total) if orders_total > 0 else 0
     total_rate = round((total_completed / TARGETS['total']) * 100, 2) if TARGETS['total'] > 0 else 0
     

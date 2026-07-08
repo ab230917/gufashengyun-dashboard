@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-08 15:50
+// 最后更新: 2026-07-08 16:17
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T15:50:38.569474+08:00",
+  "lastUpdated": "2026-07-08T16:17:26.401214+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -19,8 +19,8 @@ const DASHBOARD_DATA = {
     "liveCompleted": 82080,
     "liveOrdersCompleted": 36,
     "leadsCompleted": 301,
-    "totalOrders": 84,
-    "avgOrderValue": 1951
+    "totalOrders": 61,
+    "avgOrderValue": 2686
   },
   "team": [
     {
