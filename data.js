@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-08 10:52
+// 最后更新: 2026-07-08 10:53
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T10:52:50.162065+08:00",
+  "lastUpdated": "2026-07-08T10:53:15.755681+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,14 +13,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 143984,
-    "totalRate": 24.0,
+    "totalCompleted": 146264,
+    "totalRate": 24.38,
     "regularCompleted": 73304,
-    "liveCompleted": 70680,
-    "liveOrdersCompleted": 31,
-    "leadsCompleted": 293,
-    "totalOrders": 78,
-    "avgOrderValue": 1845
+    "liveCompleted": 72960,
+    "liveOrdersCompleted": 32,
+    "leadsCompleted": 294,
+    "totalOrders": 79,
+    "avgOrderValue": 1851
   },
   "team": [
     {
@@ -44,17 +44,17 @@ const DASHBOARD_DATA = {
       "name": "武艳阳",
       "avatar": "武",
       "target": 240000,
-      "completed": 38856,
-      "rate": 16.19,
-      "leads": 48,
+      "completed": 41136,
+      "rate": 17.14,
+      "leads": 49,
       "regular": {
         "target": 125905,
         "completed": 25176
       },
       "live": {
         "target": 114000,
-        "completed": 13680,
-        "orders": 6
+        "completed": 15960,
+        "orders": 7
       }
     }
   ],
@@ -105,8 +105,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵视频号口播",
-        "orders": 22,
-        "amount": 50160
+        "orders": 23,
+        "amount": 52440
       }
     ]
   },
@@ -149,8 +149,8 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-07",
-      "total": 48720,
-      "live": 4560,
+      "total": 51000,
+      "live": 6840,
       "regular": 44160
     }
   ]
