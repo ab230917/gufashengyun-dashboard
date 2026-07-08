@@ -34,11 +34,11 @@ ORDERS_TABLE_ID = 'tbl6X7rDL5c9MkcZ'  # 04_成交订单表
 
 # 7月目标
 TARGETS = {
-    'total': 380000,
-    'regular': 185000,
-    'live': 194000,
+    'total': 600000,
+    'regular': 371396,
+    'live': 228000,
     'leads': 1010,
-    'liveOrders': 85
+    'liveOrders': 100
 }
 
 # 团队成员
@@ -47,14 +47,14 @@ TEAM_MEMBERS = ['叶小鲲', '武艳阳']
 # 成员个人目标
 MEMBER_TARGETS = {
     '叶小鲲': {
-        'total': 228000,
-        'regular': 111000,
-        'live': 116000,
+        'total': 360000,
+        'regular': 245491,
+        'live': 114000,
     },
     '武艳阳': {
-        'total': 152000,
-        'regular': 74000,
-        'live': 78000,
+        'total': 240000,
+        'regular': 125905,
+        'live': 114000,
     }
 }
 

@@ -3,18 +3,18 @@
 // 最后更新: 2026-07-08 10:44
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T10:44:07.664898+08:00",
+  "lastUpdated": "2026-07-08T10:44:38.686654+08:00",
   "month": "2026-07",
   "targets": {
-    "total": 380000,
-    "regular": 185000,
-    "live": 194000,
+    "total": 600000,
+    "regular": 371396,
+    "live": 228000,
     "leads": 1010,
-    "liveOrders": 85
+    "liveOrders": 100
   },
   "summary": {
     "totalCompleted": 137744,
-    "totalRate": 36.25,
+    "totalRate": 22.96,
     "regularCompleted": 71624,
     "liveCompleted": 66120,
     "liveOrdersCompleted": 29,
@@ -26,16 +26,16 @@ const DASHBOARD_DATA = {
     {
       "name": "叶小鲲",
       "avatar": "叶",
-      "target": 228000,
+      "target": 360000,
       "completed": 100568,
-      "rate": 44.11,
+      "rate": 27.94,
       "leads": 201,
       "regular": {
-        "target": 111000,
+        "target": 245491,
         "completed": 48128
       },
       "live": {
-        "target": 116000,
+        "target": 114000,
         "completed": 52440,
         "orders": 23
       }
@@ -43,16 +43,16 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "武",
-      "target": 152000,
+      "target": 240000,
       "completed": 37176,
-      "rate": 24.46,
+      "rate": 15.49,
       "leads": 47,
       "regular": {
-        "target": 74000,
+        "target": 125905,
         "completed": 23496
       },
       "live": {
-        "target": 78000,
+        "target": 114000,
         "completed": 13680,
         "orders": 6
       }
