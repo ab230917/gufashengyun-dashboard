@@ -3,7 +3,7 @@
 // 最后更新: 2026-07-08 12:28
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T12:28:15.208064+08:00",
+  "lastUpdated": "2026-07-08T12:28:36.788949+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -27,8 +27,8 @@ const DASHBOARD_DATA = {
       "name": "叶小鲲",
       "avatar": "叶",
       "target": 360000,
-      "completed": 107408,
-      "rate": 29.84,
+      "completed": 102848,
+      "rate": 28.57,
       "leads": 205,
       "regular": {
         "target": 245491,
@@ -36,16 +36,16 @@ const DASHBOARD_DATA = {
       },
       "live": {
         "target": 114000,
-        "completed": 59280,
-        "orders": 26
+        "completed": 54720,
+        "orders": 24
       }
     },
     {
       "name": "武艳阳",
       "avatar": "武",
       "target": 240000,
-      "completed": 47376,
-      "rate": 19.74,
+      "completed": 51936,
+      "rate": 21.64,
       "leads": 51,
       "regular": {
         "target": 125905,
@@ -53,8 +53,8 @@ const DASHBOARD_DATA = {
       },
       "live": {
         "target": 114000,
-        "completed": 20520,
-        "orders": 9
+        "completed": 25080,
+        "orders": 11
       }
     }
   ],
