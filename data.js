@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-08 16:17
+// 最后更新: 2026-07-08 16:55
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T16:17:26.401214+08:00",
+  "lastUpdated": "2026-07-08T16:55:12.819803+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,29 +13,29 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 163904,
-    "totalRate": 27.32,
-    "regularCompleted": 81824,
+    "totalCompleted": 133904,
+    "totalRate": 22.32,
+    "regularCompleted": 51824,
     "liveCompleted": 82080,
     "liveOrdersCompleted": 36,
     "leadsCompleted": 301,
-    "totalOrders": 61,
-    "avgOrderValue": 2686
+    "totalOrders": 60,
+    "avgOrderValue": 2231
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "叶",
       "target": 360000,
-      "completed": 105128,
-      "rate": 29.2,
+      "completed": 75128,
+      "rate": 20.87,
       "leads": 205,
-      "orders": 35,
+      "orders": 34,
       "regular": {
         "target": 245491,
-        "completed": 50408,
+        "completed": 20408,
         "orders_target": null,
-        "orders_completed": 11
+        "orders_completed": 10
       },
       "live": {
         "target": 114000,
@@ -69,14 +69,6 @@ const DASHBOARD_DATA = {
   "channels": {
     "regular": [
       {
-        "name": "古法身韵视频号",
-        "amount": 43080
-      },
-      {
-        "name": "舞号门公众号",
-        "amount": 33739
-      },
-      {
         "name": "舞号门视频号",
         "amount": 33600
       },
@@ -85,8 +77,12 @@ const DASHBOARD_DATA = {
         "amount": 29044
       },
       {
-        "name": "线上会员",
-        "amount": 28120
+        "name": "古法身韵视频号",
+        "amount": 13080
+      },
+      {
+        "name": "舞号门公众号",
+        "amount": 4560
       },
       {
         "name": "转介绍",
@@ -117,9 +113,9 @@ const DASHBOARD_DATA = {
   "dailyTrend": [
     {
       "date": "2026-07-01",
-      "total": 56639,
+      "total": 27460,
       "live": 13680,
-      "regular": 42959
+      "regular": 13780
     },
     {
       "date": "2026-07-02",
@@ -147,15 +143,15 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-06",
-      "total": 39520,
+      "total": 11400,
       "live": 9120,
-      "regular": 30400
+      "regular": 2280
     },
     {
       "date": "2026-07-07",
-      "total": 55560,
+      "total": 25560,
       "live": 6840,
-      "regular": 48720
+      "regular": 18720
     },
     {
       "date": "2026-07-08",
