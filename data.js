@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-08 12:02
+// 最后更新: 2026-07-08 12:03
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T12:02:36.002843+08:00",
+  "lastUpdated": "2026-07-08T12:03:06.159183+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,14 +13,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 254123,
-    "totalRate": 42.35,
-    "regularCompleted": 162923,
+    "totalCompleted": 255803,
+    "totalRate": 42.63,
+    "regularCompleted": 164603,
     "liveCompleted": 91200,
     "liveOrdersCompleted": 40,
     "leadsCompleted": 297,
-    "totalOrders": 82,
-    "avgOrderValue": 3099
+    "totalOrders": 83,
+    "avgOrderValue": 3081
   },
   "team": [
     {
@@ -44,12 +44,12 @@ const DASHBOARD_DATA = {
       "name": "武艳阳",
       "avatar": "武",
       "target": 240000,
-      "completed": 43416,
-      "rate": 18.09,
+      "completed": 45096,
+      "rate": 18.79,
       "leads": 50,
       "regular": {
         "target": 125905,
-        "completed": 25176
+        "completed": 26856
       },
       "live": {
         "target": 114000,
@@ -81,15 +81,15 @@ const DASHBOARD_DATA = {
         "amount": 21524
       },
       {
+        "name": "张涵之各渠道",
+        "amount": 3960
+      },
+      {
         "name": "转介绍",
         "amount": 3960
       },
       {
         "name": "小红书",
-        "amount": 2280
-      },
-      {
-        "name": "张涵之各渠道",
         "amount": 2280
       },
       {
@@ -155,9 +155,9 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-08",
-      "total": -2280,
+      "total": -600,
       "live": 0,
-      "regular": -2280
+      "regular": -600
     }
   ]
 };
