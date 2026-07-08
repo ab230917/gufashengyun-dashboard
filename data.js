@@ -3,7 +3,7 @@
 // 最后更新: 2026-07-08 12:03
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-08T12:03:06.159183+08:00",
+  "lastUpdated": "2026-07-08T12:03:32.620701+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -18,7 +18,7 @@ const DASHBOARD_DATA = {
     "regularCompleted": 164603,
     "liveCompleted": 91200,
     "liveOrdersCompleted": 40,
-    "leadsCompleted": 297,
+    "leadsCompleted": 298,
     "totalOrders": 83,
     "avgOrderValue": 3081
   },
@@ -46,7 +46,7 @@ const DASHBOARD_DATA = {
       "target": 240000,
       "completed": 45096,
       "rate": 18.79,
-      "leads": 50,
+      "leads": 51,
       "regular": {
         "target": 125905,
         "completed": 26856
@@ -78,11 +78,7 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "抖音",
-        "amount": 21524
-      },
-      {
-        "name": "张涵之各渠道",
-        "amount": 3960
+        "amount": 23204
       },
       {
         "name": "转介绍",
@@ -90,6 +86,10 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "小红书",
+        "amount": 2280
+      },
+      {
+        "name": "张涵之各渠道",
         "amount": 2280
       },
       {
