@@ -655,6 +655,27 @@ body {
   padding-top: 1rem;
 }
 
+
+.trend-legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
 .trend-bar-group {
   display: flex;
   flex-direction: column;
@@ -685,11 +706,11 @@ body {
 }
 
 .trend-bar.live {
-  background: var(--live);
+  background: #2563eb;
 }
 
 .trend-bar.regular {
-  background: var(--primary);
+  background: #f59e0b;
 }
 
 .trend-bar-tooltip {
@@ -727,12 +748,18 @@ body {
   font-weight: 600;
 }
 
-.trend-orders {
-  font-size: 0.625rem;
-  color: var(--accent);
-  margin-top: 0.125rem;
-  font-weight: 500;
+.bar-label {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  pointer-events: none;
 }
+
 
 /* ========================================
    Footer

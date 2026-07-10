@@ -228,15 +228,16 @@
       group.innerHTML = `
         <div class="trend-bars">
           <div class="trend-bar live" style="height: ${liveHeight}px">
+            <span class="bar-label">${liveOrders > 0 ? liveOrders + '单' : ''}</span>
             <div class="trend-bar-tooltip">📺 直播: ${formatCurrency(day.live)} | ${liveOrders}单</div>
           </div>
           <div class="trend-bar regular" style="height: ${regularHeight}px">
+            <span class="bar-label">${regularOrders > 0 ? regularOrders + '单' : ''}</span>
             <div class="trend-bar-tooltip">💬 常规: ${formatCurrency(day.regular)} | ${regularOrders}单</div>
           </div>
         </div>
         <div class="trend-date">${formatDate(day.date)}</div>
-        <div class="trend-total">${formatCurrency(day.total)}</div>
-        <div class="trend-orders">${totalOrders}单</div>
+        <div class="trend-total">${formatCurrency(day.total)} / ${totalOrders}单</div>
       `;
       chart.appendChild(group);
     });

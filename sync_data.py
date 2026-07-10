@@ -359,6 +359,20 @@ def process_data(leads, orders):
     live_completed = sum(m['live'] for m in member_stats.values())
     live_orders_total = sum(m['live_orders'] for m in member_stats.values())
     leads_total = len(july_leads)
+    
+    # DEBUG leads
+    _no_date = sum(1 for r in leads if extract_field_value(r.get('fields',{}).get('首次留资时间')) is None)
+    _bad_parse = 0
+    _not_july = 0
+    for _r in leads:
+        _v = extract_field_value(_r.get('fields',{}).get('首次留资时间'))
+        if _v is None: continue
+        _d = parse_date(_v)
+        if _d is None:
+            _bad_parse += 1
+        elif not (_d.year == 2026 and _d.month == 7):
+            _not_july += 1
+    print(f"   [DEBUG] leads表: 总={len(leads)}, 7月={leads_total}, 无日期={_no_date}, 解析失败={_bad_parse}, 非7月={_not_july}, 合计校验={leads_total+_no_date+_bad_parse+_not_july}")
     orders_total = sum(m['total_orders'] for m in member_stats.values())  # 只统计团队成员订单
     avg_order = int(total_completed / orders_total) if orders_total > 0 else 0
     total_rate = round((total_completed / TARGETS['total']) * 100, 2) if TARGETS['total'] > 0 else 0
