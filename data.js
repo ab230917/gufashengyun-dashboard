@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-10 12:54
+// 最后更新: 2026-07-10 12:57
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-10T12:54:29.286380+08:00",
+  "lastUpdated": "2026-07-10T12:57:44.794774+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -18,7 +18,7 @@ const DASHBOARD_DATA = {
     "regularCompleted": 63224,
     "liveCompleted": 88920,
     "liveOrdersCompleted": 39,
-    "leadsCompleted": 395,
+    "leadsCompleted": 396,
     "totalOrders": 68,
     "avgOrderValue": 2237
   },
@@ -29,7 +29,7 @@ const DASHBOARD_DATA = {
       "target": 360000,
       "completed": 84248,
       "rate": 23.4,
-      "leads": 264,
+      "leads": 265,
       "orders": 38,
       "regular": {
         "target": 245491,
@@ -115,55 +115,82 @@ const DASHBOARD_DATA = {
       "date": "2026-07-01",
       "total": 13680,
       "live": 11400,
-      "regular": 2280
+      "regular": 2280,
+      "live_orders": 5,
+      "regular_orders": 1,
+      "total_orders": 6
     },
     {
       "date": "2026-07-02",
       "total": 2280,
       "live": 2280,
-      "regular": 0
+      "regular": 0,
+      "live_orders": 1,
+      "regular_orders": 0,
+      "total_orders": 1
     },
     {
       "date": "2026-07-03",
       "total": 17640,
       "live": 9120,
-      "regular": 8520
+      "regular": 8520,
+      "live_orders": 4,
+      "regular_orders": 4,
+      "total_orders": 8
     },
     {
       "date": "2026-07-04",
       "total": 13680,
       "live": 9120,
-      "regular": 4560
+      "regular": 4560,
+      "live_orders": 4,
+      "regular_orders": 2,
+      "total_orders": 6
     },
     {
       "date": "2026-07-05",
       "total": 45704,
       "live": 31920,
-      "regular": 13784
+      "regular": 13784,
+      "live_orders": 14,
+      "regular_orders": 6,
+      "total_orders": 20
     },
     {
       "date": "2026-07-06",
       "total": 11400,
       "live": 9120,
-      "regular": 2280
+      "regular": 2280,
+      "live_orders": 4,
+      "regular_orders": 1,
+      "total_orders": 5
     },
     {
       "date": "2026-07-07",
       "total": 21000,
       "live": 6840,
-      "regular": 14160
+      "regular": 14160,
+      "live_orders": 3,
+      "regular_orders": 7,
+      "total_orders": 10
     },
     {
       "date": "2026-07-08",
       "total": 13080,
       "live": 4560,
-      "regular": 8520
+      "regular": 8520,
+      "live_orders": 2,
+      "regular_orders": 4,
+      "total_orders": 6
     },
     {
       "date": "2026-07-09",
       "total": 13680,
       "live": 4560,
-      "regular": 9120
+      "regular": 9120,
+      "live_orders": 2,
+      "regular_orders": 4,
+      "total_orders": 6
     }
   ]
 };

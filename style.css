@@ -727,6 +727,13 @@ body {
   font-weight: 600;
 }
 
+.trend-orders {
+  font-size: 0.625rem;
+  color: var(--accent);
+  margin-top: 0.125rem;
+  font-weight: 500;
+}
+
 /* ========================================
    Footer
    ======================================== */

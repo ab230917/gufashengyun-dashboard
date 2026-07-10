@@ -220,23 +220,18 @@
 
       const liveHeight = maxTotal > 0 ? (day.live / maxTotal) * 140 : 0;
       const regularHeight = maxTotal > 0 ? (day.regular / maxTotal) * 140 : 0;
-      
-      const liveOrders = day.live_orders || 0;
-      const regularOrders = day.regular_orders || 0;
-      const totalOrders = day.total_orders || (liveOrders + regularOrders);
 
       group.innerHTML = `
         <div class="trend-bars">
           <div class="trend-bar live" style="height: ${liveHeight}px">
-            <div class="trend-bar-tooltip">📺 直播: ${formatCurrency(day.live)} | ${liveOrders}单</div>
+            <div class="trend-bar-tooltip">📺 直播: ${formatCurrency(day.live)}</div>
           </div>
           <div class="trend-bar regular" style="height: ${regularHeight}px">
-            <div class="trend-bar-tooltip">💬 常规: ${formatCurrency(day.regular)} | ${regularOrders}单</div>
+            <div class="trend-bar-tooltip">💬 常规: ${formatCurrency(day.regular)}</div>
           </div>
         </div>
         <div class="trend-date">${formatDate(day.date)}</div>
         <div class="trend-total">${formatCurrency(day.total)}</div>
-        <div class="trend-orders">${totalOrders}单</div>
       `;
       chart.appendChild(group);
     });

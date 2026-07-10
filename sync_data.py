@@ -341,12 +341,17 @@ def process_data(leads, orders):
             # 统计每日趋势（只算团队成员）
             day_key = pay_time.strftime('%Y-%m-%d')
             if day_key not in daily_totals:
-                daily_totals[day_key] = {'total': 0, 'live': 0, 'regular': 0}
+                daily_totals[day_key] = {'total': 0, 'live': 0, 'regular': 0, 'live_orders': 0, 'regular_orders': 0, 'total_orders': 0}
             daily_totals[day_key]['total'] += amount
             if is_live:
                 daily_totals[day_key]['live'] += amount
             else:
                 daily_totals[day_key]['regular'] += amount
+            daily_totals[day_key]['total_orders'] += 1
+            if is_live:
+                daily_totals[day_key]['live_orders'] += 1
+            else:
+                daily_totals[day_key]['regular_orders'] += 1
     
     # ---- 汇总 ----
     total_completed = sum(m['total'] for m in member_stats.values())
@@ -442,7 +447,10 @@ def process_data(leads, orders):
             'date': day_key,
             'total': int(d['total']),
             'live': int(d['live']),
-            'regular': int(d['regular'])
+            'regular': int(d['regular']),
+            'live_orders': int(d.get('live_orders', 0)),
+            'regular_orders': int(d.get('regular_orders', 0)),
+            'total_orders': int(d.get('total_orders', 0))
         })
     
     # 最终数据
