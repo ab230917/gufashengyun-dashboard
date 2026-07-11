@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-11 18:43
+// 最后更新: 2026-07-11 22:38
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-11T18:43:41.885886+08:00",
+  "lastUpdated": "2026-07-11T22:38:01.990888+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,14 +13,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 152144,
-    "totalRate": 25.36,
-    "regularCompleted": 63224,
-    "liveCompleted": 88920,
-    "liveOrdersCompleted": 39,
-    "leadsCompleted": 404,
-    "totalOrders": 68,
-    "avgOrderValue": 2237
+    "totalCompleted": 156704,
+    "totalRate": 26.12,
+    "regularCompleted": 65504,
+    "liveCompleted": 91200,
+    "liveOrdersCompleted": 40,
+    "leadsCompleted": 407,
+    "totalOrders": 70,
+    "avgOrderValue": 2238
   },
   "team": [
     {
@@ -48,21 +48,21 @@ const DASHBOARD_DATA = {
       "name": "武艳阳",
       "avatar": "武",
       "target": 240000,
-      "completed": 67896,
-      "rate": 28.29,
-      "leads": 86,
-      "orders": 30,
+      "completed": 72456,
+      "rate": 30.19,
+      "leads": 88,
+      "orders": 32,
       "regular": {
         "target": 125905,
-        "completed": 38256,
+        "completed": 40536,
         "orders_target": null,
-        "orders_completed": 17
+        "orders_completed": 18
       },
       "live": {
         "target": 114000,
-        "completed": 29640,
+        "completed": 31920,
         "orders_target": 60,
-        "orders_completed": 13
+        "orders_completed": 14
       }
     }
   ],
@@ -70,7 +70,7 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "抖音",
-        "amount": 37064
+        "amount": 39344
       },
       {
         "name": "古法身韵视频号",
@@ -105,8 +105,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵视频号口播",
-        "orders": 23,
-        "amount": 52440
+        "orders": 24,
+        "amount": 54720
       }
     ]
   },
@@ -191,6 +191,24 @@ const DASHBOARD_DATA = {
       "live_orders": 2,
       "regular_orders": 4,
       "total_orders": 6
+    },
+    {
+      "date": "2026-07-10",
+      "total": 2280,
+      "live": 2280,
+      "regular": 0,
+      "live_orders": 1,
+      "regular_orders": 0,
+      "total_orders": 1
+    },
+    {
+      "date": "2026-07-11",
+      "total": 2280,
+      "live": 0,
+      "regular": 2280,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
     }
   ]
 };
