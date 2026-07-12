@@ -465,6 +465,12 @@ body {
   margin-top: 0.125rem;
 }
 
+/* 转化率 - 醒目颜色 */
+.conversion-rate {
+  color: #f59e0b;
+  font-weight: 700;
+}
+
 /* Team Total */
 .team-total-section {
   margin-bottom: 1.25rem;
