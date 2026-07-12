@@ -114,7 +114,7 @@
           <div class="team-avatar ${avatarClass}">${member.avatar}</div>
           <div class="team-info">
             <div class="team-name">${member.name}</div>
-            <div class="team-meta">留资${formatNumber(member.leads)}条 · 成交${member.orders}单</div>
+            <div class="team-meta">留资${formatNumber(member.leads)}条 · 成交${member.orders}单 · 转化${member.leads > 0 ? ((member.orders / member.leads) * 100).toFixed(1) : '0.0'}%</div>
           </div>
         </div>
         
