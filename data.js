@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-13 06:33
+// 最后更新: 2026-07-13 18:42
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-13T06:33:29.609832+08:00",
+  "lastUpdated": "2026-07-13T18:42:10.685222+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,29 +13,29 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 165424,
-    "totalRate": 27.57,
-    "regularCompleted": 74224,
+    "totalCompleted": 169984,
+    "totalRate": 28.33,
+    "regularCompleted": 78784,
     "liveCompleted": 91200,
     "liveOrdersCompleted": 40,
-    "leadsCompleted": 703,
-    "totalOrders": 74,
-    "avgOrderValue": 2235
+    "leadsCompleted": 704,
+    "totalOrders": 76,
+    "avgOrderValue": 2236
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "叶",
       "target": 360000,
-      "completed": 88808,
-      "rate": 24.67,
+      "completed": 91088,
+      "rate": 25.3,
       "leads": 347,
-      "orders": 40,
+      "orders": 41,
       "regular": {
         "target": 245491,
-        "completed": 29528,
+        "completed": 31808,
         "orders_target": null,
-        "orders_completed": 14
+        "orders_completed": 15
       },
       "live": {
         "target": 114000,
@@ -48,15 +48,15 @@ const DASHBOARD_DATA = {
       "name": "武艳阳",
       "avatar": "武",
       "target": 240000,
-      "completed": 76616,
-      "rate": 31.92,
-      "leads": 307,
-      "orders": 34,
+      "completed": 78896,
+      "rate": 32.87,
+      "leads": 308,
+      "orders": 35,
       "regular": {
         "target": 125905,
-        "completed": 44696,
+        "completed": 46976,
         "orders_target": null,
-        "orders_completed": 20
+        "orders_completed": 21
       },
       "live": {
         "target": 114000,
@@ -74,7 +74,7 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵视频号",
-        "amount": 15360
+        "amount": 19920
       },
       {
         "name": "舞号门公众号",
@@ -212,12 +212,21 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-12",
-      "total": 8720,
+      "total": 11000,
       "live": 0,
-      "regular": 8720,
+      "regular": 11000,
       "live_orders": 0,
-      "regular_orders": 4,
-      "total_orders": 4
+      "regular_orders": 5,
+      "total_orders": 5
+    },
+    {
+      "date": "2026-07-13",
+      "total": 2280,
+      "live": 0,
+      "regular": 2280,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
     }
   ]
 };
