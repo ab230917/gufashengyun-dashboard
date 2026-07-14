@@ -1,9 +1,9 @@
 // 古法身韵7月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-14 14:23
+// 最后更新: 2026-07-14 19:50
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-14T14:23:00.401044+08:00",
+  "lastUpdated": "2026-07-14T19:50:19.691209+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,29 +13,29 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 181384,
-    "totalRate": 30.23,
-    "regularCompleted": 85624,
+    "totalCompleted": 183064,
+    "totalRate": 30.51,
+    "regularCompleted": 87304,
     "liveCompleted": 95760,
     "liveOrdersCompleted": 42,
-    "leadsCompleted": 709,
-    "totalOrders": 81,
-    "avgOrderValue": 2239
+    "leadsCompleted": 710,
+    "totalOrders": 82,
+    "avgOrderValue": 2232
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "叶",
       "target": 360000,
-      "completed": 100208,
-      "rate": 27.84,
-      "leads": 351,
-      "orders": 45,
+      "completed": 101888,
+      "rate": 28.3,
+      "leads": 352,
+      "orders": 46,
       "regular": {
         "target": 245491,
-        "completed": 36368,
+        "completed": 38048,
         "orders_target": null,
-        "orders_completed": 17
+        "orders_completed": 18
       },
       "live": {
         "target": 114000,
@@ -70,7 +70,7 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "抖音",
-        "amount": 41624
+        "amount": 43304
       },
       {
         "name": "古法身韵视频号",
@@ -221,12 +221,21 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-13",
-      "total": 11400,
-      "live": 4560,
+      "total": 9120,
+      "live": 2280,
       "regular": 6840,
-      "live_orders": 2,
+      "live_orders": 1,
       "regular_orders": 3,
-      "total_orders": 5
+      "total_orders": 4
+    },
+    {
+      "date": "2026-07-14",
+      "total": 3960,
+      "live": 2280,
+      "regular": 1680,
+      "live_orders": 1,
+      "regular_orders": 1,
+      "total_orders": 2
     }
   ]
 };
