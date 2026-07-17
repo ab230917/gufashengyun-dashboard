@@ -1,74 +1,63 @@
-// 古法身韵7月销售目标看板 - 数据文件
-// 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-17 15:46
+// 古法身韵 7月销售数据看板 - 自动更新
+// 最后更新: 2026-07-17 16:00
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-17T15:46:48.726413+08:00",
-  "month": "2026-07",
-  "targets": {
-    "total": 600000,
-    "regular": 371396,
-    "live": 228000,
-    "leads": 1010,
-    "liveOrders": 100
+  updateTime: "2026-07-17 16:00",
+  targets: {
+    total: 600000,
+    normal: 371396,
+    live: 228000,
+    liveOrders: 100,
+    leads: 1010
   },
-  "summary": {
-    "totalCompleted": 0,
-    "totalRate": 0.0,
-    "regularCompleted": 0,
-    "liveCompleted": 0,
-    "liveOrdersCompleted": 0,
-    "leadsCompleted": 823,
-    "totalOrders": 0,
-    "avgOrderValue": 0
+  actual: {
+    total: 226264,
+    normal: 109984,
+    live: 116280,
+    totalOrders: 103,
+    normalOrders: 52,
+    liveOrders: 51,
+    leads: 781
   },
-  "team": [
-    {
-      "name": "叶小鲲",
-      "avatar": "叶",
-      "target": 360000,
-      "completed": 0,
-      "rate": 0.0,
-      "leads": 357,
-      "orders": 0,
-      "regular": {
-        "target": 245491,
-        "completed": 0,
-        "orders_target": null,
-        "orders_completed": 0
-      },
-      "live": {
-        "target": 114000,
-        "completed": 0,
-        "orders_target": 60,
-        "orders_completed": 0
-      }
+  personal: {
+    "叶小鲲": {
+      total: 117248,
+      target: 360000,
+      orders: 53,
+      normalOrders: 20,
+      normalAmount: 42008,
+      liveOrders: 33,
+      liveAmount: 75240,
+      leads: 357
     },
-    {
-      "name": "武艳阳",
-      "avatar": "武",
-      "target": 240000,
-      "completed": 0,
-      "rate": 0.0,
-      "leads": 433,
-      "orders": 0,
-      "regular": {
-        "target": 125905,
-        "completed": 0,
-        "orders_target": null,
-        "orders_completed": 0
-      },
-      "live": {
-        "target": 114000,
-        "completed": 0,
-        "orders_target": 60,
-        "orders_completed": 0
-      }
+    "武艳阳": {
+      total: 109016,
+      target: 240000,
+      orders: 50,
+      normalOrders: 32,
+      normalAmount: 67976,
+      liveOrders: 18,
+      liveAmount: 41040,
+      leads: 424
     }
-  ],
-  "channels": {
-    "regular": [],
-    "live": []
   },
-  "dailyTrend": []
+  dailyTrend: [
+    { date: "2026-07-01", amount: 13680, count: 6 },
+    { date: "2026-07-02", amount: 2280, count: 1 },
+    { date: "2026-07-03", amount: 17640, count: 8 },
+    { date: "2026-07-04", amount: 13680, count: 6 },
+    { date: "2026-07-05", amount: 45704, count: 21 },
+    { date: "2026-07-06", amount: 11400, count: 5 },
+    { date: "2026-07-07", amount: 23280, count: 11 },
+    { date: "2026-07-08", amount: 13080, count: 6 },
+    { date: "2026-07-09", amount: 13680, count: 6 },
+    { date: "2026-07-10", amount: 2280, count: 1 },
+    { date: "2026-07-11", amount: 2280, count: 1 },
+    { date: "2026-07-12", amount: 11000, count: 5 },
+    { date: "2026-07-13", amount: 9120, count: 4 },
+    { date: "2026-07-14", amount: 6240, count: 3 },
+    { date: "2026-07-15", amount: 13680, count: 6 },
+    { date: "2026-07-16", amount: 19320, count: 9 },
+    { date: "2026-07-17", amount: 7920, count: 4 },
+  ]
 };
