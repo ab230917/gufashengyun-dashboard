@@ -1,9 +1,8 @@
-// 古法身韵7月销售目标看板 - 数据文件
-// 此文件由 sync_data.py 自动生成，请勿手动修改
-// 最后更新: 2026-07-18 07:32
+// 古法身韵 7月销售目标看板 - 自动更新
+// 最后更新: 2026-07-18 09:32
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-18T07:32:50.616628+08:00",
+  "lastUpdated": "2026-07-18T09:32:00+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -13,62 +12,265 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 0,
-    "totalRate": 0.0,
-    "regularCompleted": 0,
-    "liveCompleted": 0,
-    "liveOrdersCompleted": 0,
-    "leadsCompleted": 816,
-    "totalOrders": 0,
-    "avgOrderValue": 0
+    "totalCompleted": 237664,
+    "totalRate": 39.6,
+    "regularCompleted": 119104,
+    "liveCompleted": 118560,
+    "liveOrdersCompleted": 52,
+    "leadsCompleted": 785,
+    "totalOrders": 108,
+    "avgOrderValue": 2201
+  },
+  "channels": {
+    "regular": [
+      {
+        "name": "抖音",
+        "amount": 62024,
+        "orders": 30
+      },
+      {
+        "name": "视频号",
+        "amount": 39840,
+        "orders": 18
+      },
+      {
+        "name": "小红书",
+        "amount": 6840,
+        "orders": 3
+      },
+      {
+        "name": "舞号门公众号",
+        "amount": 6440,
+        "orders": 3
+      },
+      {
+        "name": "舞号门视频号",
+        "amount": 2280,
+        "orders": 1
+      },
+      {
+        "name": "转介绍",
+        "amount": 1680,
+        "orders": 1
+      }
+    ],
+    "live": [
+      {
+        "name": "视频号口播",
+        "amount": 63840,
+        "orders": 28
+      },
+      {
+        "name": "抖音口播",
+        "amount": 54720,
+        "orders": 24
+      }
+    ]
   },
   "team": [
     {
       "name": "叶小鲲",
-      "avatar": "叶",
+      "avatar": "🔥",
+      "completed": 119528,
       "target": 360000,
-      "completed": 0,
-      "rate": 0.0,
+      "rate": 33.2,
+      "orders": 54,
       "leads": 357,
-      "orders": 0,
       "regular": {
-        "target": 245491,
-        "completed": 0,
-        "orders_target": null,
-        "orders_completed": 0
+        "completed": 42008,
+        "target": 185698,
+        "orders_completed": 20
       },
       "live": {
+        "completed": 77520,
         "target": 114000,
-        "completed": 0,
-        "orders_target": 60,
-        "orders_completed": 0
+        "orders_completed": 34,
+        "orders_target": 50
       }
     },
     {
       "name": "武艳阳",
-      "avatar": "武",
+      "avatar": "💎",
+      "completed": 118136,
       "target": 240000,
-      "completed": 0,
-      "rate": 0.0,
-      "leads": 424,
-      "orders": 0,
+      "rate": 49.2,
+      "orders": 54,
+      "leads": 428,
       "regular": {
-        "target": 125905,
-        "completed": 0,
-        "orders_target": null,
-        "orders_completed": 0
+        "completed": 77096,
+        "target": 185698,
+        "orders_completed": 36
       },
       "live": {
+        "completed": 41040,
         "target": 114000,
-        "completed": 0,
-        "orders_target": 60,
-        "orders_completed": 0
+        "orders_completed": 18,
+        "orders_target": 50
       }
     }
   ],
-  "channels": {
-    "regular": [],
-    "live": []
-  },
-  "dailyTrend": []
+  "dailyTrend": [
+    {
+      "date": "2026-07-01",
+      "total": 13680,
+      "regular": 2280,
+      "live": 11400,
+      "total_orders": 6,
+      "regular_orders": 1,
+      "live_orders": 5
+    },
+    {
+      "date": "2026-07-02",
+      "total": 2280,
+      "regular": 0,
+      "live": 2280,
+      "total_orders": 1,
+      "regular_orders": 0,
+      "live_orders": 1
+    },
+    {
+      "date": "2026-07-03",
+      "total": 17640,
+      "regular": 8520,
+      "live": 9120,
+      "total_orders": 8,
+      "regular_orders": 4,
+      "live_orders": 4
+    },
+    {
+      "date": "2026-07-04",
+      "total": 13680,
+      "regular": 4560,
+      "live": 9120,
+      "total_orders": 6,
+      "regular_orders": 2,
+      "live_orders": 4
+    },
+    {
+      "date": "2026-07-05",
+      "total": 45704,
+      "regular": 13784,
+      "live": 31920,
+      "total_orders": 21,
+      "regular_orders": 7,
+      "live_orders": 14
+    },
+    {
+      "date": "2026-07-06",
+      "total": 11400,
+      "regular": 2280,
+      "live": 9120,
+      "total_orders": 5,
+      "regular_orders": 1,
+      "live_orders": 4
+    },
+    {
+      "date": "2026-07-07",
+      "total": 23280,
+      "regular": 16440,
+      "live": 6840,
+      "total_orders": 11,
+      "regular_orders": 8,
+      "live_orders": 3
+    },
+    {
+      "date": "2026-07-08",
+      "total": 13080,
+      "regular": 8520,
+      "live": 4560,
+      "total_orders": 6,
+      "regular_orders": 4,
+      "live_orders": 2
+    },
+    {
+      "date": "2026-07-09",
+      "total": 13680,
+      "regular": 9120,
+      "live": 4560,
+      "total_orders": 6,
+      "regular_orders": 4,
+      "live_orders": 2
+    },
+    {
+      "date": "2026-07-10",
+      "total": 2280,
+      "regular": 0,
+      "live": 2280,
+      "total_orders": 1,
+      "regular_orders": 0,
+      "live_orders": 1
+    },
+    {
+      "date": "2026-07-11",
+      "total": 2280,
+      "regular": 2280,
+      "live": 0,
+      "total_orders": 1,
+      "regular_orders": 1,
+      "live_orders": 0
+    },
+    {
+      "date": "2026-07-12",
+      "total": 11000,
+      "regular": 11000,
+      "live": 0,
+      "total_orders": 5,
+      "regular_orders": 5,
+      "live_orders": 0
+    },
+    {
+      "date": "2026-07-13",
+      "total": 9120,
+      "regular": 6840,
+      "live": 2280,
+      "total_orders": 4,
+      "regular_orders": 3,
+      "live_orders": 1
+    },
+    {
+      "date": "2026-07-14",
+      "total": 6240,
+      "regular": 3960,
+      "live": 2280,
+      "total_orders": 3,
+      "regular_orders": 2,
+      "live_orders": 1
+    },
+    {
+      "date": "2026-07-15",
+      "total": 13680,
+      "regular": 4560,
+      "live": 9120,
+      "total_orders": 6,
+      "regular_orders": 2,
+      "live_orders": 4
+    },
+    {
+      "date": "2026-07-16",
+      "total": 19320,
+      "regular": 7920,
+      "live": 11400,
+      "total_orders": 9,
+      "regular_orders": 4,
+      "live_orders": 5
+    },
+    {
+      "date": "2026-07-17",
+      "total": 19320,
+      "regular": 17040,
+      "live": 2280,
+      "total_orders": 9,
+      "regular_orders": 8,
+      "live_orders": 1
+    },
+    {
+      "date": "2026-07-18",
+      "total": 0,
+      "regular": 0,
+      "live": 0,
+      "total_orders": 0,
+      "regular_orders": 0,
+      "live_orders": 0
+    }
+  ]
 };
