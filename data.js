@@ -1,8 +1,8 @@
 // 古法身韵 7月销售目标看板 - 自动更新
-// 最后更新: 2026-07-18 09:32
+// 最后更新: 2026-07-20 15:32
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-18T09:32:00+08:00",
+  "lastUpdated": "2026-07-20T15:32:00+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -12,21 +12,21 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 237664,
-    "totalRate": 39.6,
-    "regularCompleted": 119104,
-    "liveCompleted": 118560,
-    "liveOrdersCompleted": 52,
-    "leadsCompleted": 785,
-    "totalOrders": 108,
-    "avgOrderValue": 2201
+    "totalCompleted": 253624,
+    "totalRate": 42.3,
+    "regularCompleted": 128224,
+    "liveCompleted": 125400,
+    "liveOrdersCompleted": 55,
+    "leadsCompleted": 791,
+    "totalOrders": 114,
+    "avgOrderValue": 2225
   },
   "channels": {
     "regular": [
       {
         "name": "抖音",
-        "amount": 62024,
-        "orders": 30
+        "amount": 71144,
+        "orders": 33
       },
       {
         "name": "视频号",
@@ -57,13 +57,13 @@ const DASHBOARD_DATA = {
     "live": [
       {
         "name": "视频号口播",
-        "amount": 63840,
-        "orders": 28
+        "amount": 66120,
+        "orders": 29
       },
       {
         "name": "抖音口播",
-        "amount": 54720,
-        "orders": 24
+        "amount": 59280,
+        "orders": 26
       }
     ]
   },
@@ -71,40 +71,40 @@ const DASHBOARD_DATA = {
     {
       "name": "叶小鲲",
       "avatar": "🔥",
-      "completed": 119528,
+      "completed": 124088,
       "target": 360000,
-      "rate": 33.2,
-      "orders": 54,
-      "leads": 357,
+      "rate": 34.5,
+      "orders": 56,
+      "leads": 358,
       "regular": {
-        "completed": 42008,
+        "completed": 44288,
         "target": 185698,
-        "orders_completed": 20
+        "orders_completed": 21
       },
       "live": {
-        "completed": 77520,
+        "completed": 79800,
         "target": 114000,
-        "orders_completed": 34,
+        "orders_completed": 35,
         "orders_target": 50
       }
     },
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 118136,
+      "completed": 129536,
       "target": 240000,
-      "rate": 49.2,
-      "orders": 54,
-      "leads": 428,
+      "rate": 54.0,
+      "orders": 58,
+      "leads": 433,
       "regular": {
-        "completed": 77096,
+        "completed": 83936,
         "target": 185698,
-        "orders_completed": 36
+        "orders_completed": 38
       },
       "live": {
-        "completed": 41040,
+        "completed": 45600,
         "target": 114000,
-        "orders_completed": 18,
+        "orders_completed": 20,
         "orders_target": 50
       }
     }
@@ -256,20 +256,38 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-17",
-      "total": 19320,
+      "total": 21600,
       "regular": 17040,
-      "live": 2280,
-      "total_orders": 9,
+      "live": 4560,
+      "total_orders": 10,
       "regular_orders": 8,
-      "live_orders": 1
+      "live_orders": 2
     },
     {
       "date": "2026-07-18",
-      "total": 0,
-      "regular": 0,
+      "total": 4560,
+      "regular": 4560,
       "live": 0,
-      "total_orders": 0,
-      "regular_orders": 0,
+      "total_orders": 2,
+      "regular_orders": 2,
+      "live_orders": 0
+    },
+    {
+      "date": "2026-07-19",
+      "total": 6840,
+      "regular": 2280,
+      "live": 4560,
+      "total_orders": 3,
+      "regular_orders": 1,
+      "live_orders": 2
+    },
+    {
+      "date": "2026-07-20",
+      "total": 2280,
+      "regular": 2280,
+      "live": 0,
+      "total_orders": 1,
+      "regular_orders": 1,
       "live_orders": 0
     }
   ]
