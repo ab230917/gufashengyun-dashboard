@@ -1,8 +1,8 @@
-// 古法身韵 7月销售目标看板 - 自动更新
-// 最后更新: 2026-07-22 10:35
+// 古法身韵7月销售目标看板数据
+// 最后更新: 2026-07-22T18:36:12+08:00
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-22T10:35:00+08:00",
+  "lastUpdated": "2026-07-22T18:36:12+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -12,21 +12,21 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 268384,
-    "totalRate": 44.7,
-    "regularCompleted": 140704,
-    "liveCompleted": 127680,
-    "liveOrdersCompleted": 56,
-    "leadsCompleted": 797,
-    "totalOrders": 121,
-    "avgOrderValue": 2218
+    "totalCompleted": 277504,
+    "totalRate": 46.3,
+    "regularCompleted": 145264,
+    "liveCompleted": 132240,
+    "liveOrdersCompleted": 58,
+    "leadsCompleted": 801,
+    "totalOrders": 125,
+    "avgOrderValue": 2220
   },
   "channels": {
     "regular": [
       {
         "name": "抖音",
-        "amount": 67184,
-        "orders": 31
+        "amount": 71744,
+        "orders": 33
       },
       {
         "name": "视频号",
@@ -54,12 +54,12 @@ const DASHBOARD_DATA = {
         "orders": 1
       },
       {
-        "name": "张羽军抖音",
+        "name": "转介绍",
         "amount": 1680,
         "orders": 1
       },
       {
-        "name": "转介绍",
+        "name": "张羽军抖音",
         "amount": 1680,
         "orders": 1
       }
@@ -67,8 +67,8 @@ const DASHBOARD_DATA = {
     "live": [
       {
         "name": "视频号口播",
-        "amount": 66120,
-        "orders": 29
+        "amount": 70680,
+        "orders": 31
       },
       {
         "name": "抖音口播",
@@ -101,20 +101,20 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 135776,
+      "completed": 144896,
       "target": 240000,
-      "rate": 56.6,
-      "orders": 61,
-      "leads": 438,
+      "rate": 60.4,
+      "orders": 65,
+      "leads": 442,
       "regular": {
-        "completed": 90176,
+        "completed": 94736,
         "target": 185698,
-        "orders_completed": 41
+        "orders_completed": 43
       },
       "live": {
-        "completed": 45600,
+        "completed": 50160,
         "target": 114000,
-        "orders_completed": 20,
+        "orders_completed": 22,
         "orders_target": 50
       }
     }
@@ -293,21 +293,30 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-20",
-      "total": 7920,
+      "total": 10200,
       "regular": 7920,
-      "live": 0,
-      "total_orders": 4,
+      "live": 2280,
+      "total_orders": 5,
       "regular_orders": 4,
-      "live_orders": 0
+      "live_orders": 1
     },
     {
       "date": "2026-07-21",
-      "total": 9120,
+      "total": 11400,
       "regular": 6840,
-      "live": 2280,
-      "total_orders": 4,
+      "live": 4560,
+      "total_orders": 5,
       "regular_orders": 3,
-      "live_orders": 1
+      "live_orders": 2
+    },
+    {
+      "date": "2026-07-22",
+      "total": 4560,
+      "regular": 4560,
+      "live": 0,
+      "total_orders": 2,
+      "regular_orders": 2,
+      "live_orders": 0
     }
   ]
 };
