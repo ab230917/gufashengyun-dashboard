@@ -1,8 +1,8 @@
 // 古法身韵7月销售目标看板数据
-// 最后更新: 2026-07-22T18:36:12+08:00
+// 最后更新: 2026-07-22T18:39:59+08:00
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-22T18:36:12+08:00",
+  "lastUpdated": "2026-07-22T18:39:59+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -12,14 +12,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 277504,
-    "totalRate": 46.3,
+    "totalCompleted": 279784,
+    "totalRate": 46.6,
     "regularCompleted": 145264,
-    "liveCompleted": 132240,
-    "liveOrdersCompleted": 58,
-    "leadsCompleted": 801,
-    "totalOrders": 125,
-    "avgOrderValue": 2220
+    "liveCompleted": 134520,
+    "liveOrdersCompleted": 59,
+    "leadsCompleted": 802,
+    "totalOrders": 126,
+    "avgOrderValue": 2221
   },
   "channels": {
     "regular": [
@@ -72,8 +72,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "抖音口播",
-        "amount": 61560,
-        "orders": 27
+        "amount": 63840,
+        "orders": 28
       }
     ]
   },
@@ -85,7 +85,7 @@ const DASHBOARD_DATA = {
       "target": 360000,
       "rate": 36.8,
       "orders": 60,
-      "leads": 359,
+      "leads": 358,
       "regular": {
         "completed": 50528,
         "target": 185698,
@@ -101,20 +101,20 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 144896,
+      "completed": 147176,
       "target": 240000,
-      "rate": 60.4,
-      "orders": 65,
-      "leads": 442,
+      "rate": 61.3,
+      "orders": 66,
+      "leads": 444,
       "regular": {
         "completed": 94736,
         "target": 185698,
         "orders_completed": 43
       },
       "live": {
-        "completed": 50160,
+        "completed": 52440,
         "target": 114000,
-        "orders_completed": 22,
+        "orders_completed": 23,
         "orders_target": 50
       }
     }
@@ -302,12 +302,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-21",
-      "total": 11400,
+      "total": 13680,
       "regular": 6840,
-      "live": 4560,
-      "total_orders": 5,
+      "live": 6840,
+      "total_orders": 6,
       "regular_orders": 3,
-      "live_orders": 2
+      "live_orders": 3
     },
     {
       "date": "2026-07-22",
