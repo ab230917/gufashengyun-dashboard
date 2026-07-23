@@ -1,8 +1,8 @@
 // 古法身韵7月销售目标看板数据
-// 最后更新: 2026-07-22T18:39:59+08:00
+// 最后更新: 2026-07-23T13:25:33+08:00
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-22T18:39:59+08:00",
+  "lastUpdated": "2026-07-23T13:25:33+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -12,13 +12,13 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 279784,
-    "totalRate": 46.6,
+    "totalCompleted": 284344,
+    "totalRate": 47.4,
     "regularCompleted": 145264,
-    "liveCompleted": 134520,
-    "liveOrdersCompleted": 59,
-    "leadsCompleted": 802,
-    "totalOrders": 126,
+    "liveCompleted": 139080,
+    "liveOrdersCompleted": 61,
+    "leadsCompleted": 804,
+    "totalOrders": 128,
     "avgOrderValue": 2221
   },
   "channels": {
@@ -72,8 +72,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "抖音口播",
-        "amount": 63840,
-        "orders": 28
+        "amount": 68400,
+        "orders": 30
       }
     ]
   },
@@ -81,40 +81,40 @@ const DASHBOARD_DATA = {
     {
       "name": "叶小鲲",
       "avatar": "🔥",
-      "completed": 132608,
+      "completed": 134888,
       "target": 360000,
-      "rate": 36.8,
-      "orders": 60,
-      "leads": 358,
+      "rate": 37.5,
+      "orders": 61,
+      "leads": 359,
       "regular": {
         "completed": 50528,
         "target": 185698,
         "orders_completed": 24
       },
       "live": {
-        "completed": 82080,
+        "completed": 84360,
         "target": 114000,
-        "orders_completed": 36,
+        "orders_completed": 37,
         "orders_target": 50
       }
     },
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 147176,
+      "completed": 149456,
       "target": 240000,
-      "rate": 61.3,
-      "orders": 66,
-      "leads": 444,
+      "rate": 62.3,
+      "orders": 67,
+      "leads": 445,
       "regular": {
         "completed": 94736,
         "target": 185698,
         "orders_completed": 43
       },
       "live": {
-        "completed": 52440,
+        "completed": 54720,
         "target": 114000,
-        "orders_completed": 23,
+        "orders_completed": 24,
         "orders_target": 50
       }
     }
@@ -311,12 +311,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-22",
-      "total": 4560,
+      "total": 9120,
       "regular": 4560,
-      "live": 0,
-      "total_orders": 2,
+      "live": 4560,
+      "total_orders": 4,
       "regular_orders": 2,
-      "live_orders": 0
+      "live_orders": 2
     }
   ]
 };
