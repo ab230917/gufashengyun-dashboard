@@ -1,8 +1,8 @@
 // 古法身韵7月销售目标看板数据
-// 最后更新: 2026-07-23T13:25:33+08:00
+// 最后更新: 2026-07-24T13:06:38+08:00
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-23T13:25:33+08:00",
+  "lastUpdated": "2026-07-24T13:06:38+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -12,31 +12,31 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 284344,
-    "totalRate": 47.4,
-    "regularCompleted": 145264,
+    "totalCompleted": 294144,
+    "totalRate": 49.0,
+    "regularCompleted": 155064,
     "liveCompleted": 139080,
     "liveOrdersCompleted": 61,
-    "leadsCompleted": 804,
-    "totalOrders": 128,
-    "avgOrderValue": 2221
+    "leadsCompleted": 808,
+    "totalOrders": 133,
+    "avgOrderValue": 2212
   },
   "channels": {
     "regular": [
       {
         "name": "抖音",
-        "amount": 71744,
-        "orders": 33
+        "amount": 75304,
+        "orders": 35
       },
       {
         "name": "视频号",
-        "amount": 44400,
-        "orders": 20
+        "amount": 48360,
+        "orders": 22
       },
       {
         "name": "小红书",
-        "amount": 9120,
-        "orders": 4
+        "amount": 11400,
+        "orders": 5
       },
       {
         "name": "张涵之各渠道",
@@ -85,7 +85,7 @@ const DASHBOARD_DATA = {
       "target": 360000,
       "rate": 37.5,
       "orders": 61,
-      "leads": 359,
+      "leads": 358,
       "regular": {
         "completed": 50528,
         "target": 185698,
@@ -101,15 +101,15 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 149456,
+      "completed": 159256,
       "target": 240000,
-      "rate": 62.3,
-      "orders": 67,
-      "leads": 445,
+      "rate": 66.4,
+      "orders": 72,
+      "leads": 450,
       "regular": {
-        "completed": 94736,
+        "completed": 104536,
         "target": 185698,
-        "orders_completed": 43
+        "orders_completed": 48
       },
       "live": {
         "completed": 54720,
@@ -317,6 +317,24 @@ const DASHBOARD_DATA = {
       "total_orders": 4,
       "regular_orders": 2,
       "live_orders": 2
+    },
+    {
+      "date": "2026-07-23",
+      "total": 4560,
+      "regular": 4560,
+      "live": 0,
+      "total_orders": 2,
+      "regular_orders": 2,
+      "live_orders": 0
+    },
+    {
+      "date": "2026-07-24",
+      "total": 5240,
+      "regular": 5240,
+      "live": 0,
+      "total_orders": 3,
+      "regular_orders": 3,
+      "live_orders": 0
     }
   ]
 };
