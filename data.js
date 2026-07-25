@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-24T17:13:40+08:00",
+  "lastUpdated": "2026-07-25T14:25:19+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -9,21 +9,21 @@ var DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 295424.0,
-    "totalRate": 49.2,
-    "regularCompleted": 156344.0,
+    "totalCompleted": 297704.0,
+    "totalRate": 49.6,
+    "regularCompleted": 158624.0,
     "liveCompleted": 139080.0,
     "liveOrdersCompleted": 61,
-    "leadsCompleted": 944,
-    "totalOrders": 134,
-    "avgOrderValue": 2204.66
+    "leadsCompleted": 945,
+    "totalOrders": 135,
+    "avgOrderValue": 2205.21
   },
   "channels": {
     "regular": [
       {
         "name": "抖音",
-        "amount": 86184.0,
-        "orders": 41
+        "amount": 88464.0,
+        "orders": 42
       },
       {
         "name": "视频号",
@@ -88,15 +88,15 @@ var DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 160536.0,
+      "completed": 162816.0,
       "target": 240000,
-      "rate": 66.9,
-      "orders": 73,
-      "leads": 571,
+      "rate": 67.8,
+      "orders": 74,
+      "leads": 572,
       "regular": {
-        "completed": 105816.0,
+        "completed": 108096.0,
         "target": 185698,
-        "orders_completed": 49
+        "orders_completed": 50
       },
       "live": {
         "completed": 54720.0,
@@ -321,6 +321,15 @@ var DASHBOARD_DATA = {
       "live": 0,
       "total_orders": 4,
       "regular_orders": 4,
+      "live_orders": 0
+    },
+    {
+      "date": "2026-07-25",
+      "total": 2280.0,
+      "regular": 2280.0,
+      "live": 0,
+      "total_orders": 1,
+      "regular_orders": 1,
       "live_orders": 0
     }
   ]
