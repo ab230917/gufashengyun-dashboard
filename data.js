@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-26T16:36:27+08:00",
+  "lastUpdated": "2026-07-26T16:39:17+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -9,14 +9,14 @@ var DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 302264.0,
-    "totalRate": 50.4,
-    "regularCompleted": 163184.0,
+    "totalCompleted": 304544.0,
+    "totalRate": 50.8,
+    "regularCompleted": 165464.0,
     "liveCompleted": 139080.0,
     "liveOrdersCompleted": 61,
-    "leadsCompleted": 947,
-    "totalOrders": 137,
-    "avgOrderValue": 2206.31
+    "leadsCompleted": 948,
+    "totalOrders": 138,
+    "avgOrderValue": 2206.84
   },
   "channels": {
     "regular": [
@@ -32,8 +32,8 @@ var DASHBOARD_DATA = {
       },
       {
         "name": "小红书",
-        "amount": 13680.0,
-        "orders": 6
+        "amount": 15960.0,
+        "orders": 7
       },
       {
         "name": "舞号门公众号",
@@ -68,15 +68,15 @@ var DASHBOARD_DATA = {
     {
       "name": "叶小鲲",
       "avatar": "🔥",
-      "completed": 137168.0,
+      "completed": 139448.0,
       "target": 360000,
-      "rate": 38.1,
-      "orders": 62,
-      "leads": 374,
+      "rate": 38.7,
+      "orders": 63,
+      "leads": 375,
       "regular": {
-        "completed": 52808.0,
+        "completed": 55088.0,
         "target": 185698,
-        "orders_completed": 25
+        "orders_completed": 26
       },
       "live": {
         "completed": 84360.0,
@@ -330,6 +330,15 @@ var DASHBOARD_DATA = {
       "live": 0,
       "total_orders": 3,
       "regular_orders": 3,
+      "live_orders": 0
+    },
+    {
+      "date": "2026-07-26",
+      "total": 2280.0,
+      "regular": 2280.0,
+      "live": 0,
+      "total_orders": 1,
+      "regular_orders": 1,
       "live_orders": 0
     }
   ]
