@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-25T14:25:19+08:00",
+  "lastUpdated": "2026-07-26T16:36:27+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -9,21 +9,21 @@ var DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 297704.0,
-    "totalRate": 49.6,
-    "regularCompleted": 158624.0,
+    "totalCompleted": 302264.0,
+    "totalRate": 50.4,
+    "regularCompleted": 163184.0,
     "liveCompleted": 139080.0,
     "liveOrdersCompleted": 61,
-    "leadsCompleted": 945,
-    "totalOrders": 135,
-    "avgOrderValue": 2205.21
+    "leadsCompleted": 947,
+    "totalOrders": 137,
+    "avgOrderValue": 2206.31
   },
   "channels": {
     "regular": [
       {
         "name": "抖音",
-        "amount": 88464.0,
-        "orders": 42
+        "amount": 90744.0,
+        "orders": 43
       },
       {
         "name": "视频号",
@@ -32,8 +32,8 @@ var DASHBOARD_DATA = {
       },
       {
         "name": "小红书",
-        "amount": 11400.0,
-        "orders": 5
+        "amount": 13680.0,
+        "orders": 6
       },
       {
         "name": "舞号门公众号",
@@ -68,15 +68,15 @@ var DASHBOARD_DATA = {
     {
       "name": "叶小鲲",
       "avatar": "🔥",
-      "completed": 134888.0,
+      "completed": 137168.0,
       "target": 360000,
-      "rate": 37.5,
-      "orders": 61,
-      "leads": 373,
+      "rate": 38.1,
+      "orders": 62,
+      "leads": 374,
       "regular": {
-        "completed": 50528.0,
+        "completed": 52808.0,
         "target": 185698,
-        "orders_completed": 24
+        "orders_completed": 25
       },
       "live": {
         "completed": 84360.0,
@@ -88,15 +88,15 @@ var DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 162816.0,
+      "completed": 165096.0,
       "target": 240000,
-      "rate": 67.8,
-      "orders": 74,
-      "leads": 572,
+      "rate": 68.8,
+      "orders": 75,
+      "leads": 573,
       "regular": {
-        "completed": 108096.0,
+        "completed": 110376.0,
         "target": 185698,
-        "orders_completed": 50
+        "orders_completed": 51
       },
       "live": {
         "completed": 54720.0,
@@ -325,11 +325,11 @@ var DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-25",
-      "total": 2280.0,
-      "regular": 2280.0,
+      "total": 6840.0,
+      "regular": 6840.0,
       "live": 0,
-      "total_orders": 1,
-      "regular_orders": 1,
+      "total_orders": 3,
+      "regular_orders": 3,
       "live_orders": 0
     }
   ]
