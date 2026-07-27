@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-26T16:39:17+08:00",
+  "lastUpdated": "2026-07-27T09:52:35+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -9,14 +9,14 @@ var DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 304544.0,
-    "totalRate": 50.8,
-    "regularCompleted": 165464.0,
-    "liveCompleted": 139080.0,
-    "liveOrdersCompleted": 61,
-    "leadsCompleted": 948,
-    "totalOrders": 138,
-    "avgOrderValue": 2206.84
+    "totalCompleted": 311384.0,
+    "totalRate": 51.9,
+    "regularCompleted": 167744.0,
+    "liveCompleted": 143640.0,
+    "liveOrdersCompleted": 63,
+    "leadsCompleted": 951,
+    "totalOrders": 141,
+    "avgOrderValue": 2208.4
   },
   "channels": {
     "regular": [
@@ -32,8 +32,8 @@ var DASHBOARD_DATA = {
       },
       {
         "name": "小红书",
-        "amount": 15960.0,
-        "orders": 7
+        "amount": 18240.0,
+        "orders": 8
       },
       {
         "name": "舞号门公众号",
@@ -54,13 +54,13 @@ var DASHBOARD_DATA = {
     "live": [
       {
         "name": "视频号口播",
-        "amount": 70680.0,
-        "orders": 31
+        "amount": 72960.0,
+        "orders": 32
       },
       {
         "name": "抖音口播",
-        "amount": 68400.0,
-        "orders": 30
+        "amount": 70680.0,
+        "orders": 31
       }
     ]
   },
@@ -68,40 +68,40 @@ var DASHBOARD_DATA = {
     {
       "name": "叶小鲲",
       "avatar": "🔥",
-      "completed": 139448.0,
+      "completed": 141728.0,
       "target": 360000,
-      "rate": 38.7,
-      "orders": 63,
-      "leads": 375,
+      "rate": 39.4,
+      "orders": 64,
+      "leads": 376,
       "regular": {
         "completed": 55088.0,
         "target": 185698,
         "orders_completed": 26
       },
       "live": {
-        "completed": 84360.0,
+        "completed": 86640.0,
         "target": 114000,
-        "orders_completed": 37,
+        "orders_completed": 38,
         "orders_target": 50
       }
     },
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 165096.0,
+      "completed": 169656.0,
       "target": 240000,
-      "rate": 68.8,
-      "orders": 75,
-      "leads": 573,
+      "rate": 70.7,
+      "orders": 77,
+      "leads": 575,
       "regular": {
-        "completed": 110376.0,
+        "completed": 112656.0,
         "target": 185698,
-        "orders_completed": 51
+        "orders_completed": 52
       },
       "live": {
-        "completed": 54720.0,
+        "completed": 57000.0,
         "target": 114000,
-        "orders_completed": 24,
+        "orders_completed": 25,
         "orders_target": 50
       }
     }
@@ -334,12 +334,12 @@ var DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-26",
-      "total": 2280.0,
-      "regular": 2280.0,
-      "live": 0,
-      "total_orders": 1,
-      "regular_orders": 1,
-      "live_orders": 0
+      "total": 9120.0,
+      "regular": 4560.0,
+      "live": 4560.0,
+      "total_orders": 4,
+      "regular_orders": 2,
+      "live_orders": 2
     }
   ]
 };
