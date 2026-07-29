@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-28T20:38:00+08:00",
+  "lastUpdated": "2026-07-29T22:36:18+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -9,21 +9,21 @@ var DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 343844.0,
-    "totalRate": 57.3,
-    "regularCompleted": 193364.0,
-    "liveCompleted": 150480.0,
-    "liveOrdersCompleted": 66,
-    "leadsCompleted": 964,
-    "totalOrders": 155,
-    "avgOrderValue": 2218.3
+    "totalCompleted": 356924.0,
+    "totalRate": 59.5,
+    "regularCompleted": 199604.0,
+    "liveCompleted": 157320.0,
+    "liveOrdersCompleted": 69,
+    "leadsCompleted": 969,
+    "totalOrders": 161,
+    "avgOrderValue": 2216.9
   },
   "channels": {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 99424.0,
-        "orders": 45
+        "amount": 105664.0,
+        "orders": 48
       },
       {
         "name": "古法身韵视频号",
@@ -68,14 +68,14 @@ var DASHBOARD_DATA = {
     ],
     "live": [
       {
+        "name": "古法身韵视频号口播",
+        "amount": 79800.0,
+        "orders": 35
+      },
+      {
         "name": "古法身韵抖音口播",
         "amount": 77520.0,
         "orders": 34
-      },
-      {
-        "name": "古法身韵视频号口播",
-        "amount": 72960.0,
-        "orders": 32
       }
     ]
   },
@@ -103,20 +103,20 @@ var DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 181096.0,
+      "completed": 194176.0,
       "target": 240000,
-      "rate": 75.5,
-      "orders": 81,
-      "leads": 579,
+      "rate": 80.9,
+      "orders": 87,
+      "leads": 584,
       "regular": {
-        "completed": 121816.0,
+        "completed": 128056.0,
         "target": 185698,
-        "orders_completed": 55
+        "orders_completed": 58
       },
       "live": {
-        "completed": 59280.0,
+        "completed": 66120.0,
         "target": 114000,
-        "orders_completed": 26,
+        "orders_completed": 29,
         "orders_target": 50
       }
     }
@@ -367,12 +367,21 @@ var DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-28",
-      "total": 21060.0,
+      "total": 23340.0,
       "regular": 18780.0,
-      "live": 2280.0,
-      "total_orders": 9,
+      "live": 4560.0,
+      "total_orders": 10,
       "regular_orders": 8,
-      "live_orders": 1
+      "live_orders": 2
+    },
+    {
+      "date": "2026-07-29",
+      "total": 10800.0,
+      "regular": 6240.0,
+      "live": 4560.0,
+      "total_orders": 5,
+      "regular_orders": 3,
+      "live_orders": 2
     }
   ]
 };
