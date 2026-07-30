@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-07-29T22:36:18+08:00",
+  "lastUpdated": "2026-07-30T19:22:13+08:00",
   "month": "2026-07",
   "targets": {
     "total": 600000,
@@ -9,21 +9,21 @@ var DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 356924.0,
-    "totalRate": 59.5,
-    "regularCompleted": 199604.0,
-    "liveCompleted": 157320.0,
-    "liveOrdersCompleted": 69,
-    "leadsCompleted": 969,
-    "totalOrders": 161,
-    "avgOrderValue": 2216.9
+    "totalCompleted": 361484.0,
+    "totalRate": 60.2,
+    "regularCompleted": 201884.0,
+    "liveCompleted": 159600.0,
+    "liveOrdersCompleted": 70,
+    "leadsCompleted": 971,
+    "totalOrders": 163,
+    "avgOrderValue": 2217.7
   },
   "channels": {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 105664.0,
-        "orders": 48
+        "amount": 107944.0,
+        "orders": 49
       },
       {
         "name": "古法身韵视频号",
@@ -68,14 +68,14 @@ var DASHBOARD_DATA = {
     ],
     "live": [
       {
-        "name": "古法身韵视频号口播",
+        "name": "古法身韵抖音口播",
         "amount": 79800.0,
         "orders": 35
       },
       {
-        "name": "古法身韵抖音口播",
-        "amount": 77520.0,
-        "orders": 34
+        "name": "古法身韵视频号口播",
+        "amount": 79800.0,
+        "orders": 35
       }
     ]
   },
@@ -103,20 +103,20 @@ var DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💎",
-      "completed": 194176.0,
+      "completed": 198736.0,
       "target": 240000,
-      "rate": 80.9,
-      "orders": 87,
-      "leads": 584,
+      "rate": 82.8,
+      "orders": 89,
+      "leads": 586,
       "regular": {
-        "completed": 128056.0,
+        "completed": 130336.0,
         "target": 185698,
-        "orders_completed": 58
+        "orders_completed": 59
       },
       "live": {
-        "completed": 66120.0,
+        "completed": 68400.0,
         "target": 114000,
-        "orders_completed": 29,
+        "orders_completed": 30,
         "orders_target": 50
       }
     }
@@ -367,12 +367,12 @@ var DASHBOARD_DATA = {
     },
     {
       "date": "2026-07-28",
-      "total": 23340.0,
+      "total": 25620.0,
       "regular": 18780.0,
-      "live": 4560.0,
-      "total_orders": 10,
+      "live": 6840.0,
+      "total_orders": 11,
       "regular_orders": 8,
-      "live_orders": 2
+      "live_orders": 3
     },
     {
       "date": "2026-07-29",
@@ -382,6 +382,15 @@ var DASHBOARD_DATA = {
       "total_orders": 5,
       "regular_orders": 3,
       "live_orders": 2
+    },
+    {
+      "date": "2026-07-30",
+      "total": 2280.0,
+      "regular": 2280.0,
+      "live": 0,
+      "total_orders": 1,
+      "regular_orders": 1,
+      "live_orders": 0
     }
   ]
 };
