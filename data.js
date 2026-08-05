@@ -1,10 +1,6 @@
-// 古法身韵8月销售目标看板 - 数据文件
-// 此文件由 agent 自动生成
-// 最后更新: 2026-08-05T09:12:00+08:00
-
-const DASHBOARD_DATA = {
-  "lastUpdated": "2026-08-05T09:12:00+08:00",
-  "month": "2026-08",
+var DASHBOARD_DATA = {
+  "lastUpdated": "2026-08-05 10:39",
+  "month": "2026年8月",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -13,19 +9,19 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 52040,
-    "totalRate": 8.7,
-    "regularCompleted": 22400,
-    "liveCompleted": 29640,
-    "liveOrdersCompleted": 13,
-    "leadsCompleted": 64,
-    "totalOrders": 23,
-    "avgOrderValue": 2263
+    "totalCompleted": 62240,
+    "totalRate": 10.4,
+    "regularCompleted": 31120,
+    "liveCompleted": 31120,
+    "liveOrdersCompleted": 16,
+    "leadsCompleted": 68,
+    "totalOrders": 30,
+    "avgOrderValue": 2075.0
   },
   "team": [
     {
       "name": "叶小鲲",
-      "avatar": "叶",
+      "avatar": "叶小鲲",
       "target": 300000,
       "completed": 11400,
       "rate": 3.8,
@@ -37,7 +33,7 @@ const DASHBOARD_DATA = {
         "orders_completed": 3
       },
       "live": {
-        "target": 114000,
+        "target": 228000,
         "completed": 4560,
         "orders": 2,
         "orders_completed": 2,
@@ -46,22 +42,22 @@ const DASHBOARD_DATA = {
     },
     {
       "name": "武艳阳",
-      "avatar": "武",
+      "avatar": "武艳阳",
       "target": 300000,
-      "completed": 40640,
-      "rate": 13.5,
-      "leads": 25,
-      "orders": 18,
+      "completed": 50840,
+      "rate": 16.9,
+      "leads": 29,
+      "orders": 25,
       "regular": {
         "target": 185698,
-        "completed": 15560,
-        "orders_completed": 7
+        "completed": 24280,
+        "orders_completed": 11
       },
       "live": {
-        "target": 114000,
-        "completed": 25080,
-        "orders": 11,
-        "orders_completed": 11,
+        "target": 228000,
+        "completed": 26560,
+        "orders": 14,
+        "orders_completed": 14,
         "orders_target": 50
       }
     }
@@ -77,26 +73,34 @@ const DASHBOARD_DATA = {
         "name": "古法身韵视频号",
         "amount": 8720,
         "orders": 4
+      },
+      {
+        "name": "张涵之抖音",
+        "amount": 2280,
+        "orders": 1
+      },
+      {
+        "name": "其他",
+        "amount": 10600,
+        "orders": 5
       }
     ],
     "live": [
       {
         "name": "古法身韵抖音口播",
-        "amount": 11400
+        "amount": 18240,
+        "orders": 8
       },
       {
-        "name": "张涵之视频号口播",
-        "amount": 11400
-      },
-      {
-        "name": "张涵之抖音口播",
-        "amount": 6840
+        "name": "古法身韵视频号口播",
+        "amount": 12880,
+        "orders": 8
       }
     ]
   },
   "dailyTrend": [
     {
-      "date": "2026-08-01",
+      "date": "8/1",
       "total": 13280,
       "live": 4560,
       "regular": 8720,
@@ -105,31 +109,37 @@ const DASHBOARD_DATA = {
       "total_orders": 6
     },
     {
-      "date": "2026-08-02",
-      "total": 15960,
-      "live": 15960,
+      "date": "8/2",
+      "total": 15560,
+      "live": 15560,
       "regular": 0,
-      "live_orders": 7,
+      "live_orders": 8,
       "regular_orders": 0,
-      "total_orders": 7
+      "total_orders": 8
     },
     {
-      "date": "2026-08-03",
-      "total": 20520,
-      "live": 9120,
-      "regular": 11400,
-      "live_orders": 4,
+      "date": "8/3",
+      "total": 26960,
+      "live": 11400,
+      "regular": 15560,
+      "live_orders": 5,
+      "regular_orders": 7,
+      "total_orders": 12
+    },
+    {
+      "date": "8/4",
+      "total": 10600,
+      "live": -400,
+      "regular": 11000,
+      "live_orders": 1,
       "regular_orders": 5,
-      "total_orders": 9
-    },
-    {
-      "date": "2026-08-04",
-      "total": 2280,
-      "live": 0,
-      "regular": 2280,
-      "live_orders": 0,
-      "regular_orders": 1,
-      "total_orders": 1
+      "total_orders": 6
     }
-  ]
+  ],
+  "leads": {
+    "total": 68,
+    "ye": 33,
+    "wu": 29,
+    "other": 6
+  }
 };
