@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-古法身韵7月销售目标看板 - 数据同步脚本
+古法身韵8月销售目标看板 - 数据同步脚本
 从飞书多维表格拉取数据，生成 data.js 供前端使用
 
 数据源：
@@ -47,13 +47,13 @@ TEAM_MEMBERS = ['叶小鲲', '武艳阳']
 # 成员个人目标
 MEMBER_TARGETS = {
     '叶小鲲': {
-        'total': 360000,
-        'regular': 245491,
+        'total': 300000,
+        'regular': 185698,
         'live': 114000,
     },
     '武艳阳': {
-        'total': 240000,
-        'regular': 125905,
+        'total': 300000,
+        'regular': 185698,
         'live': 114000,
     }
 }
@@ -189,11 +189,11 @@ def parse_date(date_val):
     return None
 
 
-def is_july(dt):
-    """判断日期是否在7月"""
+def is_august(dt):
+    """判断日期是否在8月"""
     if dt is None:
         return False
-    return dt.year == 2026 and dt.month == 7
+    return dt.year == 2026 and dt.month == 8
 
 
 def classify_channel(source, course=None):
@@ -252,7 +252,7 @@ def process_data(leads, orders):
         
         # 留资时间
         lead_time = parse_date(extract_field_value(fields.get('首次留资时间')))
-        if not is_july(lead_time):
+        if not is_august(lead_time):
             continue
         
         july_leads.append(record)
@@ -284,7 +284,7 @@ def process_data(leads, orders):
         
         # 付款时间
         pay_time = parse_date(extract_field_value(fields.get('付款时间')))
-        if not is_july(pay_time):
+        if not is_august(pay_time):
             continue
         
         # 过滤退款订单（不计入业绩）
@@ -370,7 +370,7 @@ def process_data(leads, orders):
         _d = parse_date(_v)
         if _d is None:
             _bad_parse += 1
-        elif not (_d.year == 2026 and _d.month == 7):
+        elif not (_d.year == 2026 and _d.month == 8):
             _not_july += 1
     print(f"   [DEBUG] leads表: 总={len(leads)}, 7月={leads_total}, 无日期={_no_date}, 解析失败={_bad_parse}, 非7月={_not_july}, 合计校验={leads_total+_no_date+_bad_parse+_not_july}")
     orders_total = sum(m['total_orders'] for m in member_stats.values())  # 只统计团队成员订单
@@ -389,6 +389,7 @@ def process_data(leads, orders):
     
     # 合并同类渠道
     merged_regular = {}
+    merged_regular_orders = {}
     for ch in regular_channels:
         # 合并逻辑
         name = ch['name']
@@ -403,10 +404,12 @@ def process_data(leads, orders):
         
         if key not in merged_regular:
             merged_regular[key] = 0
+            merged_regular_orders[key] = 0
         merged_regular[key] += ch['amount']
+        merged_regular_orders[key] += ch['orders']
     
     regular_channel_list = [
-        {'name': k, 'amount': int(v)} 
+        {'name': k, 'amount': int(v), 'orders': int(merged_regular_orders[k])} 
         for k, v in sorted(merged_regular.items(), key=lambda x: -x[1])
     ]
     
@@ -423,7 +426,7 @@ def process_data(leads, orders):
     
     # 团队数据
     team_data = []
-    LIVE_ORDERS_TARGET = 60  # 每人直播目标单数
+    LIVE_ORDERS_TARGET = 50  # 每人直播目标单数
 
     for member in TEAM_MEMBERS:
         stats = member_stats[member]
@@ -470,7 +473,7 @@ def process_data(leads, orders):
     # 最终数据
     dashboard_data = {
         'lastUpdated': now.isoformat(),
-        'month': '2026-07',
+        'month': '2026-08',
         'targets': TARGETS,
         'summary': {
             'totalCompleted': int(total_completed),
@@ -501,7 +504,7 @@ def write_data_js(data, output_path):
     now = datetime.now(BJT)
     time_str = now.strftime('%Y-%m-%d %H:%M')
     
-    js_content = f"""// 古法身韵7月销售目标看板 - 数据文件
+    js_content = f"""// 古法身韵8月销售目标看板 - 数据文件
 // 此文件由 sync_data.py 自动生成，请勿手动修改
 // 最后更新: {time_str}
 
@@ -522,7 +525,7 @@ const DASHBOARD_DATA = {json.dumps(data, ensure_ascii=False, indent=2)};
 # ============================================================
 def main():
     print("=" * 50)
-    print("古法身韵7月销售目标看板 - 数据同步")
+    print("古法身韵8月销售目标看板 - 数据同步")
     print("=" * 50)
     
     # 检查凭证

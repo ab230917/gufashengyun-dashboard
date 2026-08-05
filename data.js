@@ -1,6 +1,6 @@
 // 古法身韵8月销售目标看板 - 数据文件
 // 此文件由 agent 自动生成
-// 最后更新: 2026-08-05 09:12
+// 最后更新: 2026-08-05T09:12:00+08:00
 
 const DASHBOARD_DATA = {
   "lastUpdated": "2026-08-05T09:12:00+08:00",
@@ -70,11 +70,13 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 13680
+        "amount": 13680,
+        "orders": 6
       },
       {
         "name": "古法身韵视频号",
-        "amount": 8720
+        "amount": 8720,
+        "orders": 4
       }
     ],
     "live": [
@@ -93,9 +95,41 @@ const DASHBOARD_DATA = {
     ]
   },
   "dailyTrend": [
-    {"date": "2026-08-01", "total": 13280, "live": 4560, "regular": 8720, "live_orders": 2, "regular_orders": 4, "total_orders": 6},
-    {"date": "2026-08-02", "total": 15960, "live": 15960, "regular": 0, "live_orders": 7, "regular_orders": 0, "total_orders": 7},
-    {"date": "2026-08-03", "total": 20520, "live": 9120, "regular": 11400, "live_orders": 4, "regular_orders": 5, "total_orders": 9},
-    {"date": "2026-08-04", "total": 2280, "live": 0, "regular": 2280, "live_orders": 0, "regular_orders": 1, "total_orders": 1}
+    {
+      "date": "2026-08-01",
+      "total": 13280,
+      "live": 4560,
+      "regular": 8720,
+      "live_orders": 2,
+      "regular_orders": 4,
+      "total_orders": 6
+    },
+    {
+      "date": "2026-08-02",
+      "total": 15960,
+      "live": 15960,
+      "regular": 0,
+      "live_orders": 7,
+      "regular_orders": 0,
+      "total_orders": 7
+    },
+    {
+      "date": "2026-08-03",
+      "total": 20520,
+      "live": 9120,
+      "regular": 11400,
+      "live_orders": 4,
+      "regular_orders": 5,
+      "total_orders": 9
+    },
+    {
+      "date": "2026-08-04",
+      "total": 2280,
+      "live": 0,
+      "regular": 2280,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
+    }
   ]
 };
