@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-08-08 10:12",
+  "lastUpdated": "2026-08-08 20:39",
   "month": "2026年8月",
   "targets": {
     "total": 600000,
@@ -14,7 +14,7 @@ var DASHBOARD_DATA = {
     "regularCompleted": 58080.0,
     "liveCompleted": 52440.0,
     "liveOrdersCompleted": 23,
-    "leadsCompleted": 150,
+    "leadsCompleted": 164,
     "totalOrders": 49,
     "avgOrderValue": 2256
   },
@@ -25,7 +25,7 @@ var DASHBOARD_DATA = {
       "target": 300000,
       "completed": 22800.0,
       "rate": 7.6,
-      "leads": 33,
+      "leads": 38,
       "orders": 10,
       "regular": {
         "target": 185698,
@@ -46,7 +46,7 @@ var DASHBOARD_DATA = {
       "target": 300000,
       "completed": 87720.0,
       "rate": 29.2,
-      "leads": 108,
+      "leads": 116,
       "orders": 39,
       "regular": {
         "target": 185698,
@@ -193,9 +193,9 @@ var DASHBOARD_DATA = {
     }
   ],
   "leads": {
-    "total": 150,
-    "ye": 33,
-    "wu": 108,
-    "other": 9
+    "total": 164,
+    "ye": 38,
+    "wu": 116,
+    "other": 10
   }
 };
