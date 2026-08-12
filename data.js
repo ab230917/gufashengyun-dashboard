@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-08-12 12:05",
+  "lastUpdated": "2026-08-12 20:41",
   "month": "2026年8月",
   "targets": {
     "total": 600000,
@@ -9,32 +9,32 @@ var DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 185840.0,
-    "totalRate": 31.0,
-    "regularCompleted": 96920.0,
-    "liveCompleted": 88920.0,
-    "avgOrderValue": 2239,
+    "totalCompleted": 203280,
+    "totalRate": 33.9,
+    "regularCompleted": 114360,
+    "liveCompleted": 88920,
+    "avgOrderValue": 2234,
     "liveOrdersCompleted": 39,
-    "leadsCompleted": 433,
-    "totalOrders": 83
+    "leadsCompleted": 439,
+    "totalOrders": 91
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "Y",
       "target": 300000,
-      "completed": 37160.0,
-      "rate": 12.4,
-      "leads": 116,
-      "orders": 17,
+      "completed": 41720,
+      "rate": 13.9,
+      "leads": 117,
+      "orders": 19,
       "regular": {
         "target": 185698,
-        "completed": 28040.0,
-        "orders_completed": 13
+        "completed": 32600,
+        "orders_completed": 15
       },
       "live": {
         "target": 114000,
-        "completed": 9120.0,
+        "completed": 9120,
         "orders": 4,
         "orders_completed": 4,
         "orders_target": 50
@@ -44,18 +44,18 @@ var DASHBOARD_DATA = {
       "name": "武艳阳",
       "avatar": "W",
       "target": 300000,
-      "completed": 148680.0,
-      "rate": 49.6,
-      "leads": 306,
-      "orders": 66,
+      "completed": 161560,
+      "rate": 53.9,
+      "leads": 310,
+      "orders": 72,
       "regular": {
         "target": 185698,
-        "completed": 68880.0,
-        "orders_completed": 31
+        "completed": 81760,
+        "orders_completed": 37
       },
       "live": {
         "target": 114000,
-        "completed": 79800.0,
+        "completed": 79800,
         "orders": 35,
         "orders_completed": 35,
         "orders_target": 50
@@ -66,54 +66,54 @@ var DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 49560.0,
-        "orders": 22
+        "amount": 56000,
+        "orders": 25
       },
       {
         "name": "古法身韵视频号",
-        "amount": 29520.0,
-        "orders": 14
+        "amount": 33680,
+        "orders": 16
       },
       {
         "name": "张涵之小红书",
-        "amount": 6840.0,
-        "orders": 3
+        "amount": 13680,
+        "orders": 6
       },
       {
         "name": "张涵之抖音",
-        "amount": 4560.0,
+        "amount": 4560,
         "orders": 2
       },
       {
         "name": "转介绍",
-        "amount": 4160.0,
+        "amount": 4160,
         "orders": 2
       },
       {
         "name": "古法身韵小红书",
-        "amount": 2280.0,
+        "amount": 2280,
         "orders": 1
       }
     ],
     "live": [
       {
         "name": "张涵之视频号口播",
-        "amount": 43320.0,
+        "amount": 43320,
         "orders": 19
       },
       {
         "name": "张涵之抖音口播",
-        "amount": 22800.0,
+        "amount": 22800,
         "orders": 10
       },
       {
         "name": "古法身韵抖音口播",
-        "amount": 20520.0,
+        "amount": 20520,
         "orders": 9
       },
       {
         "name": "古法身韵视频号口播",
-        "amount": 2280.0,
+        "amount": 2280,
         "orders": 1
       }
     ]
@@ -121,17 +121,17 @@ var DASHBOARD_DATA = {
   "dailyTrend": [
     {
       "date": "8/1",
-      "total": 13280.0,
-      "live": 4560.0,
-      "regular": 8720.0,
+      "total": 13280,
+      "live": 4560,
+      "regular": 8720,
       "live_orders": 2,
       "regular_orders": 4,
       "total_orders": 6
     },
     {
       "date": "8/2",
-      "total": 15960.0,
-      "live": 15960.0,
+      "total": 15960,
+      "live": 15960,
       "regular": 0,
       "live_orders": 7,
       "regular_orders": 0,
@@ -139,99 +139,99 @@ var DASHBOARD_DATA = {
     },
     {
       "date": "8/3",
-      "total": 25080.0,
-      "live": 13680.0,
-      "regular": 11400.0,
+      "total": 25080,
+      "live": 13680,
+      "regular": 11400,
       "live_orders": 6,
       "regular_orders": 5,
       "total_orders": 11
     },
     {
       "date": "8/4",
-      "total": 15560.0,
-      "live": 4560.0,
-      "regular": 11000.0,
+      "total": 15560,
+      "live": 4560,
+      "regular": 11000,
       "live_orders": 2,
       "regular_orders": 5,
       "total_orders": 7
     },
     {
       "date": "8/5",
-      "total": 4560.0,
-      "live": 2280.0,
-      "regular": 2280.0,
+      "total": 4560,
+      "live": 2280,
+      "regular": 2280,
       "live_orders": 1,
       "regular_orders": 1,
       "total_orders": 2
     },
     {
       "date": "8/6",
-      "total": 13280.0,
-      "live": 9120.0,
-      "regular": 4160.0,
+      "total": 13280,
+      "live": 9120,
+      "regular": 4160,
       "live_orders": 4,
       "regular_orders": 2,
       "total_orders": 6
     },
     {
       "date": "8/7",
-      "total": 20520.0,
-      "live": 6840.0,
-      "regular": 13680.0,
+      "total": 20520,
+      "live": 6840,
+      "regular": 13680,
       "live_orders": 3,
       "regular_orders": 6,
       "total_orders": 9
     },
     {
       "date": "8/8",
-      "total": 24480.0,
-      "live": 11400.0,
-      "regular": 13080.0,
+      "total": 24480,
+      "live": 11400,
+      "regular": 13080,
       "live_orders": 5,
       "regular_orders": 6,
       "total_orders": 11
     },
     {
       "date": "8/9",
-      "total": 3960.0,
+      "total": 3960,
       "live": 0,
-      "regular": 3960.0,
+      "regular": 3960,
       "live_orders": 0,
       "regular_orders": 2,
       "total_orders": 2
     },
     {
       "date": "8/10",
-      "total": 22800.0,
-      "live": 9120.0,
-      "regular": 13680.0,
+      "total": 22800,
+      "live": 9120,
+      "regular": 13680,
       "live_orders": 4,
       "regular_orders": 6,
       "total_orders": 10
     },
     {
       "date": "8/11",
-      "total": 24080.0,
-      "live": 11400.0,
-      "regular": 12680.0,
+      "total": 24080,
+      "live": 11400,
+      "regular": 12680,
       "live_orders": 5,
       "regular_orders": 6,
       "total_orders": 11
     },
     {
       "date": "8/12",
-      "total": 2280.0,
+      "total": 19720,
       "live": 0,
-      "regular": 2280.0,
+      "regular": 19720,
       "live_orders": 0,
-      "regular_orders": 1,
-      "total_orders": 1
+      "regular_orders": 9,
+      "total_orders": 9
     }
   ],
   "leads": {
-    "total": 433,
-    "ye": 116,
-    "wu": 306,
-    "other": 11
+    "total": 439,
+    "ye": 117,
+    "wu": 310,
+    "other": 12
   }
 };
