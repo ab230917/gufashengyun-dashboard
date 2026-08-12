@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-08-12 11:50",
+  "lastUpdated": "2026-08-12 12:05",
   "month": "2026年8月",
   "targets": {
     "total": 600000,
@@ -11,21 +11,21 @@ var DASHBOARD_DATA = {
   "summary": {
     "totalCompleted": 185840.0,
     "totalRate": 31.0,
-    "regularCompleted": 99200.0,
-    "liveCompleted": 86640.0,
-    "liveOrdersCompleted": 38,
-    "leadsCompleted": 184,
-    "totalOrders": 83,
-    "avgOrderValue": 2239
+    "regularCompleted": 96920.0,
+    "liveCompleted": 88920.0,
+    "avgOrderValue": 2239,
+    "liveOrdersCompleted": 39,
+    "leadsCompleted": 433,
+    "totalOrders": 83
   },
   "team": [
     {
       "name": "叶小鲲",
-      "avatar": "叶小鲲",
+      "avatar": "Y",
       "target": 300000,
       "completed": 37160.0,
       "rate": 12.4,
-      "leads": 42,
+      "leads": 116,
       "orders": 17,
       "regular": {
         "target": 185698,
@@ -42,22 +42,22 @@ var DASHBOARD_DATA = {
     },
     {
       "name": "武艳阳",
-      "avatar": "武艳阳",
+      "avatar": "W",
       "target": 300000,
       "completed": 148680.0,
       "rate": 49.6,
-      "leads": 131,
+      "leads": 306,
       "orders": 66,
       "regular": {
         "target": 185698,
-        "completed": 71160.0,
-        "orders_completed": 32
+        "completed": 68880.0,
+        "orders_completed": 31
       },
       "live": {
         "target": 114000,
-        "completed": 77520.0,
-        "orders": 34,
-        "orders_completed": 34,
+        "completed": 79800.0,
+        "orders": 35,
+        "orders_completed": 35,
         "orders_target": 50
       }
     }
@@ -90,11 +90,6 @@ var DASHBOARD_DATA = {
         "orders": 2
       },
       {
-        "name": "张涵之视频号",
-        "amount": 2280.0,
-        "orders": 1
-      },
-      {
         "name": "古法身韵小红书",
         "amount": 2280.0,
         "orders": 1
@@ -103,8 +98,8 @@ var DASHBOARD_DATA = {
     "live": [
       {
         "name": "张涵之视频号口播",
-        "amount": 41040.0,
-        "orders": 18
+        "amount": 43320.0,
+        "orders": 19
       },
       {
         "name": "张涵之抖音口播",
@@ -145,10 +140,10 @@ var DASHBOARD_DATA = {
     {
       "date": "8/3",
       "total": 25080.0,
-      "live": 11400.0,
-      "regular": 13680.0,
-      "live_orders": 5,
-      "regular_orders": 6,
+      "live": 13680.0,
+      "regular": 11400.0,
+      "live_orders": 6,
+      "regular_orders": 5,
       "total_orders": 11
     },
     {
@@ -234,9 +229,9 @@ var DASHBOARD_DATA = {
     }
   ],
   "leads": {
-    "total": 184,
-    "ye": 42,
-    "wu": 131,
+    "total": 433,
+    "ye": 116,
+    "wu": 306,
     "other": 11
   }
 };
