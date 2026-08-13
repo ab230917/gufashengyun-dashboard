@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-08-12 20:41",
+  "lastUpdated": "2026-08-13 20:35",
   "month": "2026年8月",
   "targets": {
     "total": 600000,
@@ -9,24 +9,24 @@ var DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 203280,
-    "totalRate": 33.9,
-    "regularCompleted": 114360,
-    "liveCompleted": 88920,
-    "avgOrderValue": 2234,
-    "liveOrdersCompleted": 39,
-    "leadsCompleted": 439,
-    "totalOrders": 91
+    "totalCompleted": 206720,
+    "totalRate": 34.5,
+    "regularCompleted": 115520,
+    "liveCompleted": 91200,
+    "avgOrderValue": 2223,
+    "liveOrdersCompleted": 40,
+    "leadsCompleted": 427,
+    "totalOrders": 93
   },
   "team": [
     {
       "name": "叶小鲲",
-      "avatar": "Y",
+      "avatar": "叶",
       "target": 300000,
-      "completed": 41720,
-      "rate": 13.9,
+      "completed": 44000,
+      "rate": 14.7,
       "leads": 117,
-      "orders": 19,
+      "orders": 20,
       "regular": {
         "target": 185698,
         "completed": 32600,
@@ -34,24 +34,24 @@ var DASHBOARD_DATA = {
       },
       "live": {
         "target": 114000,
-        "completed": 9120,
-        "orders": 4,
-        "orders_completed": 4,
+        "completed": 11400,
+        "orders": 5,
+        "orders_completed": 5,
         "orders_target": 50
       }
     },
     {
       "name": "武艳阳",
-      "avatar": "W",
+      "avatar": "武",
       "target": 300000,
-      "completed": 161560,
-      "rate": 53.9,
+      "completed": 162720,
+      "rate": 54.2,
       "leads": 310,
-      "orders": 72,
+      "orders": 73,
       "regular": {
         "target": 185698,
-        "completed": 81760,
-        "orders_completed": 37
+        "completed": 82920,
+        "orders_completed": 38
       },
       "live": {
         "target": 114000,
@@ -66,8 +66,8 @@ var DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 56000,
-        "orders": 25
+        "amount": 57160,
+        "orders": 26
       },
       {
         "name": "古法身韵视频号",
@@ -113,8 +113,8 @@ var DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵视频号口播",
-        "amount": 2280,
-        "orders": 1
+        "amount": 4560,
+        "orders": 2
       }
     ]
   },
@@ -220,18 +220,27 @@ var DASHBOARD_DATA = {
     },
     {
       "date": "8/12",
-      "total": 19720,
+      "total": 20880,
       "live": 0,
-      "regular": 19720,
+      "regular": 20880,
       "live_orders": 0,
-      "regular_orders": 9,
-      "total_orders": 9
+      "regular_orders": 10,
+      "total_orders": 10
+    },
+    {
+      "date": "8/13",
+      "total": 2280,
+      "live": 2280,
+      "regular": 0,
+      "live_orders": 1,
+      "regular_orders": 0,
+      "total_orders": 1
     }
   ],
   "leads": {
-    "total": 439,
+    "total": 427,
     "ye": 117,
     "wu": 310,
-    "other": 12
+    "other": 0
   }
 };
