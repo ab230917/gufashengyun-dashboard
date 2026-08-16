@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-08-16 18:29",
+  "lastUpdated": "2026-08-16 20:39",
   "month": "2026年8月",
   "targets": {
     "total": 600000,
@@ -15,7 +15,7 @@ var DASHBOARD_DATA = {
     "liveCompleted": 102600,
     "avgOrderValue": 2233,
     "liveOrdersCompleted": 45,
-    "leadsCompleted": 443,
+    "leadsCompleted": 456,
     "totalOrders": 113
   },
   "team": [
@@ -275,7 +275,7 @@ var DASHBOARD_DATA = {
     }
   ],
   "leads": {
-    "total": 443,
+    "total": 456,
     "target": 1010
   }
 };
