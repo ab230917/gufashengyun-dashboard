@@ -1,10 +1,10 @@
 // 古法身韵8月销售看板数据
-// 最后更新: 2026-08-17 11:15
+// 最后更新: 2026-08-17 13:46
 
 var DASHBOARD_DATA = {
   "meta": {
     "month": "2026年8月",
-    "lastUpdate": "2026-08-17 11:10",
+    "lastUpdated": "2026-08-17 13:46",
     "dataSources": {
       "performance": "古法身韵CRM数据标准版 - 业绩表",
       "leads": "古法身韵CRM数据标准版 - 留资表"
@@ -19,14 +19,13 @@ var DASHBOARD_DATA = {
     "leads": 1010
   },
   "summary": {
-    "totalAmount": 311200.0,
-    "totalOrders": 139,
-    "regularAmount": 176680.0,
-    "regularOrders": 80,
+    "totalAmount": 313480.0,
+    "totalOrders": 140,
+    "regularAmount": 178960.0,
+    "regularOrders": 81,
     "liveAmount": 134520.0,
     "liveOrders": 59,
     "avgOrderValue": 2239,
-    "leads": 481,
     "refundCount": 8,
     "refundAmount": -4000.0
   },
@@ -40,7 +39,7 @@ var DASHBOARD_DATA = {
       "regularOrders": 24,
       "liveAmount": 22800.0,
       "liveOrders": 10,
-      "leads": 128,
+      "leads": 219,
       "regularTarget": 185698,
       "liveTarget": 114000,
       "liveOrderTarget": 50
@@ -48,13 +47,13 @@ var DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "target": 300000,
-      "amount": 235280.0,
-      "orders": 105,
-      "regularAmount": 123560.0,
-      "regularOrders": 56,
+      "amount": 237560.0,
+      "orders": 106,
+      "regularAmount": 125840.0,
+      "regularOrders": 57,
       "liveAmount": 111720.0,
       "liveOrders": 49,
-      "leads": 339,
+      "leads": 503,
       "regularTarget": 185698,
       "liveTarget": 114000,
       "liveOrderTarget": 50
@@ -172,68 +171,25 @@ var DASHBOARD_DATA = {
       "orders": 8,
       "regular": 13680.0,
       "live": 4560.0
+    },
+    {
+      "date": "2026-08-17",
+      "amount": 2280.0,
+      "orders": 1,
+      "regular": 2280.0,
+      "live": 0
     }
   ],
   "leads": {
-    "total": 481,
+    "total": 736,
     "target": 1010
   },
-  "refunds": [
-    {
-      "date": "08/02",
-      "name": "丁静",
-      "amount": -400.0,
-      "source": "['张涵之视频号口播']"
-    },
-    {
-      "date": "08/04",
-      "name": "周昕",
-      "amount": -400.0,
-      "source": "['张涵之视频号口播']"
-    },
-    {
-      "date": "08/07",
-      "name": "琳儿",
-      "amount": -1000.0,
-      "source": "['张涵之视频号口播']"
-    },
-    {
-      "date": "08/08",
-      "name": "蒋婉婉",
-      "amount": -400.0,
-      "source": "['张涵之视频号口播']"
-    },
-    {
-      "date": "08/12",
-      "name": "刘秋逸",
-      "amount": -600.0,
-      "source": "['古法身韵抖音口播']"
-    },
-    {
-      "date": "08/13",
-      "name": "李佳",
-      "amount": -400.0,
-      "source": "['古法身韵抖音']"
-    },
-    {
-      "date": "08/16",
-      "name": "徐晓红",
-      "amount": -400.0,
-      "source": "['张涵之视频号口播']"
-    },
-    {
-      "date": "08/16",
-      "name": "刘阳 ",
-      "amount": -400.0,
-      "source": "['张涵之视频号口播']"
-    }
-  ],
   "channels": {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 105040.0,
-        "orders": 47
+        "amount": 107320.0,
+        "orders": 48
       },
       {
         "name": "古法身韵视频号",
@@ -288,5 +244,55 @@ var DASHBOARD_DATA = {
         "orders": 4
       }
     ]
-  }
+  },
+  "refunds": [
+    {
+      "date": "08/02",
+      "name": "丁静",
+      "amount": -400.0,
+      "source": "['张涵之视频号口播']"
+    },
+    {
+      "date": "08/04",
+      "name": "周昕",
+      "amount": -400.0,
+      "source": "['张涵之视频号口播']"
+    },
+    {
+      "date": "08/07",
+      "name": "琳儿",
+      "amount": -1000.0,
+      "source": "['张涵之视频号口播']"
+    },
+    {
+      "date": "08/08",
+      "name": "蒋婉婉",
+      "amount": -400.0,
+      "source": "['张涵之视频号口播']"
+    },
+    {
+      "date": "08/12",
+      "name": "刘秋逸",
+      "amount": -600.0,
+      "source": "['古法身韵抖音口播']"
+    },
+    {
+      "date": "08/13",
+      "name": "李佳",
+      "amount": -400.0,
+      "source": "['古法身韵抖音']"
+    },
+    {
+      "date": "08/16",
+      "name": "徐晓红",
+      "amount": -400.0,
+      "source": "['张涵之视频号口播']"
+    },
+    {
+      "date": "08/16",
+      "name": "刘阳 ",
+      "amount": -400.0,
+      "source": "['张涵之视频号口播']"
+    }
+  ]
 };
