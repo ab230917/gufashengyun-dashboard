@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-08-18T09:57:01+08:00",
+  "lastUpdated": "2026-08-18T18:32:25+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,25 +7,25 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 322600,
-    "totalRate": 53.8,
-    "leadsCompleted": 725,
-    "totalOrders": 144,
-    "avgOrderValue": 2240
+    "totalCompleted": 331720,
+    "totalRate": 55.3,
+    "leadsCompleted": 729,
+    "totalOrders": 148,
+    "avgOrderValue": 2241
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "🥋",
-      "leads": 219,
-      "orders": 34,
-      "completed": 75920,
+      "leads": 221,
+      "orders": 36,
+      "completed": 80480,
       "target": 300000,
-      "rate": 25.3,
+      "rate": 16.3,
       "regular": {
-        "completed": 53120,
+        "completed": 57680,
         "target": 185698,
-        "orders_completed": 24
+        "orders_completed": 26
       },
       "live": {
         "completed": 22800,
@@ -37,15 +37,15 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 506,
-      "orders": 110,
-      "completed": 246680,
+      "leads": 508,
+      "orders": 112,
+      "completed": 251240,
       "target": 300000,
-      "rate": 82.2,
+      "rate": 22.0,
       "regular": {
-        "completed": 125840,
+        "completed": 130400,
         "target": 185698,
-        "orders_completed": 57
+        "orders_completed": 59
       },
       "live": {
         "completed": 120840,
@@ -59,18 +59,18 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 107320,
-        "orders": 48
+        "amount": 109600,
+        "orders": 49
       },
       {
         "name": "古法身韵视频号",
-        "amount": 35960,
-        "orders": 17
+        "amount": 40520,
+        "orders": 19
       },
       {
         "name": "张涵之小红书",
-        "amount": 15560,
-        "orders": 7
+        "amount": 17840,
+        "orders": 8
       },
       {
         "name": "张涵之视频号",
@@ -268,6 +268,15 @@ const DASHBOARD_DATA = {
       "regular": 2280,
       "live_orders": 3,
       "regular_orders": 1,
+      "total_orders": 4
+    },
+    {
+      "date": "2026-08-18",
+      "total": 9120,
+      "live": 0,
+      "regular": 9120,
+      "live_orders": 0,
+      "regular_orders": 4,
       "total_orders": 4
     }
   ]
