@@ -1,5 +1,5 @@
 var DASHBOARD_DATA = {
-  "lastUpdated": "2026-08-18T20:37:58",
+  "lastUpdated": "2026-08-19T20:34:00",
   "month": "2026年8月",
   "targets": {
     "total": 600000,
@@ -8,18 +8,18 @@ var DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 330560,
-    "totalRate": 55.1,
-    "totalOrders": 147,
-    "leadsCompleted": 729,
-    "avgOrderValue": 2249
+    "totalCompleted": 338160,
+    "totalRate": 56.4,
+    "totalOrders": 151,
+    "leadsCompleted": 732,
+    "avgOrderValue": 2239
   },
   "channels": {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 108440,
-        "orders": 48
+        "amount": 113760,
+        "orders": 51
       },
       {
         "name": "古法身韵视频号",
@@ -28,8 +28,8 @@ var DASHBOARD_DATA = {
       },
       {
         "name": "张涵之小红书",
-        "amount": 17840,
-        "orders": 8
+        "amount": 20120,
+        "orders": 9
       },
       {
         "name": "张涵之视频号",
@@ -99,15 +99,15 @@ var DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "武",
-      "completed": 250080,
+      "completed": 257680,
       "target": 300000,
-      "rate": 83.4,
-      "orders": 111,
-      "leads": 508,
+      "rate": 85.9,
+      "orders": 115,
+      "leads": 511,
       "regular": {
-        "completed": 129240,
+        "completed": 136840,
         "target": 185698,
-        "orders_completed": 58
+        "orders_completed": 62
       },
       "live": {
         "completed": 120840,
@@ -219,12 +219,12 @@ var DASHBOARD_DATA = {
     },
     {
       "date": "2026-08-12",
-      "total": 22000,
-      "regular": 19720,
+      "total": 23160,
+      "regular": 20880,
       "live": 2280,
-      "regular_orders": 9,
+      "regular_orders": 10,
       "live_orders": 1,
-      "total_orders": 10
+      "total_orders": 11
     },
     {
       "date": "2026-08-13",
@@ -273,15 +273,24 @@ var DASHBOARD_DATA = {
     },
     {
       "date": "2026-08-18",
-      "total": 9120,
-      "regular": 9120,
+      "total": 11400,
+      "regular": 11400,
       "live": 0,
-      "regular_orders": 4,
+      "regular_orders": 5,
       "live_orders": 0,
-      "total_orders": 4
+      "total_orders": 5
+    },
+    {
+      "date": "2026-08-19",
+      "total": 4160,
+      "regular": 4160,
+      "live": 0,
+      "regular_orders": 2,
+      "live_orders": 0,
+      "total_orders": 2
     }
   ],
   "leads": {
-    "total": 729
+    "total": 732
   }
 };
