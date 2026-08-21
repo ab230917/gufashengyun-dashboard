@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-08-20T11:01:15+08:00",
+  "lastUpdated": "2026-08-21T18:33:20+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,25 +7,25 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 342720,
-    "totalRate": 57.1,
-    "leadsCompleted": 734,
-    "totalOrders": 153,
-    "avgOrderValue": 2240
+    "totalCompleted": 359800,
+    "totalRate": 60.0,
+    "leadsCompleted": 740,
+    "totalOrders": 160,
+    "avgOrderValue": 2249
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "🥋",
-      "leads": 222,
-      "orders": 37,
-      "completed": 82760,
+      "leads": 223,
+      "orders": 39,
+      "completed": 87320,
       "target": 300000,
-      "rate": 27.6,
+      "rate": 29.1,
       "regular": {
-        "completed": 59960,
+        "completed": 64520,
         "target": 185698,
-        "orders_completed": 27
+        "orders_completed": 29
       },
       "live": {
         "completed": 22800,
@@ -37,20 +37,20 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 512,
-      "orders": 116,
-      "completed": 259960,
+      "leads": 517,
+      "orders": 121,
+      "completed": 272480,
       "target": 300000,
-      "rate": 86.7,
+      "rate": 90.8,
       "regular": {
-        "completed": 139120,
+        "completed": 144800,
         "target": 185698,
-        "orders_completed": 63
+        "orders_completed": 65
       },
       "live": {
-        "completed": 120840,
+        "completed": 127680,
         "target": 114000,
-        "orders_completed": 53,
+        "orders_completed": 56,
         "orders_target": 50
       }
     }
@@ -59,18 +59,18 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 116040,
+        "amount": 117160,
         "orders": 52
       },
       {
         "name": "古法身韵视频号",
-        "amount": 42800,
-        "orders": 20
+        "amount": 49640,
+        "orders": 23
       },
       {
         "name": "张涵之小红书",
-        "amount": 20120,
-        "orders": 9
+        "amount": 22400,
+        "orders": 10
       },
       {
         "name": "张涵之视频号",
@@ -96,18 +96,18 @@ const DASHBOARD_DATA = {
     "live": [
       {
         "name": "张涵之视频号口播",
-        "amount": 54720,
-        "orders": 24
+        "amount": 59280,
+        "orders": 26
       },
       {
         "name": "古法身韵抖音口播",
-        "amount": 47880,
-        "orders": 21
+        "amount": 45600,
+        "orders": 20
       },
       {
         "name": "张涵之抖音口播",
-        "amount": 31920,
-        "orders": 14
+        "amount": 36480,
+        "orders": 16
       },
       {
         "name": "古法身韵视频号口播",
@@ -182,12 +182,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-08-08",
-      "total": 24480,
-      "live": 11400,
+      "total": 22200,
+      "live": 9120,
       "regular": 13080,
-      "live_orders": 5,
+      "live_orders": 4,
       "regular_orders": 6,
-      "total_orders": 11
+      "total_orders": 10
     },
     {
       "date": "2026-08-09",
@@ -218,12 +218,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-08-12",
-      "total": 23160,
+      "total": 22000,
       "live": 2280,
-      "regular": 20880,
+      "regular": 19720,
       "live_orders": 1,
-      "regular_orders": 10,
-      "total_orders": 11
+      "regular_orders": 9,
+      "total_orders": 10
     },
     {
       "date": "2026-08-13",
@@ -281,21 +281,30 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "2026-08-19",
-      "total": 6440,
+      "total": 8720,
       "live": 0,
-      "regular": 6440,
+      "regular": 8720,
       "live_orders": 0,
-      "regular_orders": 3,
-      "total_orders": 3
+      "regular_orders": 4,
+      "total_orders": 4
     },
     {
       "date": "2026-08-20",
-      "total": 2280,
-      "live": 0,
-      "regular": 2280,
-      "live_orders": 0,
-      "regular_orders": 1,
-      "total_orders": 1
+      "total": 9120,
+      "live": 2280,
+      "regular": 6840,
+      "live_orders": 1,
+      "regular_orders": 3,
+      "total_orders": 4
+    },
+    {
+      "date": "2026-08-21",
+      "total": 11400,
+      "live": 6840,
+      "regular": 4560,
+      "live_orders": 3,
+      "regular_orders": 2,
+      "total_orders": 5
     }
   ]
 };
