@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-09-24T12:11:20.955441+08:00",
+  "lastUpdated": "2026-09-24T17:52:46.610257+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,14 +7,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 317760,
-    "totalRate": 52.96,
-    "regularCompleted": 253280,
+    "totalCompleted": 322320,
+    "totalRate": 53.72,
+    "regularCompleted": 257840,
     "liveCompleted": 64480,
     "liveOrdersCompleted": 26,
-    "leadsCompleted": 73,
-    "totalOrders": 129,
-    "avgOrderValue": 2463,
+    "leadsCompleted": 75,
+    "totalOrders": 130,
+    "avgOrderValue": 2479,
     "leadsTarget": 1010
   },
   "team": [
@@ -42,16 +42,16 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 71,
-      "orders": 106,
-      "completed": 268100,
+      "leads": 73,
+      "orders": 107,
+      "completed": 272660,
       "target": 300000,
-      "rate": 89.37,
-      "conversionRate": 149.3,
+      "rate": 90.89,
+      "conversionRate": 146.6,
       "regular": {
-        "completed": 208980,
+        "completed": 213540,
         "target": 185698,
-        "orders_completed": 82
+        "orders_completed": 83
       },
       "live": {
         "completed": 59120,
@@ -86,8 +86,8 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵抖音",
-        "amount": 126700,
-        "orders": 46
+        "amount": 131260,
+        "orders": 47
       },
       {
         "name": "古法身韵视频号",
@@ -357,6 +357,15 @@ const DASHBOARD_DATA = {
       "total": 2280,
       "live": 0,
       "regular": 2280,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
+    },
+    {
+      "date": "09/24",
+      "total": 4560,
+      "live": 0,
+      "regular": 4560,
       "live_orders": 0,
       "regular_orders": 1,
       "total_orders": 1
