@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-09-27T17:52:18.542963+08:00",
+  "lastUpdated": "2026-09-28T10:05:12.903924+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,13 +7,13 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 344440,
-    "totalRate": 57.41,
-    "regularCompleted": 272720,
+    "totalCompleted": 349400,
+    "totalRate": 58.23,
+    "regularCompleted": 277680,
     "liveCompleted": 71720,
     "liveOrdersCompleted": 29,
-    "leadsCompleted": 82,
-    "totalOrders": 140,
+    "leadsCompleted": 83,
+    "totalOrders": 142,
     "avgOrderValue": 2460,
     "leadsTarget": 1010
   },
@@ -22,15 +22,15 @@ const DASHBOARD_DATA = {
       "name": "叶小鲲",
       "avatar": "🥋",
       "leads": 2,
-      "orders": 22,
-      "completed": 44700,
+      "orders": 23,
+      "completed": 46980,
       "target": 300000,
-      "rate": 14.9,
-      "conversionRate": 1100.0,
+      "rate": 15.66,
+      "conversionRate": 1150.0,
       "regular": {
-        "completed": 44700,
+        "completed": 46980,
         "target": 185698,
-        "orders_completed": 22
+        "orders_completed": 23
       },
       "live": {
         "completed": 0,
@@ -42,16 +42,16 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 80,
-      "orders": 115,
-      "completed": 292100,
+      "leads": 81,
+      "orders": 116,
+      "completed": 294780,
       "target": 300000,
-      "rate": 97.37,
-      "conversionRate": 143.8,
+      "rate": 98.26,
+      "conversionRate": 143.2,
       "regular": {
-        "completed": 225740,
+        "completed": 228420,
         "target": 185698,
-        "orders_completed": 88
+        "orders_completed": 89
       },
       "live": {
         "completed": 66360,
@@ -100,19 +100,19 @@ const DASHBOARD_DATA = {
         "orders": 14
       },
       {
+        "name": "面转",
+        "amount": 17320,
+        "orders": 9
+      },
+      {
         "name": "转介绍",
         "amount": 16360,
         "orders": 7
       },
       {
-        "name": "面转",
-        "amount": 15040,
-        "orders": 8
-      },
-      {
         "name": "张涵之抖音",
-        "amount": 11800,
-        "orders": 5
+        "amount": 14480,
+        "orders": 6
       },
       {
         "name": "古法身韵小红书",
@@ -386,12 +386,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "09/27",
-      "total": 2680,
+      "total": 7640,
       "live": 0,
-      "regular": 2680,
+      "regular": 7640,
       "live_orders": 0,
-      "regular_orders": 1,
-      "total_orders": 1
+      "regular_orders": 3,
+      "total_orders": 3
     }
   ]
 };
