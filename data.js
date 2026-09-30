@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-09-29T17:53:59.981300+08:00",
+  "lastUpdated": "2026-09-30T10:01:09.313475+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,14 +7,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 365980,
-    "totalRate": 61.0,
+    "totalCompleted": 373620,
+    "totalRate": 62.27,
     "regularCompleted": 283540,
-    "liveCompleted": 82440,
-    "liveOrdersCompleted": 33,
-    "leadsCompleted": 373,
-    "totalOrders": 149,
-    "avgOrderValue": 2456,
+    "liveCompleted": 90080,
+    "liveOrdersCompleted": 36,
+    "leadsCompleted": 376,
+    "totalOrders": 152,
+    "avgOrderValue": 2458,
     "leadsTarget": 1010
   },
   "team": [
@@ -42,21 +42,21 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 371,
-      "orders": 123,
-      "completed": 311360,
+      "leads": 374,
+      "orders": 126,
+      "completed": 319000,
       "target": 300000,
-      "rate": 103.79,
-      "conversionRate": 33.2,
+      "rate": 106.33,
+      "conversionRate": 33.7,
       "regular": {
         "completed": 234280,
         "target": 185698,
         "orders_completed": 92
       },
       "live": {
-        "completed": 77080,
+        "completed": 84720,
         "target": 114000,
-        "orders_completed": 31,
+        "orders_completed": 34,
         "orders_target": 50
       }
     },
@@ -137,18 +137,18 @@ const DASHBOARD_DATA = {
     ],
     "live": [
       {
-        "name": "古法身韵抖音口播",
+        "name": "张涵之视频号口播",
+        "amount": 30840,
+        "orders": 13
+      },
+      {
+        "name": "张涵之抖音口播",
         "amount": 28280,
         "orders": 11
       },
       {
-        "name": "张涵之抖音口播",
-        "amount": 26000,
-        "orders": 10
-      },
-      {
-        "name": "张涵之视频号口播",
-        "amount": 25480,
+        "name": "古法身韵抖音口播",
+        "amount": 28280,
         "orders": 11
       },
       {
@@ -413,12 +413,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "09/29",
-      "total": 2680,
-      "live": 0,
+      "total": 10320,
+      "live": 7640,
       "regular": 2680,
-      "live_orders": 0,
+      "live_orders": 3,
       "regular_orders": 1,
-      "total_orders": 1
+      "total_orders": 4
     }
   ]
 };
