@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-09-30T10:01:09.313475+08:00",
+  "lastUpdated": "2026-09-30T17:53:49.255840+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,14 +7,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 373620,
-    "totalRate": 62.27,
-    "regularCompleted": 283540,
+    "totalCompleted": 375900,
+    "totalRate": 62.65,
+    "regularCompleted": 285820,
     "liveCompleted": 90080,
     "liveOrdersCompleted": 36,
-    "leadsCompleted": 376,
-    "totalOrders": 152,
-    "avgOrderValue": 2458,
+    "leadsCompleted": 377,
+    "totalOrders": 153,
+    "avgOrderValue": 2456,
     "leadsTarget": 1010
   },
   "team": [
@@ -42,16 +42,16 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 374,
-      "orders": 126,
-      "completed": 319000,
+      "leads": 375,
+      "orders": 127,
+      "completed": 321280,
       "target": 300000,
-      "rate": 106.33,
-      "conversionRate": 33.7,
+      "rate": 107.09,
+      "conversionRate": 33.9,
       "regular": {
-        "completed": 234280,
+        "completed": 236560,
         "target": 185698,
-        "orders_completed": 92
+        "orders_completed": 93
       },
       "live": {
         "completed": 84720,
@@ -121,6 +121,11 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "线上会员",
+        "amount": 2280,
+        "orders": 1
+      },
+      {
+        "name": "舞号门抖音",
         "amount": 2280,
         "orders": 1
       },
@@ -419,6 +424,15 @@ const DASHBOARD_DATA = {
       "live_orders": 3,
       "regular_orders": 1,
       "total_orders": 4
+    },
+    {
+      "date": "09/30",
+      "total": 2280,
+      "live": 0,
+      "regular": 2280,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
     }
   ]
 };
