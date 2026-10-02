@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-10-02T10:32:27.981888+08:00",
+  "lastUpdated": "2026-10-02T10:47:37.925152+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -12,7 +12,7 @@ const DASHBOARD_DATA = {
     "regularCompleted": 285820,
     "liveCompleted": 92360,
     "liveOrdersCompleted": 37,
-    "leadsCompleted": 378,
+    "leadsCompleted": 573,
     "totalOrders": 154,
     "avgOrderValue": 2455,
     "leadsTarget": 1010
@@ -42,12 +42,12 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 376,
+      "leads": 571,
       "orders": 128,
       "completed": 323560,
       "target": 300000,
       "rate": 107.85,
-      "conversionRate": 34.0,
+      "conversionRate": 22.4,
       "regular": {
         "completed": 236560,
         "target": 185698,
