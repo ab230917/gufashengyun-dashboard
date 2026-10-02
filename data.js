@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-09-30T17:53:49.255840+08:00",
+  "lastUpdated": "2026-10-02T10:32:27.981888+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,14 +7,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 375900,
-    "totalRate": 62.65,
+    "totalCompleted": 378180,
+    "totalRate": 63.03,
     "regularCompleted": 285820,
-    "liveCompleted": 90080,
-    "liveOrdersCompleted": 36,
-    "leadsCompleted": 377,
-    "totalOrders": 153,
-    "avgOrderValue": 2456,
+    "liveCompleted": 92360,
+    "liveOrdersCompleted": 37,
+    "leadsCompleted": 378,
+    "totalOrders": 154,
+    "avgOrderValue": 2455,
     "leadsTarget": 1010
   },
   "team": [
@@ -42,21 +42,21 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 375,
-      "orders": 127,
-      "completed": 321280,
+      "leads": 376,
+      "orders": 128,
+      "completed": 323560,
       "target": 300000,
-      "rate": 107.09,
-      "conversionRate": 33.9,
+      "rate": 107.85,
+      "conversionRate": 34.0,
       "regular": {
         "completed": 236560,
         "target": 185698,
         "orders_completed": 93
       },
       "live": {
-        "completed": 84720,
+        "completed": 87000,
         "target": 114000,
-        "orders_completed": 34,
+        "orders_completed": 35,
         "orders_target": 50
       }
     },
@@ -148,8 +148,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "张涵之抖音口播",
-        "amount": 28280,
-        "orders": 11
+        "amount": 30560,
+        "orders": 12
       },
       {
         "name": "古法身韵抖音口播",
@@ -427,12 +427,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "09/30",
-      "total": 2280,
-      "live": 0,
+      "total": 4560,
+      "live": 2280,
       "regular": 2280,
-      "live_orders": 0,
+      "live_orders": 1,
       "regular_orders": 1,
-      "total_orders": 1
+      "total_orders": 2
     }
   ]
 };
