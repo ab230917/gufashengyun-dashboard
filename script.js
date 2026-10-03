@@ -97,11 +97,13 @@
 
     teamData.forEach((member, index) => {
       const isYe = member.name.includes('叶');
-      const avatarClass = isYe ? 'ye' : 'wu';
-      const fillClass = isYe ? 'ye' : 'wu';
+      const isWu = member.name.includes('武');
+      const hasTarget = (member.target > 0);
+      const avatarClass = isYe ? 'ye' : (isWu ? 'wu' : 'zh');
+      const fillClass = avatarClass;
 
       // 计算各部分完成率
-      const totalRate = member.rate || 0;
+      const totalRate = hasTarget ? (member.rate || 0) : 0;
       const regularRate = member.regular.target > 0 
         ? ((member.regular.completed / member.regular.target) * 100) : 0;
       const liveRate = member.live.target > 0 
@@ -109,29 +111,33 @@
 
       const card = document.createElement('div');
       card.className = 'team-card';
-      card.innerHTML = `
-        <div class="team-card-header">
-          <div class="team-avatar ${avatarClass}">${member.avatar}</div>
-          <div class="team-info">
-            <div class="team-name">${member.name}</div>
-            <div class="team-meta">留资${formatNumber(member.leads)}条 · 成交${member.orders}单 · <span class="conversion-rate">转化${member.leads > 0 ? ((member.orders / member.leads) * 100).toFixed(1) : '0.0'}%</span></div>
-          </div>
-        </div>
-        
+      // 有留资统计才展示转化信息；张涵之不统计留资只显示单数
+      const metaHtml = member.leads > 0
+        ? `留资${formatNumber(member.leads)}条 · 成交${member.orders}单 · <span class="conversion-rate">转化${((member.orders / member.leads) * 100).toFixed(1)}%</span>`
+        : `成交${member.orders}单`;
+
+      const totalSectionHtml = hasTarget
+        ? `
         <div class="team-total-section">
           <div class="team-total-amount">${formatCurrency(member.completed)}</div>
           <div class="team-total-target">目标 ${formatCurrency(member.target)} · ${formatPercent(totalRate)}</div>
           <div class="team-progress-bar total-bar">
             <div class="team-progress-fill ${fillClass}" style="width: 0%" data-width="${Math.min(totalRate, 100)}"></div>
           </div>
-        </div>
+        </div>`
+        : `
+        <div class="team-total-section">
+          <div class="team-total-amount">${formatCurrency(member.completed)}</div>
+          <div class="team-total-target" style="color:#9ca3af;">未设目标 · 仅统计业绩</div>
+        </div>`;
 
-        <div class="team-channel-section">
+      const liveSectionHtml = member.live.target > 0
+        ? `
           <div class="team-channel-item">
             <div class="channel-icon">📺</div>
             <div class="channel-content">
               <div class="channel-title">直播转化</div>
-              <div class="channel-orders">目标 ${member.live.orders_target} 单 · 已成交 ${member.live.orders_completed} 单 · ${formatPercent(member.live.target > 0 ? (member.live.completed / member.live.target * 100) : 0)}</div>
+              <div class="channel-orders">目标 ${member.live.orders_target} 单 · 已成交 ${member.live.orders_completed} 单 · ${formatPercent(liveRate)}</div>
               <div class="channel-amount-row">
                 <span class="channel-current">${formatCurrency(member.live.completed)}</span>
                 <span class="channel-target">目标${formatCurrency(member.live.target)}</span>
@@ -140,13 +146,26 @@
                 <div class="team-progress-fill ${fillClass}" style="width: 0%" data-width="${Math.min(liveRate, 100)}"></div>
               </div>
             </div>
-          </div>
-          
+          </div>`
+        : `
+          <div class="team-channel-item">
+            <div class="channel-icon">📺</div>
+            <div class="channel-content">
+              <div class="channel-title">直播转化</div>
+              <div class="channel-orders">已成交 ${member.live.orders_completed} 单</div>
+              <div class="channel-amount-row">
+                <span class="channel-current">${formatCurrency(member.live.completed)}</span>
+              </div>
+            </div>
+          </div>`;
+
+      const regularSectionHtml = member.regular.target > 0
+        ? `
           <div class="team-channel-item">
             <div class="channel-icon">💬</div>
             <div class="channel-content">
               <div class="channel-title">日常咨询转化</div>
-              <div class="channel-orders">已成交 ${member.regular.orders_completed} 单 · ${formatPercent(member.regular.target > 0 ? (member.regular.completed / member.regular.target * 100) : 0)}</div>
+              <div class="channel-orders">已成交 ${member.regular.orders_completed} 单 · ${formatPercent(regularRate)}</div>
               <div class="channel-amount-row">
                 <span class="channel-current">${formatCurrency(member.regular.completed)}</span>
                 <span class="channel-target">目标${formatCurrency(member.regular.target)}</span>
@@ -155,7 +174,31 @@
                 <div class="team-progress-fill ${fillClass}" style="width: 0%" data-width="${Math.min(regularRate, 100)}"></div>
               </div>
             </div>
+          </div>`
+        : `
+          <div class="team-channel-item">
+            <div class="channel-icon">💬</div>
+            <div class="channel-content">
+              <div class="channel-title">日常咨询转化</div>
+              <div class="channel-orders">已成交 ${member.regular.orders_completed} 单</div>
+              <div class="channel-amount-row">
+                <span class="channel-current">${formatCurrency(member.regular.completed)}</span>
+              </div>
+            </div>
+          </div>`;
+
+      card.innerHTML = `
+        <div class="team-card-header">
+          <div class="team-avatar ${avatarClass}">${member.avatar}</div>
+          <div class="team-info">
+            <div class="team-name">${member.name}</div>
+            <div class="team-meta">${metaHtml}</div>
           </div>
+        </div>
+        ${totalSectionHtml}
+        <div class="team-channel-section">
+          ${liveSectionHtml}
+          ${regularSectionHtml}
         </div>
       `;
       grid.appendChild(card);
