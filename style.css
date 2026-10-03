@@ -442,6 +442,10 @@ body {
   background: var(--live);
 }
 
+.team-avatar.zh {
+  background: var(--alert, #f59e0b);
+}
+
 .team-info {
   flex: 1;
 }
@@ -520,6 +524,10 @@ body {
 
 .team-progress-fill.wu {
   background: var(--live);
+}
+
+.team-progress-fill.zh {
+  background: var(--alert, #f59e0b);
 }
 
 /* Channel details in team card */
