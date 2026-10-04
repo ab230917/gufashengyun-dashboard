@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-10-03T17:52:56.895249+08:00",
+  "lastUpdated": "2026-10-04T17:52:45.060984+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,14 +7,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 13680,
-    "totalRate": 2.28,
-    "regularCompleted": 11000,
+    "totalCompleted": 24400,
+    "totalRate": 4.07,
+    "regularCompleted": 21720,
     "liveCompleted": 2680,
     "liveOrdersCompleted": 1,
-    "leadsCompleted": 3,
-    "totalOrders": 6,
-    "avgOrderValue": 2280,
+    "leadsCompleted": 6,
+    "totalOrders": 10,
+    "avgOrderValue": 2440,
     "leadsTarget": 1010
   },
   "team": [
@@ -42,16 +42,16 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 3,
-      "orders": 6,
-      "completed": 13680,
+      "leads": 6,
+      "orders": 10,
+      "completed": 24400,
       "target": 300000,
-      "rate": 4.56,
-      "conversionRate": 200.0,
+      "rate": 8.13,
+      "conversionRate": 166.7,
       "regular": {
-        "completed": 11000,
+        "completed": 21720,
         "target": 185698,
-        "orders_completed": 5
+        "orders_completed": 9
       },
       "live": {
         "completed": 2680,
@@ -86,7 +86,12 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵视频号",
-        "amount": 6440,
+        "amount": 9120,
+        "orders": 4
+      },
+      {
+        "name": "古法身韵抖音",
+        "amount": 8040,
         "orders": 3
       },
       {
@@ -123,6 +128,24 @@ const DASHBOARD_DATA = {
       "total": 4160,
       "live": 0,
       "regular": 4160,
+      "live_orders": 0,
+      "regular_orders": 2,
+      "total_orders": 2
+    },
+    {
+      "date": "10/03",
+      "total": 5360,
+      "live": 0,
+      "regular": 5360,
+      "live_orders": 0,
+      "regular_orders": 2,
+      "total_orders": 2
+    },
+    {
+      "date": "10/04",
+      "total": 5360,
+      "live": 0,
+      "regular": 5360,
       "live_orders": 0,
       "regular_orders": 2,
       "total_orders": 2
