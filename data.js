@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-10-08T10:09:23.375714+08:00",
+  "lastUpdated": "2026-10-08T17:53:17.126590+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,14 +7,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 55340,
-    "totalRate": 9.22,
-    "regularCompleted": 52660,
+    "totalCompleted": 56620,
+    "totalRate": 9.44,
+    "regularCompleted": 53940,
     "liveCompleted": 2680,
     "liveOrdersCompleted": 1,
     "leadsCompleted": 9,
-    "totalOrders": 23,
-    "avgOrderValue": 2406,
+    "totalOrders": 24,
+    "avgOrderValue": 2359,
     "leadsTarget": 1010
   },
   "team": [
@@ -43,15 +43,15 @@ const DASHBOARD_DATA = {
       "name": "武艳阳",
       "avatar": "💃",
       "leads": 9,
-      "orders": 23,
-      "completed": 55340,
+      "orders": 24,
+      "completed": 56620,
       "target": 300000,
-      "rate": 18.45,
-      "conversionRate": 255.6,
+      "rate": 18.87,
+      "conversionRate": 266.7,
       "regular": {
-        "completed": 52660,
+        "completed": 53940,
         "target": 185698,
-        "orders_completed": 22
+        "orders_completed": 23
       },
       "live": {
         "completed": 2680,
@@ -96,8 +96,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵抖音",
-        "amount": 11320,
-        "orders": 5
+        "amount": 12600,
+        "orders": 6
       },
       {
         "name": "张涵之抖音",
@@ -186,6 +186,15 @@ const DASHBOARD_DATA = {
       "live_orders": 0,
       "regular_orders": 2,
       "total_orders": 2
+    },
+    {
+      "date": "10/08",
+      "total": 1280,
+      "live": 0,
+      "regular": 1280,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
     }
   ]
 };
