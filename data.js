@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-10-13T17:52:51.656238+08:00",
+  "lastUpdated": "2026-10-14T17:53:57.814491+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,14 +7,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 112500,
-    "totalRate": 18.75,
-    "regularCompleted": 91060,
+    "totalCompleted": 122820,
+    "totalRate": 20.47,
+    "regularCompleted": 101380,
     "liveCompleted": 21440,
     "liveOrdersCompleted": 8,
-    "leadsCompleted": 25,
-    "totalOrders": 45,
-    "avgOrderValue": 2500,
+    "leadsCompleted": 28,
+    "totalOrders": 49,
+    "avgOrderValue": 2506,
     "leadsTarget": 1010
   },
   "team": [
@@ -42,16 +42,16 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 25,
-      "orders": 44,
-      "completed": 109820,
+      "leads": 28,
+      "orders": 48,
+      "completed": 120140,
       "target": 300000,
-      "rate": 36.61,
-      "conversionRate": 176.0,
+      "rate": 40.05,
+      "conversionRate": 171.4,
       "regular": {
-        "completed": 91060,
+        "completed": 101380,
         "target": 185698,
-        "orders_completed": 37
+        "orders_completed": 41
       },
       "live": {
         "completed": 18760,
@@ -85,19 +85,19 @@ const DASHBOARD_DATA = {
   "channels": {
     "regular": [
       {
-        "name": "张涵之小红书",
-        "amount": 24400,
-        "orders": 10
-      },
-      {
         "name": "古法身韵抖音",
-        "amount": 23320,
-        "orders": 10
+        "amount": 28280,
+        "orders": 12
       },
       {
         "name": "古法身韵视频号",
-        "amount": 22120,
-        "orders": 8
+        "amount": 24800,
+        "orders": 9
+      },
+      {
+        "name": "张涵之小红书",
+        "amount": 24400,
+        "orders": 10
       },
       {
         "name": "古法身韵小红书",
@@ -105,14 +105,14 @@ const DASHBOARD_DATA = {
         "orders": 3
       },
       {
-        "name": "张涵之抖音",
-        "amount": 6340,
+        "name": "转介绍",
+        "amount": 7640,
         "orders": 3
       },
       {
-        "name": "转介绍",
-        "amount": 4960,
-        "orders": 2
+        "name": "张涵之抖音",
+        "amount": 6340,
+        "orders": 3
       },
       {
         "name": "张涵之视频号",
@@ -249,12 +249,21 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "10/13",
-      "total": 5360,
+      "total": 7640,
       "live": 0,
-      "regular": 5360,
+      "regular": 7640,
       "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
+      "regular_orders": 3,
+      "total_orders": 3
+    },
+    {
+      "date": "10/14",
+      "total": 8040,
+      "live": 0,
+      "regular": 8040,
+      "live_orders": 0,
+      "regular_orders": 3,
+      "total_orders": 3
     }
   ]
 };
