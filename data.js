@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-10-14T17:53:57.814491+08:00",
+  "lastUpdated": "2026-10-15T17:53:23.805442+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -7,14 +7,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 122820,
-    "totalRate": 20.47,
-    "regularCompleted": 101380,
+    "totalCompleted": 125500,
+    "totalRate": 20.92,
+    "regularCompleted": 104060,
     "liveCompleted": 21440,
     "liveOrdersCompleted": 8,
-    "leadsCompleted": 28,
-    "totalOrders": 49,
-    "avgOrderValue": 2506,
+    "leadsCompleted": 29,
+    "totalOrders": 50,
+    "avgOrderValue": 2510,
     "leadsTarget": 1010
   },
   "team": [
@@ -42,16 +42,16 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 28,
-      "orders": 48,
-      "completed": 120140,
+      "leads": 29,
+      "orders": 49,
+      "completed": 122820,
       "target": 300000,
-      "rate": 40.05,
-      "conversionRate": 171.4,
+      "rate": 40.94,
+      "conversionRate": 169.0,
       "regular": {
-        "completed": 101380,
+        "completed": 104060,
         "target": 185698,
-        "orders_completed": 41
+        "orders_completed": 42
       },
       "live": {
         "completed": 18760,
@@ -91,8 +91,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵视频号",
-        "amount": 24800,
-        "orders": 9
+        "amount": 27480,
+        "orders": 10
       },
       {
         "name": "张涵之小红书",
@@ -264,6 +264,15 @@ const DASHBOARD_DATA = {
       "live_orders": 0,
       "regular_orders": 3,
       "total_orders": 3
+    },
+    {
+      "date": "10/15",
+      "total": 2680,
+      "live": 0,
+      "regular": 2680,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
     }
   ]
 };
