@@ -446,6 +446,10 @@ body {
   background: var(--alert, #f59e0b);
 }
 
+.team-avatar.lr {
+  background: var(--success-alt, #10b981);
+}
+
 .team-info {
   flex: 1;
 }
