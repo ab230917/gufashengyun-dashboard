@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-10-21T17:46:07.150101+08:00",
+  "lastUpdated": "2026-10-21T17:46:50.194947+08:00",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -73,6 +73,27 @@ const DASHBOARD_DATA = {
         "completed": 0,
         "target": 0,
         "orders_completed": 0
+      },
+      "live": {
+        "completed": 0,
+        "target": 0,
+        "orders_completed": 0,
+        "orders_target": 0
+      }
+    },
+    {
+      "name": "刘蓉",
+      "avatar": "🌷",
+      "leads": 0,
+      "orders": 1,
+      "completed": 2280,
+      "target": 0,
+      "rate": 0,
+      "conversionRate": 0.0,
+      "regular": {
+        "completed": 2280,
+        "target": 0,
+        "orders_completed": 1
       },
       "live": {
         "completed": 0,
