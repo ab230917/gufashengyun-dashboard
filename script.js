@@ -98,8 +98,9 @@
     teamData.forEach((member, index) => {
       const isYe = member.name.includes('叶');
       const isWu = member.name.includes('武');
+      const isLr = member.name.includes('刘');
       const hasTarget = (member.target > 0);
-      const avatarClass = isYe ? 'ye' : (isWu ? 'wu' : 'zh');
+      const avatarClass = isYe ? 'ye' : (isWu ? 'wu' : (isLr ? 'lr' : 'zh'));
       const fillClass = avatarClass;
 
       // 计算各部分完成率
