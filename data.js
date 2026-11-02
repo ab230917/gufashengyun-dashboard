@@ -1,6 +1,6 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-01T17:54:03.402926+08:00",
-  "month": "2026-10",
+  "lastUpdated": "2026-11-02T12:04:26.132962+08:00",
+  "month": "2026-11",
   "targets": {
     "total": 600000,
     "regular": 371396,
@@ -8,56 +8,56 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 267760,
-    "totalRate": 44.63,
-    "regularCompleted": 232920,
-    "liveCompleted": 34840,
-    "liveOrdersCompleted": 13,
-    "leadsCompleted": 264,
-    "totalOrders": 106,
-    "avgOrderValue": 2526,
+    "totalCompleted": 10720,
+    "totalRate": 1.79,
+    "regularCompleted": 2680,
+    "liveCompleted": 8040,
+    "liveOrdersCompleted": 3,
+    "leadsCompleted": 3,
+    "totalOrders": 4,
+    "avgOrderValue": 2680,
     "leadsTarget": 1010
   },
   "team": [
     {
       "name": "叶小鲲",
       "avatar": "🥋",
-      "leads": 1,
-      "orders": 3,
-      "completed": 6360,
+      "leads": 0,
+      "orders": 0,
+      "completed": 0,
       "target": 300000,
-      "rate": 2.12,
-      "conversionRate": 300.0,
+      "rate": 0.0,
+      "conversionRate": 0.0,
       "regular": {
-        "completed": 3680,
+        "completed": 0,
         "target": 185698,
-        "orders_completed": 2
+        "orders_completed": 0
       },
       "live": {
-        "completed": 2680,
+        "completed": 0,
         "target": 114000,
-        "orders_completed": 1,
+        "orders_completed": 0,
         "orders_target": 50
       }
     },
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 263,
-      "orders": 102,
-      "completed": 259120,
+      "leads": 3,
+      "orders": 4,
+      "completed": 10720,
       "target": 300000,
-      "rate": 86.37,
-      "conversionRate": 38.8,
+      "rate": 3.57,
+      "conversionRate": 133.3,
       "regular": {
-        "completed": 226960,
+        "completed": 2680,
         "target": 185698,
-        "orders_completed": 90
+        "orders_completed": 1
       },
       "live": {
-        "completed": 32160,
+        "completed": 8040,
         "target": 114000,
-        "orders_completed": 12,
+        "orders_completed": 3,
         "orders_target": 50
       }
     },
@@ -86,15 +86,15 @@ const DASHBOARD_DATA = {
       "name": "刘蓉",
       "avatar": "🌷",
       "leads": 0,
-      "orders": 1,
-      "completed": 2280,
+      "orders": 0,
+      "completed": 0,
       "target": 0,
       "rate": 0,
       "conversionRate": 0.0,
       "regular": {
-        "completed": 2280,
+        "completed": 0,
         "target": 0,
-        "orders_completed": 1
+        "orders_completed": 0
       },
       "live": {
         "completed": 0,
@@ -107,57 +107,12 @@ const DASHBOARD_DATA = {
   "channels": {
     "regular": [
       {
-        "name": "古法身韵抖音",
-        "amount": 93480,
-        "orders": 38
-      },
-      {
         "name": "古法身韵视频号",
-        "amount": 45840,
-        "orders": 17
-      },
-      {
-        "name": "张涵之小红书",
-        "amount": 39580,
-        "orders": 16
-      },
-      {
-        "name": "古法身韵小红书",
-        "amount": 24120,
-        "orders": 9
-      },
-      {
-        "name": "转介绍",
-        "amount": 14880,
-        "orders": 6
-      },
-      {
-        "name": "张涵之抖音",
-        "amount": 9020,
-        "orders": 4
-      },
-      {
-        "name": "线上会员",
-        "amount": 2280,
-        "orders": 1
-      },
-      {
-        "name": "张涵之视频号",
-        "amount": 1880,
-        "orders": 1
-      },
-      {
-        "name": "陈九舞抖音",
-        "amount": 1840,
+        "amount": 2680,
         "orders": 1
       }
     ],
     "live": [
-      {
-        "name": "古法身韵抖音口播",
-        "amount": 21440,
-        "orders": 8
-      },
       {
         "name": "张涵之抖音口播",
         "amount": 5360,
@@ -165,11 +120,6 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "张涵之视频号口播",
-        "amount": 5360,
-        "orders": 2
-      },
-      {
-        "name": "古法身韵视频号口播",
         "amount": 2680,
         "orders": 1
       }
@@ -177,274 +127,13 @@ const DASHBOARD_DATA = {
   },
   "dailyTrend": [
     {
-      "date": "10/01",
-      "total": 9520,
-      "live": 2680,
-      "regular": 6840,
-      "live_orders": 1,
-      "regular_orders": 3,
-      "total_orders": 4
-    },
-    {
-      "date": "10/02",
-      "total": 4160,
-      "live": 0,
-      "regular": 4160,
-      "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
-    },
-    {
-      "date": "10/03",
-      "total": 5360,
-      "live": 0,
-      "regular": 5360,
-      "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
-    },
-    {
-      "date": "10/04",
-      "total": 5360,
-      "live": 0,
-      "regular": 5360,
-      "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
-    },
-    {
-      "date": "10/05",
-      "total": 5940,
-      "live": 0,
-      "regular": 5940,
-      "live_orders": 0,
-      "regular_orders": 3,
-      "total_orders": 3
-    },
-    {
-      "date": "10/06",
-      "total": 17360,
-      "live": 0,
-      "regular": 17360,
-      "live_orders": 0,
-      "regular_orders": 8,
-      "total_orders": 8
-    },
-    {
-      "date": "10/07",
-      "total": 7640,
-      "live": 0,
-      "regular": 7640,
-      "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
-    },
-    {
-      "date": "10/08",
-      "total": 1280,
-      "live": 0,
-      "regular": 1280,
-      "live_orders": 0,
-      "regular_orders": 1,
-      "total_orders": 1
-    },
-    {
-      "date": "10/09",
-      "total": 13000,
-      "live": 0,
-      "regular": 13000,
-      "live_orders": 0,
-      "regular_orders": 5,
-      "total_orders": 5
-    },
-    {
-      "date": "10/10",
-      "total": 16080,
-      "live": 10720,
-      "regular": 5360,
-      "live_orders": 4,
-      "regular_orders": 2,
-      "total_orders": 6
-    },
-    {
-      "date": "10/11",
-      "total": 13400,
-      "live": 2680,
-      "regular": 10720,
-      "live_orders": 1,
-      "regular_orders": 4,
-      "total_orders": 5
-    },
-    {
-      "date": "10/12",
-      "total": 8040,
-      "live": 5360,
+      "date": "11/01",
+      "total": 10720,
+      "live": 8040,
       "regular": 2680,
-      "live_orders": 2,
+      "live_orders": 3,
       "regular_orders": 1,
-      "total_orders": 3
-    },
-    {
-      "date": "10/13",
-      "total": 7640,
-      "live": 0,
-      "regular": 7640,
-      "live_orders": 0,
-      "regular_orders": 3,
-      "total_orders": 3
-    },
-    {
-      "date": "10/14",
-      "total": 8040,
-      "live": 0,
-      "regular": 8040,
-      "live_orders": 0,
-      "regular_orders": 3,
-      "total_orders": 3
-    },
-    {
-      "date": "10/15",
-      "total": 8040,
-      "live": 0,
-      "regular": 8040,
-      "live_orders": 0,
-      "regular_orders": 3,
-      "total_orders": 3
-    },
-    {
-      "date": "10/16",
-      "total": 10020,
-      "live": 2680,
-      "regular": 7340,
-      "live_orders": 1,
-      "regular_orders": 3,
       "total_orders": 4
-    },
-    {
-      "date": "10/17",
-      "total": 18760,
-      "live": 2680,
-      "regular": 16080,
-      "live_orders": 1,
-      "regular_orders": 6,
-      "total_orders": 7
-    },
-    {
-      "date": "10/18",
-      "total": 13400,
-      "live": 2680,
-      "regular": 10720,
-      "live_orders": 1,
-      "regular_orders": 4,
-      "total_orders": 5
-    },
-    {
-      "date": "10/19",
-      "total": 19360,
-      "live": 2680,
-      "regular": 16680,
-      "live_orders": 1,
-      "regular_orders": 7,
-      "total_orders": 8
-    },
-    {
-      "date": "10/20",
-      "total": 2680,
-      "live": 0,
-      "regular": 2680,
-      "live_orders": 0,
-      "regular_orders": 1,
-      "total_orders": 1
-    },
-    {
-      "date": "10/21",
-      "total": 5360,
-      "live": 0,
-      "regular": 5360,
-      "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
-    },
-    {
-      "date": "10/22",
-      "total": 8040,
-      "live": 2680,
-      "regular": 5360,
-      "live_orders": 1,
-      "regular_orders": 2,
-      "total_orders": 3
-    },
-    {
-      "date": "10/23",
-      "total": 13000,
-      "live": 0,
-      "regular": 13000,
-      "live_orders": 0,
-      "regular_orders": 5,
-      "total_orders": 5
-    },
-    {
-      "date": "10/25",
-      "total": 5940,
-      "live": 0,
-      "regular": 5940,
-      "live_orders": 0,
-      "regular_orders": 3,
-      "total_orders": 3
-    },
-    {
-      "date": "10/26",
-      "total": 12600,
-      "live": 0,
-      "regular": 12600,
-      "live_orders": 0,
-      "regular_orders": 5,
-      "total_orders": 5
-    },
-    {
-      "date": "10/27",
-      "total": 8040,
-      "live": 0,
-      "regular": 8040,
-      "live_orders": 0,
-      "regular_orders": 3,
-      "total_orders": 3
-    },
-    {
-      "date": "10/28",
-      "total": 5360,
-      "live": 0,
-      "regular": 5360,
-      "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
-    },
-    {
-      "date": "10/29",
-      "total": 3620,
-      "live": 0,
-      "regular": 3620,
-      "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
-    },
-    {
-      "date": "10/30",
-      "total": 5360,
-      "live": 0,
-      "regular": 5360,
-      "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
-    },
-    {
-      "date": "10/31",
-      "total": 5360,
-      "live": 0,
-      "regular": 5360,
-      "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
     }
   ]
 };
