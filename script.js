@@ -30,6 +30,15 @@
   function renderDashboard(data) {
     if (!data) return;
 
+    // 月份跟随数据自动切换（跨月无需手工改页面）
+    var _mm = data.month ? parseInt(String(data.month).split('-')[1], 10) : (new Date().getMonth() + 1);
+    if (!_mm || isNaN(_mm)) _mm = new Date().getMonth() + 1;
+    var _bt = document.getElementById('brandTitle');
+    if (_bt) _bt.textContent = '古法身韵 · ' + _mm + '月销售目标看板';
+    document.title = '古法身韵 · ' + _mm + '月销售目标看板';
+    var _bs = document.getElementById('brandSub');
+    if (_bs) _bs.textContent = '数据实时更新 · 目标 ¥60万';
+
     // 更新时间
     const updateTime = new Date(data.lastUpdated);
     const timeStr = updateTime.getFullYear() + '年' + 
