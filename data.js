@@ -1,5 +1,9 @@
+// 古法身韵11月销售目标看板 - 数据文件
+// 此文件由日程任务自动生成，请勿手动修改
+// 最后更新: 2026-11-04 17:56
+
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-03T17:53:32.449391+08:00",
+  "lastUpdated": "2026-11-04T17:56:03.481843+08:00",
   "month": "2026-11",
   "targets": {
     "total": 600000,
@@ -8,14 +12,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 29080,
-    "totalRate": 4.85,
-    "regularCompleted": 15680,
-    "liveCompleted": 13400,
-    "liveOrdersCompleted": 5,
-    "leadsCompleted": 6,
-    "totalOrders": 11,
-    "avgOrderValue": 2643,
+    "totalCompleted": 45160,
+    "totalRate": 7.53,
+    "regularCompleted": 29080,
+    "liveCompleted": 16080,
+    "liveOrdersCompleted": 6,
+    "leadsCompleted": 12,
+    "totalOrders": 17,
+    "avgOrderValue": 2656,
     "leadsTarget": 1010
   },
   "team": [
@@ -43,21 +47,21 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 6,
-      "orders": 11,
-      "completed": 29080,
+      "leads": 12,
+      "orders": 17,
+      "completed": 45160,
       "target": 300000,
-      "rate": 9.69,
-      "conversionRate": 183.3,
+      "rate": 15.05,
+      "conversionRate": 141.7,
       "regular": {
-        "completed": 15680,
+        "completed": 29080,
         "target": 185698,
-        "orders_completed": 6
+        "orders_completed": 11
       },
       "live": {
-        "completed": 13400,
+        "completed": 16080,
         "target": 114000,
-        "orders_completed": 5,
+        "orders_completed": 6,
         "orders_target": 50
       }
     },
@@ -79,7 +83,7 @@ const DASHBOARD_DATA = {
         "completed": 0,
         "target": 0,
         "orders_completed": 0,
-        "orders_target": 0
+        "orders_target": 50
       }
     },
     {
@@ -100,7 +104,7 @@ const DASHBOARD_DATA = {
         "completed": 0,
         "target": 0,
         "orders_completed": 0,
-        "orders_target": 0
+        "orders_target": 50
       }
     }
   ],
@@ -108,13 +112,13 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵视频号",
-        "amount": 8040,
-        "orders": 3
+        "amount": 13400,
+        "orders": 5
       },
       {
         "name": "古法身韵抖音",
-        "amount": 5360,
-        "orders": 2
+        "amount": 13400,
+        "orders": 5
       },
       {
         "name": "张涵之小红书",
@@ -125,8 +129,8 @@ const DASHBOARD_DATA = {
     "live": [
       {
         "name": "张涵之视频号口播",
-        "amount": 8040,
-        "orders": 3
+        "amount": 10720,
+        "orders": 4
       },
       {
         "name": "张涵之抖音口播",
@@ -156,9 +160,18 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "11/03",
-      "total": 10320,
+      "total": 15680,
+      "live": 2680,
+      "regular": 13000,
+      "live_orders": 1,
+      "regular_orders": 5,
+      "total_orders": 6
+    },
+    {
+      "date": "11/04",
+      "total": 10720,
       "live": 0,
-      "regular": 10320,
+      "regular": 10720,
       "live_orders": 0,
       "regular_orders": 4,
       "total_orders": 4
