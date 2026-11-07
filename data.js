@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-06T17:53:43.039763+08:00",
+  "lastUpdated": "2026-11-07T17:52:55.649137+08:00",
   "month": "2026-11",
   "targets": {
     "total": 600000,
