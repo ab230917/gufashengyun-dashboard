@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-12T17:54:16.660089+08:00",
+  "lastUpdated": "2026-11-13T17:53:29.200950+08:00",
   "month": "2026-11",
   "targets": {
     "total": 600000,
@@ -8,13 +8,13 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 193120,
-    "totalRate": 32.19,
-    "regularCompleted": 163640,
+    "totalCompleted": 195800,
+    "totalRate": 32.63,
+    "regularCompleted": 166320,
     "liveCompleted": 29480,
     "liveOrdersCompleted": 11,
     "leadsCompleted": 53,
-    "totalOrders": 72,
+    "totalOrders": 73,
     "avgOrderValue": 2682,
     "leadsTarget": 1010
   },
@@ -23,15 +23,15 @@ const DASHBOARD_DATA = {
       "name": "叶小鲲",
       "avatar": "🥋",
       "leads": 6,
-      "orders": 12,
-      "completed": 28780,
+      "orders": 13,
+      "completed": 31460,
       "target": 300000,
-      "rate": 9.59,
-      "conversionRate": 200.0,
+      "rate": 10.49,
+      "conversionRate": 216.7,
       "regular": {
-        "completed": 28780,
+        "completed": 31460,
         "target": 185698,
-        "orders_completed": 12
+        "orders_completed": 13
       },
       "live": {
         "completed": 0,
@@ -113,8 +113,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵抖音",
-        "amount": 57460,
-        "orders": 22
+        "amount": 60140,
+        "orders": 23
       },
       {
         "name": "古法身韵小红书",
@@ -268,6 +268,15 @@ const DASHBOARD_DATA = {
       "live_orders": 0,
       "regular_orders": 2,
       "total_orders": 2
+    },
+    {
+      "date": "11/13",
+      "total": 2680,
+      "live": 0,
+      "regular": 2680,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
     }
   ]
 };
