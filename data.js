@@ -1,5 +1,5 @@
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-19T17:52:50.477448+08:00",
+  "lastUpdated": "2026-11-20T17:53:10.789467+08:00",
   "month": "2026-11",
   "targets": {
     "total": 600000,
@@ -8,13 +8,13 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 243940,
-    "totalRate": 40.66,
-    "regularCompleted": 206420,
-    "liveCompleted": 37520,
-    "liveOrdersCompleted": 14,
-    "leadsCompleted": 68,
-    "totalOrders": 91,
+    "totalCompleted": 251980,
+    "totalRate": 42.0,
+    "regularCompleted": 211780,
+    "liveCompleted": 40200,
+    "liveOrdersCompleted": 15,
+    "leadsCompleted": 69,
+    "totalOrders": 94,
     "avgOrderValue": 2680,
     "leadsTarget": 1010
   },
@@ -23,15 +23,15 @@ const DASHBOARD_DATA = {
       "name": "叶小鲲",
       "avatar": "🥋",
       "leads": 9,
-      "orders": 17,
-      "completed": 42080,
+      "orders": 18,
+      "completed": 44760,
       "target": 300000,
-      "rate": 14.03,
-      "conversionRate": 188.9,
+      "rate": 14.92,
+      "conversionRate": 200.0,
       "regular": {
-        "completed": 42080,
+        "completed": 44760,
         "target": 185698,
-        "orders_completed": 17
+        "orders_completed": 18
       },
       "live": {
         "completed": 0,
@@ -43,21 +43,21 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 59,
-      "orders": 74,
-      "completed": 201860,
+      "leads": 60,
+      "orders": 76,
+      "completed": 207220,
       "target": 300000,
-      "rate": 67.29,
-      "conversionRate": 125.4,
+      "rate": 69.07,
+      "conversionRate": 126.7,
       "regular": {
-        "completed": 164340,
+        "completed": 167020,
         "target": 185698,
-        "orders_completed": 60
+        "orders_completed": 61
       },
       "live": {
-        "completed": 37520,
+        "completed": 40200,
         "target": 114000,
-        "orders_completed": 14,
+        "orders_completed": 15,
         "orders_target": 50
       }
     },
@@ -108,8 +108,8 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵视频号",
-        "amount": 76920,
-        "orders": 27
+        "amount": 79600,
+        "orders": 28
       },
       {
         "name": "古法身韵抖音",
@@ -118,8 +118,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵小红书",
-        "amount": 26800,
-        "orders": 10
+        "amount": 29480,
+        "orders": 11
       },
       {
         "name": "张涵之小红书",
@@ -150,8 +150,8 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "张涵之抖音口播",
-        "amount": 8040,
-        "orders": 3
+        "amount": 10720,
+        "orders": 4
       },
       {
         "name": "古法身韵视频号口播",
@@ -330,12 +330,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "11/19",
-      "total": 13400,
-      "live": 8040,
-      "regular": 5360,
-      "live_orders": 3,
-      "regular_orders": 2,
-      "total_orders": 5
+      "total": 21440,
+      "live": 10720,
+      "regular": 10720,
+      "live_orders": 4,
+      "regular_orders": 4,
+      "total_orders": 8
     }
   ]
 };
