@@ -1,5 +1,8 @@
+// 舞号门羽行韵销售目标看板 - 数据文件
+// 此文件由飞书多维表格数据自动生成，请勿手动修改
+
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-24T17:55:02.134382+08:00",
+  "lastUpdated": "2026-11-25T10:34:50.629937+08:00",
   "month": "2026-11",
   "targets": {
     "total": 600000,
@@ -8,13 +11,13 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 308560,
-    "totalRate": 51.43,
+    "totalCompleted": 311240,
+    "totalRate": 51.87,
     "regularCompleted": 260320,
     "liveCompleted": 48240,
     "liveOrdersCompleted": 18,
     "leadsCompleted": 85,
-    "totalOrders": 116,
+    "totalOrders": 117,
     "avgOrderValue": 2660,
     "leadsTarget": 1010
   },
@@ -23,15 +26,15 @@ const DASHBOARD_DATA = {
       "name": "叶小鲲",
       "avatar": "🥋",
       "leads": 11,
-      "orders": 21,
-      "completed": 52800,
+      "orders": 22,
+      "completed": 55480,
       "target": 300000,
-      "rate": 17.6,
-      "conversionRate": 190.9,
+      "rate": 18.49,
+      "conversionRate": 200.0,
       "regular": {
-        "completed": 52800,
+        "completed": 55480,
         "target": 185698,
-        "orders_completed": 21
+        "orders_completed": 22
       },
       "live": {
         "completed": 0,
@@ -108,8 +111,8 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵视频号",
-        "amount": 102040,
-        "orders": 36
+        "amount": 104720,
+        "orders": 37
       },
       {
         "name": "古法身韵抖音",
@@ -391,6 +394,15 @@ const DASHBOARD_DATA = {
       "live_orders": 0,
       "regular_orders": 2,
       "total_orders": 2
+    },
+    {
+      "date": "11/25",
+      "total": 2680,
+      "live": 0,
+      "regular": 2680,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
     }
   ]
 };
