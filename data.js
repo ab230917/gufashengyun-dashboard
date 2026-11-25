@@ -2,7 +2,7 @@
 // 此文件由飞书多维表格数据自动生成，请勿手动修改
 
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-25T15:10:26+08:00",
+  "lastUpdated": "2026-11-25T16:19:26+08:00",
   "month": "2026-11",
   "targets": {
     "total": 600000,
@@ -16,7 +16,7 @@ const DASHBOARD_DATA = {
     "regularCompleted": 265680,
     "liveCompleted": 48240,
     "liveOrdersCompleted": 18,
-    "leadsCompleted": 85,
+    "leadsCompleted": 86,
     "totalOrders": 118,
     "avgOrderValue": 2660,
     "leadsTarget": 1010
@@ -46,12 +46,12 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 74,
+      "leads": 75,
       "orders": 96,
       "completed": 258440,
       "target": 300000,
       "rate": 86.15,
-      "conversionRate": 129.73,
+      "conversionRate": 128.0,
       "regular": {
         "completed": 210200,
         "target": 185698,
