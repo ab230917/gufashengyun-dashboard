@@ -1,10 +1,18 @@
 /**
- * 古法身韵 · 7月销售目标看板
+ * 舞号门羽行韵 · 销售目标看板
  * 前端逻辑
+ *
+ * 数据加载说明：
+ * - 线上（http/https）：通过 fetch + no-store 动态加载 data.js，绕过 GitHub Pages 缓存
+ * - 本地（file:// 双击打开）：fetch 不可用，自动降级为传统 <script> 标签加载
+ * - 每 10 分钟自动静默刷新一次；右上角可手动刷新
  */
 
 (function() {
   'use strict';
+
+  var AUTO_REFRESH_MINUTES = 10;
+  var _autoTimer = null;
 
   // ============ 工具函数 ============
   function formatCurrency(amount) {
@@ -26,6 +34,62 @@
     return month + '月' + day + '日';
   }
 
+  // ============ 数据加载（防缓存） ============
+  function fetchData() {
+    var url = 'data.js?ts=' + Date.now();
+    return fetch(url, { cache: 'no-store' })
+      .then(function(res) {
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        return res.text();
+      })
+      .then(function(text) {
+        var data = new Function(text + '\n;return typeof DASHBOARD_DATA !== "undefined" ? DASHBOARD_DATA : null;')();
+        if (!data) throw new Error('DASHBOARD_DATA 为空');
+        return data;
+      });
+  }
+
+  // file:// 环境降级：传统 script 标签
+  function loadDataViaScriptTag() {
+    return new Promise(function(resolve, reject) {
+      var s = document.createElement('script');
+      s.src = 'data.js';
+      s.onload = function() {
+        if (typeof window.DASHBOARD_DATA !== 'undefined' && window.DASHBOARD_DATA) {
+          resolve(window.DASHBOARD_DATA);
+        } else {
+          reject(new Error('DASHBOARD_DATA 未定义'));
+        }
+      };
+      s.onerror = function() { reject(new Error('data.js 加载失败')); };
+      document.body.appendChild(s);
+    });
+  }
+
+  function loadData() {
+    if (location.protocol === 'file:') {
+      return loadDataViaScriptTag();
+    }
+    return fetchData().catch(function() {
+      return loadDataViaScriptTag();
+    });
+  }
+
+  // 相对时间：刚刚 / n分钟前 / n小时前 / 具体日期时间
+  function relativeTime(dateStr) {
+    var t = new Date(dateStr);
+    if (isNaN(t.getTime())) return '';
+    var diff = Date.now() - t.getTime();
+    var min = Math.floor(diff / 60000);
+    if (min < 1) return '刚刚';
+    if (min < 60) return min + ' 分钟前';
+    var hours = Math.floor(min / 60);
+    if (hours < 24) return hours + ' 小时前';
+    return (t.getMonth() + 1) + '月' + t.getDate() + '日 ' +
+      String(t.getHours()).padStart(2, '0') + ':' +
+      String(t.getMinutes()).padStart(2, '0');
+  }
+
   // ============ 数据渲染 ============
   function renderDashboard(data) {
     if (!data) return;
@@ -34,19 +98,22 @@
     var _mm = data.month ? parseInt(String(data.month).split('-')[1], 10) : (new Date().getMonth() + 1);
     if (!_mm || isNaN(_mm)) _mm = new Date().getMonth() + 1;
     var _bt = document.getElementById('brandTitle');
-    if (_bt) _bt.textContent = '古法身韵 · ' + _mm + '月销售目标看板';
-    document.title = '古法身韵 · ' + _mm + '月销售目标看板';
+    if (_bt) _bt.textContent = '舞号门羽行韵 · ' + _mm + '月销售目标看板';
+    document.title = '舞号门羽行韵 · ' + _mm + '月销售目标看板';
     var _bs = document.getElementById('brandSub');
     if (_bs) _bs.textContent = '数据实时更新 · 目标 ¥60万';
 
-    // 更新时间
+    // 更新时间：相对时间 + 悬停看完整时间
     const updateTime = new Date(data.lastUpdated);
-    const timeStr = updateTime.getFullYear() + '年' + 
-      (updateTime.getMonth() + 1) + '月' + 
-      updateTime.getDate() + '日 ' + 
-      String(updateTime.getHours()).padStart(2, '0') + ':' + 
-      String(updateTime.getMinutes()).padStart(2, '0');
-    document.getElementById('lastUpdate').textContent = '最后更新：' + timeStr;
+    var _badge = document.getElementById('lastUpdate');
+    if (_badge) {
+      _badge.textContent = '更新于 ' + relativeTime(data.lastUpdated);
+      if (!isNaN(updateTime.getTime())) {
+        _badge.title = '数据时间：' + updateTime.getFullYear() + '年' + (updateTime.getMonth() + 1) + '月' +
+          updateTime.getDate() + '日 ' + String(updateTime.getHours()).padStart(2, '0') + ':' +
+          String(updateTime.getMinutes()).padStart(2, '0');
+      }
+    }
 
     // Hero区域
     const targets = data.targets;
@@ -296,14 +363,57 @@
     });
   }
 
+  // ============ 刷新机制 ============
+  function boot(data) {
+    if (!data) {
+      fail();
+      return;
+    }
+    window.DASHBOARD_DATA = data;
+    renderDashboard(data);
+  }
+
+  function fail() {
+    var el = document.getElementById('lastUpdate');
+    if (el) el.textContent = '数据加载失败，请点击右上角刷新';
+  }
+
+  function refresh(silent) {
+    var btn = document.getElementById('refreshBtn');
+    if (btn) {
+      btn.disabled = true;
+      btn.classList.add('loading');
+    }
+    return loadData().then(function(data) {
+      boot(data);
+      return true;
+    }).catch(function() {
+      if (!silent) fail();
+      return false;
+    }).then(function() {
+      if (btn) {
+        btn.disabled = false;
+        btn.classList.remove('loading');
+      }
+    });
+  }
+
+  function startAutoRefresh() {
+    if (_autoTimer) clearInterval(_autoTimer);
+    _autoTimer = setInterval(function() {
+      refresh(true);
+    }, AUTO_REFRESH_MINUTES * 60 * 1000);
+  }
+
   // ============ 初始化 ============
   function init() {
-    if (typeof DASHBOARD_DATA !== 'undefined') {
-      renderDashboard(DASHBOARD_DATA);
-    } else {
-      console.error('DASHBOARD_DATA 未加载');
-      document.getElementById('lastUpdate').textContent = '数据加载失败';
+    var btn = document.getElementById('refreshBtn');
+    if (btn) {
+      btn.addEventListener('click', function() { refresh(false); });
     }
+    refresh(true).then(function() {
+      startAutoRefresh();
+    });
   }
 
   // DOM Ready

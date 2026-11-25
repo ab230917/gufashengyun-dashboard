@@ -1,115 +1,97 @@
-# 古法身韵 · 7月销售目标看板
+# 舞号门羽行韵 · 销售目标看板（前端源码）
 
-一个实时同步飞书多维表格数据的销售目标看板网页，部署在 GitHub Pages 上。
+纯静态看板，无需构建、无依赖，双击 index.html 即可本地打开查看。
 
-## 📊 功能特点
+## 数据加载与刷新
 
-- **实时数据同步**：每30分钟自动从飞书多维表格拉取最新数据
-- **目标追踪**：清晰展示团队总目标、个人目标、渠道目标的完成进度
-- **双轨业绩**：分别展示常规业绩和直播业绩
-- **每日趋势**：可视化每日成交金额变化
-- **响应式设计**：支持手机、平板、桌面设备访问
+- 线上通过 `fetch + no-store` 动态加载 `data.js`，自动绕过 GitHub Pages 缓存（修复了旧版固定版本号导致的一直“数据加载中”问题）
+- 本地双击打开（file://）时自动降级为传统 script 标签加载
+- 页面每 10 分钟自动静默刷新一次，右上角有手动「刷新数据」按钮
+- 右上角徽标显示相对更新时间（如“3 分钟前”），悬停可见完整数据时间
 
-## 🏗️ 项目结构
+## 文件说明
 
+| 文件 | 作用 |
+|---|---|
+| `index.html` | 页面结构（头部、总目标、双轨目标、团队卡片、渠道明细、趋势图容器） |
+| `style.css` | 全部样式（白底卡片风格、响应式、成员配色） |
+| `script.js` | 渲染逻辑 + 防缓存加载器 + 自动/手动刷新；标题月份跟随数据自动切换 |
+| `data.js` | 数据文件，唯一需要每日更新的文件（当前为 2026年11月数据） |
+
+## 数据更新方式
+
+只需替换 `data.js` 一个文件，页面自动重新渲染，无需改动其他文件。
+
+`data.js` 结构：
+
+```javascript
+const DASHBOARD_DATA = {
+  lastUpdated: "2026-11-24T17:55:00+08:00",  // 最后更新时间
+  month: "2026-11",                          // 统计月份，页面标题据此显示
+  targets: {
+    total: 600000,        // 总业绩目标
+    regular: 371396,      // 常规业绩目标
+    live: 228000,         // 直播业绩目标
+    liveOrders: 100       // 直播单数目标
+  },
+  summary: {
+    totalCompleted: 0,    // 累计业绩
+    totalRate: 0,         // 总完成率(%)
+    regularCompleted: 0,
+    liveCompleted: 0,
+    liveOrdersCompleted: 0,
+    leadsCompleted: 0,    // 留资总数
+    leadsTarget: 1010,    // 留资目标
+    totalOrders: 0,       // 总单数
+    avgOrderValue: 0      // 客单价
+  },
+  team: [                 // 团队成员卡片
+    {
+      name: "叶小鲲",
+      avatar: "🥋",
+      leads: 0,
+      orders: 0,
+      completed: 0,
+      target: 300000,     // 目标为 0 时不显示进度条，只显示业绩
+      rate: 0,
+      conversionRate: 0,
+      regular: { completed: 0, target: 185698, orders_completed: 0 },
+      live:    { completed: 0, target: 114000, orders_completed: 0, orders_target: 50 }
+    }
+  ],
+  channels: {             // 渠道明细
+    regular: [{ name: "古法身韵抖音", amount: 0, orders: 0 }],
+    live:    [{ name: "古法身韵抖音口播", amount: 0, orders: 0 }]
+  },
+  dailyTrend: [           // 每日走势
+    { date: "11/01", total: 0, live: 0, regular: 0,
+      live_orders: 0, regular_orders: 0, total_orders: 0 }
+  ]
+};
 ```
-├── index.html              # 前端页面
-├── style.css               # 样式文件
-├── script.js               # 前端逻辑
-├── data.js                 # 数据文件（自动生成）
-├── sync_data.py            # 数据同步脚本
-├── .github/
-│   └── workflows/
-│       └── sync.yml        # GitHub Actions 配置
-└── README.md               # 说明文档
-```
 
-## 🚀 部署步骤
+## 本地预览
 
-### 1. 创建 GitHub 仓库
+直接双击 `index.html`。若浏览器限制本地文件读取，可在该目录执行：
 
 ```bash
-# 在本地初始化仓库
-cd dashboard_project
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/ab230917/gufashengyun-dashboard.git
-git push -u origin main
-```
-
-### 2. 配置 GitHub Secrets
-
-在 GitHub 仓库的 `Settings → Secrets and variables → Actions` 中添加：
-
-| Secret 名称 | 说明 |
-|------------|------|
-| `FEISHU_APP_ID` | 飞书应用的 App ID |
-| `FEISHU_APP_SECRET` | 飞书应用的 App Secret |
-
-### 3. 启用 GitHub Pages
-
-1. 进入仓库的 `Settings → Pages`
-2. Source 选择 `Deploy from a branch`
-3. Branch 选择 `main`，目录选择 `/ (root)`
-4. 保存后等待部署完成
-
-### 4. 手动触发数据同步
-
-可以通过以下方式手动触发数据同步：
-- 在 GitHub 仓库的 `Actions` 页面，选择 `Sync Data from Feishu` workflow
-- 点击 `Run workflow` 按钮
-
-## 📈 数据源说明
-
-### 飞书多维表格
-
-- **Base Token**: `Zv4Gbp3TdaJwVDs9omEcN21xnEg`
-- **01_客户主表** (`tbl4pTcnUwsN819F`): 留咨数据
-  - 关键字段：首次留资时间、跟进人、来源账号
-- **04_成交订单表** (`tbl6X7rDL5c9MkcZ`): 业绩数据
-  - 关键字段：付款时间、实收金额、成交归属、来源账号
-
-### 7月目标
-
-| 指标 | 目标值 |
-|------|--------|
-| 总业绩 | ¥380,000 |
-| 常规业绩 | ¥185,000 |
-| 直播业绩 | ¥194,000 |
-| 留资数 | 1,010条 |
-| 直播单量 | 85单 |
-
-## 🔧 本地开发
-
-```bash
-# 安装依赖（无额外依赖，纯Python标准库）
-# 设置环境变量
-export FEISHU_APP_ID="your_app_id"
-export FEISHU_APP_SECRET="your_app_secret"
-
-# 运行同步脚本
-python3 sync_data.py
-
-# 本地预览（使用任意静态服务器）
 python3 -m http.server 8000
-# 访问 http://localhost:8000
 ```
 
-## 📋 团队成员
+然后访问 http://localhost:8000
 
-| 成员 | 目标 | 负责渠道 |
-|------|------|----------|
-| 叶小鲲 | ¥228,000 | 常规 + 直播 |
-| 武艳阳 | ¥152,000 | 常规 + 直播 |
+## 线上部署
 
-## ⚠️ 注意事项
+托管在 GitHub Pages：
 
-- 数据**不含师资班业绩**，师资班业绩统一计入8月核算
-- 同步频率：每30分钟自动同步一次
-- 飞书应用需要具有多维表格的读取权限
+- 线上地址：https://ab230917.github.io/gufashengyun-dashboard/
+- 源码仓库：https://github.com/ab230917/gufashengyun-dashboard
 
-## 📝 License
+更新方式：替换仓库中的 `data.js` 并提交，1–2 分钟后线上生效。
 
-Private - 古法身韵内部使用
+## 业务口径
+
+- 业绩统计：叶小鲲、武艳阳计入目标；张涵之、刘蓉仅统计业绩，不设目标、不留资
+- 课程范围：仅线上/线下/双报课程，剔除师资班、服装、住宿补差价
+- 退款：剔除退款订单（实收金额 ≤ 0）
+- 渠道划分：来源账号含"口播/直播"计入直播业绩，其余计入常规
