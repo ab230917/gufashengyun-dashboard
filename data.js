@@ -1,8 +1,5 @@
-// 舞号门羽行韵销售目标看板 - 数据文件
-// 此文件由飞书多维表格数据自动生成，请勿手动修改
-
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-25T16:19:26+08:00",
+  "lastUpdated": "2026-11-26T11:54:49.574308+08:00",
   "month": "2026-11",
   "targets": {
     "total": 600000,
@@ -11,13 +8,13 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 313920,
-    "totalRate": 52.32,
-    "regularCompleted": 265680,
+    "totalCompleted": 321960,
+    "totalRate": 53.66,
+    "regularCompleted": 273720,
     "liveCompleted": 48240,
     "liveOrdersCompleted": 18,
     "leadsCompleted": 86,
-    "totalOrders": 118,
+    "totalOrders": 121,
     "avgOrderValue": 2660,
     "leadsTarget": 1010
   },
@@ -26,15 +23,15 @@ const DASHBOARD_DATA = {
       "name": "叶小鲲",
       "avatar": "🥋",
       "leads": 11,
-      "orders": 22,
-      "completed": 55480,
+      "orders": 23,
+      "completed": 58160,
       "target": 300000,
-      "rate": 18.49,
-      "conversionRate": 200.0,
+      "rate": 19.39,
+      "conversionRate": 209.1,
       "regular": {
-        "completed": 55480,
+        "completed": 58160,
         "target": 185698,
-        "orders_completed": 22
+        "orders_completed": 23
       },
       "live": {
         "completed": 0,
@@ -47,15 +44,15 @@ const DASHBOARD_DATA = {
       "name": "武艳阳",
       "avatar": "💃",
       "leads": 75,
-      "orders": 96,
-      "completed": 258440,
+      "orders": 97,
+      "completed": 261120,
       "target": 300000,
-      "rate": 86.15,
-      "conversionRate": 128.0,
+      "rate": 87.04,
+      "conversionRate": 129.3,
       "regular": {
-        "completed": 210200,
+        "completed": 212880,
         "target": 185698,
-        "orders_completed": 78
+        "orders_completed": 79
       },
       "live": {
         "completed": 48240,
@@ -68,15 +65,15 @@ const DASHBOARD_DATA = {
       "name": "张涵之",
       "avatar": "🌼",
       "leads": 0,
-      "orders": 0,
-      "completed": 0,
+      "orders": 1,
+      "completed": 2680,
       "target": 0,
       "rate": 0,
       "conversionRate": 0.0,
       "regular": {
-        "completed": 0,
+        "completed": 2680,
         "target": 0,
-        "orders_completed": 0
+        "orders_completed": 1
       },
       "live": {
         "completed": 0,
@@ -133,6 +130,11 @@ const DASHBOARD_DATA = {
         "name": "转介绍",
         "amount": 11700,
         "orders": 5
+      },
+      {
+        "name": "陈九舞抖音",
+        "amount": 8040,
+        "orders": 3
       },
       {
         "name": "张涵之抖音",
@@ -397,12 +399,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "11/25",
-      "total": 5360,
+      "total": 13400,
       "live": 0,
-      "regular": 5360,
+      "regular": 13400,
       "live_orders": 0,
-      "regular_orders": 2,
-      "total_orders": 2
+      "regular_orders": 5,
+      "total_orders": 5
     }
   ]
 };
