@@ -1,5 +1,8 @@
+// 舞号门羽行韵销售目标看板 - 数据文件
+// 此文件由飞书多维表格数据自动生成，请勿手动修改
+
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-26T11:54:49.574308+08:00",
+  "lastUpdated": "2026-11-27T18:01:40+08:00",
   "month": "2026-11",
   "targets": {
     "total": 600000,
@@ -8,14 +11,14 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 321960,
-    "totalRate": 53.66,
-    "regularCompleted": 273720,
+    "totalCompleted": 337240,
+    "totalRate": 56.21,
+    "regularCompleted": 289000,
     "liveCompleted": 48240,
-    "liveOrdersCompleted": 18,
-    "leadsCompleted": 86,
-    "totalOrders": 121,
-    "avgOrderValue": 2660,
+    "liveOrdersCompleted": 17,
+    "leadsCompleted": 89,
+    "totalOrders": 126,
+    "avgOrderValue": 2676,
     "leadsTarget": 1010
   },
   "team": [
@@ -23,15 +26,15 @@ const DASHBOARD_DATA = {
       "name": "叶小鲲",
       "avatar": "🥋",
       "leads": 11,
-      "orders": 23,
-      "completed": 58160,
+      "orders": 24,
+      "completed": 60840,
       "target": 300000,
-      "rate": 19.39,
-      "conversionRate": 209.1,
+      "rate": 20.28,
+      "conversionRate": 218.18,
       "regular": {
-        "completed": 58160,
+        "completed": 60840,
         "target": 185698,
-        "orders_completed": 23
+        "orders_completed": 24
       },
       "live": {
         "completed": 0,
@@ -43,21 +46,21 @@ const DASHBOARD_DATA = {
     {
       "name": "武艳阳",
       "avatar": "💃",
-      "leads": 75,
-      "orders": 97,
-      "completed": 261120,
+      "leads": 78,
+      "orders": 102,
+      "completed": 276400,
       "target": 300000,
-      "rate": 87.04,
-      "conversionRate": 129.3,
+      "rate": 92.13,
+      "conversionRate": 130.77,
       "regular": {
-        "completed": 212880,
+        "completed": 228160,
         "target": 185698,
-        "orders_completed": 79
+        "orders_completed": 85
       },
       "live": {
         "completed": 48240,
         "target": 114000,
-        "orders_completed": 18,
+        "orders_completed": 17,
         "orders_target": 50
       }
     },
@@ -65,15 +68,15 @@ const DASHBOARD_DATA = {
       "name": "张涵之",
       "avatar": "🌼",
       "leads": 0,
-      "orders": 1,
-      "completed": 2680,
+      "orders": 0,
+      "completed": 0,
       "target": 0,
       "rate": 0,
       "conversionRate": 0.0,
       "regular": {
-        "completed": 2680,
+        "completed": 0,
         "target": 0,
-        "orders_completed": 1
+        "orders_completed": 0
       },
       "live": {
         "completed": 0,
@@ -108,8 +111,8 @@ const DASHBOARD_DATA = {
     "regular": [
       {
         "name": "古法身韵视频号",
-        "amount": 107400,
-        "orders": 38
+        "amount": 115440,
+        "orders": 41
       },
       {
         "name": "古法身韵抖音",
@@ -118,8 +121,13 @@ const DASHBOARD_DATA = {
       },
       {
         "name": "古法身韵小红书",
-        "amount": 34840,
-        "orders": 13
+        "amount": 37520,
+        "orders": 14
+      },
+      {
+        "name": "转介绍",
+        "amount": 14380,
+        "orders": 6
       },
       {
         "name": "张涵之小红书",
@@ -127,17 +135,17 @@ const DASHBOARD_DATA = {
         "orders": 5
       },
       {
-        "name": "转介绍",
-        "amount": 11700,
-        "orders": 5
-      },
-      {
-        "name": "陈九舞抖音",
-        "amount": 8040,
+        "name": "面转",
+        "amount": 6840,
         "orders": 3
       },
       {
         "name": "张涵之抖音",
+        "amount": 5360,
+        "orders": 2
+      },
+      {
+        "name": "陈九舞抖音",
         "amount": 5360,
         "orders": 2
       },
@@ -150,18 +158,13 @@ const DASHBOARD_DATA = {
         "name": "线上会员",
         "amount": 2280,
         "orders": 1
-      },
-      {
-        "name": "面转",
-        "amount": 2280,
-        "orders": 1
       }
     ],
     "live": [
       {
         "name": "张涵之视频号口播",
         "amount": 29480,
-        "orders": 11
+        "orders": 10
       },
       {
         "name": "张涵之抖音口播",
@@ -195,9 +198,9 @@ const DASHBOARD_DATA = {
       "total": 8040,
       "live": 5360,
       "regular": 2680,
-      "live_orders": 2,
+      "live_orders": 1,
       "regular_orders": 1,
-      "total_orders": 3
+      "total_orders": 2
     },
     {
       "date": "11/03",
@@ -237,30 +240,30 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "11/07",
-      "total": 24000,
+      "total": 26680,
       "live": 0,
-      "regular": 24000,
+      "regular": 26680,
       "live_orders": 0,
-      "regular_orders": 9,
-      "total_orders": 9
+      "regular_orders": 10,
+      "total_orders": 10
     },
     {
       "date": "11/08",
-      "total": 34440,
-      "live": 0,
+      "total": 37120,
+      "live": 2680,
       "regular": 34440,
-      "live_orders": 0,
+      "live_orders": 1,
       "regular_orders": 12,
-      "total_orders": 12
+      "total_orders": 13
     },
     {
       "date": "11/09",
-      "total": 24120,
-      "live": 5360,
+      "total": 21440,
+      "live": 2680,
       "regular": 18760,
-      "live_orders": 2,
+      "live_orders": 1,
       "regular_orders": 7,
-      "total_orders": 9
+      "total_orders": 8
     },
     {
       "date": "11/10",
@@ -273,12 +276,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "11/11",
-      "total": 13000,
+      "total": 10320,
       "live": 0,
-      "regular": 13000,
+      "regular": 10320,
       "live_orders": 0,
-      "regular_orders": 5,
-      "total_orders": 5
+      "regular_orders": 4,
+      "total_orders": 4
     },
     {
       "date": "11/12",
@@ -399,12 +402,30 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "11/25",
-      "total": 13400,
+      "total": 10720,
       "live": 0,
-      "regular": 13400,
+      "regular": 10720,
       "live_orders": 0,
-      "regular_orders": 5,
-      "total_orders": 5
+      "regular_orders": 4,
+      "total_orders": 4
+    },
+    {
+      "date": "11/26",
+      "total": 2680,
+      "live": 0,
+      "regular": 2680,
+      "live_orders": 0,
+      "regular_orders": 1,
+      "total_orders": 1
+    },
+    {
+      "date": "11/27",
+      "total": 15280,
+      "live": 0,
+      "regular": 15280,
+      "live_orders": 0,
+      "regular_orders": 6,
+      "total_orders": 6
     }
   ]
 };
