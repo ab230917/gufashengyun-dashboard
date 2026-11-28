@@ -1,8 +1,5 @@
-// 舞号门羽行韵销售目标看板 - 数据文件
-// 此文件由飞书多维表格数据自动生成，请勿手动修改
-
 const DASHBOARD_DATA = {
-  "lastUpdated": "2026-11-28T10:52:25+08:00",
+  "lastUpdated": "2026-11-28T10:54:31.227879+08:00",
   "month": "2026-11",
   "targets": {
     "total": 600000,
@@ -11,13 +8,13 @@ const DASHBOARD_DATA = {
     "liveOrders": 100
   },
   "summary": {
-    "totalCompleted": 339520,
-    "totalRate": 56.59,
-    "regularCompleted": 291280,
+    "totalCompleted": 342200,
+    "totalRate": 57.03,
+    "regularCompleted": 293960,
     "liveCompleted": 48240,
     "liveOrdersCompleted": 17,
     "leadsCompleted": 90,
-    "totalOrders": 127,
+    "totalOrders": 128,
     "avgOrderValue": 2673,
     "leadsTarget": 1010
   },
@@ -30,7 +27,7 @@ const DASHBOARD_DATA = {
       "completed": 60840,
       "target": 300000,
       "rate": 20.28,
-      "conversionRate": 218.18,
+      "conversionRate": 218.2,
       "regular": {
         "completed": 60840,
         "target": 185698,
@@ -51,7 +48,7 @@ const DASHBOARD_DATA = {
       "completed": 278680,
       "target": 300000,
       "rate": 92.89,
-      "conversionRate": 130.38,
+      "conversionRate": 130.4,
       "regular": {
         "completed": 230440,
         "target": 185698,
@@ -68,15 +65,15 @@ const DASHBOARD_DATA = {
       "name": "张涵之",
       "avatar": "🌼",
       "leads": 0,
-      "orders": 0,
-      "completed": 0,
+      "orders": 1,
+      "completed": 2680,
       "target": 0,
       "rate": 0,
       "conversionRate": 0.0,
       "regular": {
-        "completed": 0,
+        "completed": 2680,
         "target": 0,
-        "orders_completed": 0
+        "orders_completed": 1
       },
       "live": {
         "completed": 0,
@@ -135,17 +132,17 @@ const DASHBOARD_DATA = {
         "orders": 5
       },
       {
+        "name": "陈九舞抖音",
+        "amount": 8040,
+        "orders": 3
+      },
+      {
         "name": "面转",
         "amount": 6840,
         "orders": 3
       },
       {
         "name": "张涵之抖音",
-        "amount": 5360,
-        "orders": 2
-      },
-      {
-        "name": "陈九舞抖音",
         "amount": 5360,
         "orders": 2
       },
@@ -402,12 +399,12 @@ const DASHBOARD_DATA = {
     },
     {
       "date": "11/25",
-      "total": 10720,
+      "total": 13400,
       "live": 0,
-      "regular": 10720,
+      "regular": 13400,
       "live_orders": 0,
-      "regular_orders": 4,
-      "total_orders": 4
+      "regular_orders": 5,
+      "total_orders": 5
     },
     {
       "date": "11/26",
